@@ -12,6 +12,7 @@
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/test.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/ros_tut__rosidl_generator_c.dir
+/home/ari/ros-tut/build/ros_tut/CMakeFiles/kill_turtles.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/install/local.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/ros_tut__python.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/ros_tut.dir
@@ -24,7 +25,6 @@
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/listener.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/server.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/client.dir
-/home/ari/ros-tut/build/ros_tut/CMakeFiles/turtle_request.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c.dir
 /home/ari/ros-tut/build/ros_tut/CMakeFiles/install.dir
 /home/ari/ros-tut/build/ros_tut/ros_tut__py/CMakeFiles/install/strip.dir

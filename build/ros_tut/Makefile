@@ -298,6 +298,19 @@ ros_tut__rosidl_generator_c/fast:
 .PHONY : ros_tut__rosidl_generator_c/fast
 
 #=============================================================================
+# Target rules for targets named kill_turtles
+
+# Build rule for target.
+kill_turtles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kill_turtles
+.PHONY : kill_turtles
+
+# fast build rule for target.
+kill_turtles/fast:
+	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/build
+.PHONY : kill_turtles/fast
+
+#=============================================================================
 # Target rules for targets named ros_tut__python
 
 # Build rule for target.
@@ -426,19 +439,6 @@ client: cmake_check_build_system
 client/fast:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
 .PHONY : client/fast
-
-#=============================================================================
-# Target rules for targets named turtle_request
-
-# Build rule for target.
-turtle_request: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 turtle_request
-.PHONY : turtle_request
-
-# fast build rule for target.
-turtle_request/fast:
-	$(MAKE) -f CMakeFiles/turtle_request.dir/build.make CMakeFiles/turtle_request.dir/build
-.PHONY : turtle_request/fast
 
 #=============================================================================
 # Target rules for targets named ros_tut__rosidl_typesupport_c
@@ -1256,7 +1256,7 @@ src/clear_turtles.o: src/clear_turtles.cpp.o
 # target to build an object file
 src/clear_turtles.cpp.o:
 	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.o
-	$(MAKE) -f CMakeFiles/turtle_request.dir/build.make CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o
+	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o
 .PHONY : src/clear_turtles.cpp.o
 
 src/clear_turtles.i: src/clear_turtles.cpp.i
@@ -1266,7 +1266,7 @@ src/clear_turtles.i: src/clear_turtles.cpp.i
 # target to preprocess a source file
 src/clear_turtles.cpp.i:
 	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.i
-	$(MAKE) -f CMakeFiles/turtle_request.dir/build.make CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.i
+	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.i
 .PHONY : src/clear_turtles.cpp.i
 
 src/clear_turtles.s: src/clear_turtles.cpp.s
@@ -1276,7 +1276,7 @@ src/clear_turtles.s: src/clear_turtles.cpp.s
 # target to generate assembly for a file
 src/clear_turtles.cpp.s:
 	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.s
-	$(MAKE) -f CMakeFiles/turtle_request.dir/build.make CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.s
+	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.s
 .PHONY : src/clear_turtles.cpp.s
 
 src/my_node.o: src/my_node.cpp.o
@@ -1380,6 +1380,7 @@ help:
 	@echo "... test"
 	@echo "... ros_tut__rosidl_typesupport_fastrtps_c"
 	@echo "... ros_tut__rosidl_generator_c"
+	@echo "... kill_turtles"
 	@echo "... install/local"
 	@echo "... ros_tut__python"
 	@echo "... ros_tut"
@@ -1392,7 +1393,6 @@ help:
 	@echo "... listener"
 	@echo "... server"
 	@echo "... client"
-	@echo "... turtle_request"
 	@echo "... ros_tut__rosidl_typesupport_c"
 	@echo "... install"
 	@echo "... ros_tut__py"

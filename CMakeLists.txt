@@ -24,6 +24,7 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
+find_package(rclcpp_components REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
@@ -42,8 +43,6 @@ rclcpp example_interfaces)
 add_executable(client src/add_two_ints_client.cpp)
 ament_target_dependencies(client
   rclcpp example_interfaces)
-add_library(turtle_request SHARED 
-	src/clear_turtles.cpp)
 
 add_executable(clear src/clear_turtles.cpp)
 ament_target_dependencies(clear
@@ -52,6 +51,20 @@ ament_target_dependencies(clear
 target_include_directories(my_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
+
+#add kill_turtles as a plugin
+add_library(kill_turtles SHARED 
+	src/clear_turtles.cpp)
+target_compile_definitions(kill_turtles
+	PRIVATE "COMPOSITION_BUILDING_DLL")
+ament_target_dependencies(kill_turtles
+	"rclcpp"
+	"rclcpp_components"
+	"turtlesim"
+	"std_msgs")
+rclcpp_components_register_nodes(kill_turtles "composition::kill_turtles")
+# this way we can execute the component with - ros2 component standalone software_training composition::turtle_service_request_node
+set(node_plugins "${node_plugins}compositon::kill_turtles;$<TARGET_FILE:kill_turtles>\n")
 
 install(TARGETS 
   my_node

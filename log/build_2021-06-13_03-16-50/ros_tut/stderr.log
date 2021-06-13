@@ -1,0 +1,4 @@
+CMake Error at CMakeLists.txt:64 (rclcpp_components_register_nodes):
+  Unknown CMake command "rclcpp_components_register_nodes".
+
+

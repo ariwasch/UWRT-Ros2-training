@@ -1,7 +1,0 @@
-{
-  "package_name": "ros-tut",
-  "non_idl_tuples": [
-    "/home/ari/ros-tut:msg/Num.msg",
-    "/home/ari/ros-tut:srv/AddThreeInts.srv"
-  ]
-}

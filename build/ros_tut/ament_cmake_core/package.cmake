@@ -1,7 +1,7 @@
 set(_AMENT_PACKAGE_NAME "ros_tut")
 set(ros_tut_VERSION "0.0.0")
 set(ros_tut_MAINTAINER "ari <ari@todo.todo>")
-set(ros_tut_BUILD_DEPENDS "rosidl_default_generators" "rclcpp" "std_msgs")
+set(ros_tut_BUILD_DEPENDS "rosidl_default_generators" "rclcpp_components" "rclcpp" "std_msgs")
 set(ros_tut_BUILDTOOL_DEPENDS "ament_cmake")
 set(ros_tut_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")
 set(ros_tut_BUILDTOOL_EXPORT_DEPENDS )

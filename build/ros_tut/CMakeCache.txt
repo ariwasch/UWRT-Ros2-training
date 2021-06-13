@@ -286,7 +286,7 @@ SITE:STRING=ari-ubuntu
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
 
 //Path to a file.
 _numpy_h:FILEPATH=/usr/include/python3.8/numpy/numpyconfig.h
@@ -387,6 +387,9 @@ ament_cpplint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_cpplint
 //Path to a program.
 ament_flake8_BIN:FILEPATH=/opt/ros/foxy/bin/ament_flake8
 
+//The directory containing a CMake configuration file for ament_index_cpp.
+ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
+
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/foxy/share/ament_lint_auto/cmake
 
@@ -408,6 +411,15 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_xmllint
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for composition_interfaces.
+composition_interfaces_DIR:PATH=/opt/ros/foxy/share/composition_interfaces/cmake
+
+//The directory containing a CMake configuration file for console_bridge.
+console_bridge_DIR:PATH=/opt/ros/foxy/lib/aarch64-linux-gnu/console_bridge/cmake
+
 //The directory containing a CMake configuration file for example_interfaces.
 example_interfaces_DIR:PATH=/opt/ros/foxy/share/example_interfaces/cmake
 
@@ -425,6 +437,9 @@ foonathan_memory_DIR:PATH=/opt/ros/foxy/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/foxy/share/geometry_msgs/cmake
+
+//Dependencies for the target
+kill_turtles_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;turtlesim::turtlesim__rosidl_generator_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_c;general;turtlesim::turtlesim__rosidl_typesupport_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_cpp;general;turtlesim::turtlesim__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cmake
@@ -455,6 +470,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/foxy/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/foxy/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_components.
+rclcpp_components_DIR:PATH=/opt/ros/foxy/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/foxy/share/rcpputils/cmake

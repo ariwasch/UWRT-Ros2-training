@@ -1,4 +1,0 @@
-Invoking command in '/home/ari/ros-tut/build/ros-tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros-tut -- -j8 -l8
-Invoked command in '/home/ari/ros-tut/build/ros-tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros-tut -- -j8 -l8
-Invoking command in '/home/ari/ros-tut/build/ros-tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros-tut
-Invoked command in '/home/ari/ros-tut/build/ros-tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros-tut

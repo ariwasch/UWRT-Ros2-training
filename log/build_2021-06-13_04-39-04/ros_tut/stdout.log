@@ -1,0 +1,26 @@
+[  1%] Built target ros_tut__cpp
+[35m[1mScanning dependencies of target kill_turtles[0m
+[35m[1mScanning dependencies of target clear[0m
+[  9%] Built target ros_tut__rosidl_generator_c
+[ 13%] Built target my_node
+[ 16%] Built target listener
+[ 19%] Built target talker
+[ 22%] Built target server
+[ 24%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[ 27%] Built target client
+[ 29%] [32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o[0m
+[ 37%] Built target ros_tut__rosidl_typesupport_introspection_c
+[ 45%] Built target ros_tut__rosidl_typesupport_cpp
+[ 54%] Built target ros_tut__rosidl_typesupport_c
+[ 62%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[ 78%] Built target ros_tut
+[ 80%] Built target ros_tut__py
+[ 86%] Built target ros_tut__python
+[ 90%] Built target ros_tut__rosidl_typesupport_c__pyext
+[ 93%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[ 98%] [32m[1mLinking CXX executable clear[0m
+[100%] [32m[1mLinking CXX shared library libkill_turtles.so[0m
+[100%] Built target kill_turtles

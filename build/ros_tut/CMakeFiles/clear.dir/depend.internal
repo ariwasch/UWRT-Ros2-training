@@ -11,6 +11,14 @@ CMakeFiles/clear.dir/src/clear_turtles.cpp.o
  /opt/ros/foxy/include/builtin_interfaces/msg/detail/time__traits.hpp
  /opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp
  /opt/ros/foxy/include/builtin_interfaces/msg/time.hpp
+ /opt/ros/foxy/include/class_loader/class_loader.hpp
+ /opt/ros/foxy/include/class_loader/class_loader_core.hpp
+ /opt/ros/foxy/include/class_loader/exceptions.hpp
+ /opt/ros/foxy/include/class_loader/meta_object.hpp
+ /opt/ros/foxy/include/class_loader/register_macro.hpp
+ /opt/ros/foxy/include/class_loader/visibility_control.hpp
+ /opt/ros/foxy/include/console_bridge/console.h
+ /opt/ros/foxy/include/console_bridge_export.h
  /opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp
  /opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp
  /opt/ros/foxy/include/libstatistics_collector/collector/metric_details_interface.hpp
@@ -213,15 +221,22 @@ CMakeFiles/clear.dir/src/clear_turtles.cpp.o
  /opt/ros/foxy/include/rclcpp/wait_set_policies/thread_safe_synchronization.hpp
  /opt/ros/foxy/include/rclcpp/wait_set_template.hpp
  /opt/ros/foxy/include/rclcpp/waitable.hpp
+ /opt/ros/foxy/include/rclcpp_components/node_factory.hpp
+ /opt/ros/foxy/include/rclcpp_components/node_factory_template.hpp
+ /opt/ros/foxy/include/rclcpp_components/node_instance_wrapper.hpp
+ /opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp
  /opt/ros/foxy/include/rcpputils/join.hpp
  /opt/ros/foxy/include/rcpputils/pointer_traits.hpp
+ /opt/ros/foxy/include/rcpputils/shared_library.hpp
  /opt/ros/foxy/include/rcpputils/thread_safety_annotations.hpp
+ /opt/ros/foxy/include/rcpputils/visibility_control.hpp
  /opt/ros/foxy/include/rcutils/allocator.h
  /opt/ros/foxy/include/rcutils/error_handling.h
  /opt/ros/foxy/include/rcutils/logging.h
  /opt/ros/foxy/include/rcutils/logging_macros.h
  /opt/ros/foxy/include/rcutils/macros.h
  /opt/ros/foxy/include/rcutils/qsort.h
+ /opt/ros/foxy/include/rcutils/shared_library.h
  /opt/ros/foxy/include/rcutils/snprintf.h
  /opt/ros/foxy/include/rcutils/testing/fault_injection.h
  /opt/ros/foxy/include/rcutils/time.h
@@ -273,11 +288,11 @@ CMakeFiles/clear.dir/src/clear_turtles.cpp.o
  /opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__traits.hpp
  /opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
  /opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp
- /opt/ros/foxy/include/std_msgs/msg/detail/string__builder.hpp
- /opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp
- /opt/ros/foxy/include/std_msgs/msg/detail/string__traits.hpp
- /opt/ros/foxy/include/std_msgs/msg/string.hpp
  /opt/ros/foxy/include/tracetools/config.h
  /opt/ros/foxy/include/tracetools/tracetools.h
  /opt/ros/foxy/include/tracetools/utils.hpp
  /opt/ros/foxy/include/tracetools/visibility_control.hpp
+ /opt/ros/foxy/include/turtlesim/srv/detail/kill__builder.hpp
+ /opt/ros/foxy/include/turtlesim/srv/detail/kill__struct.hpp
+ /opt/ros/foxy/include/turtlesim/srv/detail/kill__traits.hpp
+ /opt/ros/foxy/include/turtlesim/srv/kill.hpp

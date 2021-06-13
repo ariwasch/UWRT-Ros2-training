@@ -1,0 +1,104 @@
+[0.116s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.786s] [35m[1mScanning dependencies of target kill_turtles[0m
+[0.793s] [  3%] Built target my_node
+[0.795s] [35m[1mScanning dependencies of target clear[0m
+[0.807s] [  4%] Built target ros_tut__cpp
+[0.814s] [ 13%] Built target ros_tut__rosidl_generator_c
+[0.860s] [ 16%] Built target listener
+[0.874s] [ 19%] Built target server
+[0.876s] [ 22%] Built target talker
+[0.890s] [ 26%] Built target client
+[0.890s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.894s] [ 36%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[0.894s] [ 37%] [32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o[0m
+[0.898s] [ 39%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[0.905s] [ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.912s] [ 50%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[0.912s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.960s] [ 52%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.634s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c[0m
+[1.637s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_cpp[0m
+[1.641s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c[0m
+[1.656s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[1.668s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o[0m
+[1.675s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[1.686s] [ 57%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o[0m
+[1.687s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp.o[0m
+[1.691s] [ 60%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o[0m
+[1.721s] [ 62%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[2.411s] [ 63%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[2.981s] [ 67%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o[0m
+[2.981s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp.o[0m
+[3.439s] [ 68%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c.o[0m
+[3.459s] [ 70%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so[0m
+[3.483s] [ 72%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[3.507s] [ 73%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so[0m
+[3.545s] [ 75%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp.o[0m
+[3.564s] [ 77%] [32m[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so[0m
+[3.647s] [ 77%] Built target ros_tut__rosidl_typesupport_c
+[3.682s] [ 77%] Built target ros_tut__rosidl_typesupport_introspection_c
+[3.708s] [ 77%] Built target ros_tut__rosidl_typesupport_cpp
+[4.923s] [ 78%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[5.943s] [ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[6.056s] [35m[1mScanning dependencies of target ros_tut[0m
+[6.089s] [ 78%] Built target ros_tut
+[6.115s] [35m[1mScanning dependencies of target ros_tut__py[0m
+[6.170s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.506s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSOFTWARE_TRAINING_PUBLIC[m[K’ does not name a type
+[7.506s]    25 |   [01;31m[KSOFTWARE_TRAINING_PUBLIC[m[K //what is this?
+[7.506s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.514s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:25:3:[m[K [01;31m[Kerror: [m[K‘[01m[KSOFTWARE_TRAINING_PUBLIC[m[K’ does not name a type
+[7.514s]    25 |   [01;31m[KSOFTWARE_TRAINING_PUBLIC[m[K //what is this?
+[7.514s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.526s] [ 80%] Built target ros_tut__py
+[7.547s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:42:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kcomposition::kill_turtles::kill_turtles(const rclcpp::NodeOptions&)[m[K’
+[7.547s]    42 | [01;31m[Kkill_turtles[m[K::kill_turtles(const rclcpp::NodeOptions &options) : Node("kill_turtles", options) {
+[7.547s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[7.547s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kcomposition::kill_turtles::kill_turtles(composition::kill_turtles&&)[m[K’
+[7.548s]    23 | class [01;36m[Kkill_turtles[m[K : public rclcpp::Node {
+[7.548s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.548s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcomposition::kill_turtles::kill_turtles(const composition::kill_turtles&)[m[K’
+[7.548s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcomposition::kill_turtles::kill_turtles()[m[K’
+[7.548s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass composition::kill_turtles[m[K’ defined here
+[7.549s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:42:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kcomposition::kill_turtles::kill_turtles(const rclcpp::NodeOptions&)[m[K’
+[7.549s]    42 | [01;31m[Kkill_turtles[m[K::kill_turtles(const rclcpp::NodeOptions &options) : Node("kill_turtles", options) {
+[7.549s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[7.550s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kcomposition::kill_turtles::kill_turtles(composition::kill_turtles&&)[m[K’
+[7.550s]    23 | class [01;36m[Kkill_turtles[m[K : public rclcpp::Node {
+[7.550s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[7.550s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcomposition::kill_turtles::kill_turtles(const composition::kill_turtles&)[m[K’
+[7.551s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K                ‘[01m[Kcomposition::kill_turtles::kill_turtles()[m[K’
+[7.551s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:23:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass composition::kill_turtles[m[K’ defined here
+[7.551s] [35m[1mScanning dependencies of target ros_tut__python[0m
+[7.564s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In lambda function:
+[7.564s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:63:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.564s]    63 |   auto response_received_callback = [this]([01;35m[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response[m[K) {
+[7.564s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.566s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In lambda function:
+[7.567s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:63:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[7.567s]    63 |   auto response_received_callback = [this]([01;35m[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response[m[K) {
+[7.567s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.674s] [ 81%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o[0m
+[7.693s] [ 83%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o[0m
+[7.698s] [ 85%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o[0m
+[8.940s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so[0m
+[9.329s] [ 86%] Built target ros_tut__python
+[9.350s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c__pyext[0m
+[9.351s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.365s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c__pyext[0m
+[9.423s] [ 88%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.427s] [ 90%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.429s] [ 91%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c.o[0m
+[9.836s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.837s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.838s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.901s] [ 96%] Built target ros_tut__rosidl_typesupport_c__pyext
+[9.931s] [ 96%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[9.932s] [ 96%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[11.187s] make[2]: *** [CMakeFiles/kill_turtles.dir/build.make:63: CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o] Error 1
+[11.190s] make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+[11.191s] make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2
+[11.192s] make[1]: *** Waiting for unfinished jobs....
+[11.192s] make[1]: *** [CMakeFiles/Makefile2:412: CMakeFiles/kill_turtles.dir/all] Error 2
+[11.195s] make: *** [Makefile:141: all] Error 2
+[11.374s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
