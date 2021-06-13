@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001309] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.001337] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.013741] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.013813] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.013835] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ari/ros-tut/install/ros_tut/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1524'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2261'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install:/home/ari/ros-tut/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:35705'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1830,unix/ari-ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', 'ddfe11af678d4b5087654806caaa1044'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy')]), 'shell': False}
+[0.036652] (ros_tut) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.049914] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.050047] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100197] (-) TimerEvent: {}
+[0.146859] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.172430] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.174482] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200292] (-) TimerEvent: {}
+[0.283030] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300369] (-) TimerEvent: {}
+[0.316585] (ros_tut) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.317967] (ros_tut) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.401930] (-) TimerEvent: {}
+[0.412891] (ros_tut) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[0.486234] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.492008] (ros_tut) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[0.503381] (-) TimerEvent: {}
+[0.529737] (ros_tut) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.552589] (ros_tut) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[0.571617] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[0.603492] (-) TimerEvent: {}
+[0.654120] (ros_tut) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.703641] (-) TimerEvent: {}
+[0.753760] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.759638] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.773318] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[0.773663] (ros_tut) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.787405] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.787520] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.787565] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[0.802411] (ros_tut) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.803831] (-) TimerEvent: {}
+[0.814930] (ros_tut) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.885888] (ros_tut) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.887216] (ros_tut) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_c>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_c;/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_py;$<BUILD_INTERFACE:/home/ari/ros-tut/include>\n'}
+[0.887292] (ros_tut) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.903946] (-) TimerEvent: {}
+[0.935861] (ros_tut) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.936031] (ros_tut) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.942060] (ros_tut) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.953051] (ros_tut) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.958643] (ros_tut) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.001167] (ros_tut) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.001291] (ros_tut) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.004682] (-) TimerEvent: {}
+[1.006932] (ros_tut) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.011466] (ros_tut) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.098460] (ros_tut) StdoutLine: {'line': b'-- Generating done\n'}
+[1.105103] (-) TimerEvent: {}
+[1.120380] (ros_tut) StdoutLine: {'line': b'-- Build files have been written to: /home/ari/ros-tut/build/ros_tut\n'}
+[1.184910] (ros_tut) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.191848] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__cpp\x1b[0m\n'}
+[1.207117] (-) TimerEvent: {}
+[1.207415] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target clear\x1b[0m\n'}
+[1.260036] (ros_tut) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.268491] (ros_tut) StdoutLine: {'line': b'[ 10%] Built target server\n'}
+[1.269462] (ros_tut) StdoutLine: {'line': b'[ 10%] Built target talker\n'}
+[1.270212] (ros_tut) StdoutLine: {'line': b'[ 13%] Built target listener\n'}
+[1.271835] (ros_tut) StdoutLine: {'line': b'[ 16%] Built target my_node\n'}
+[1.273760] (ros_tut) StdoutLine: {'line': b'[ 20%] Built target client\n'}
+[1.275046] (ros_tut) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[1.307627] (-) TimerEvent: {}
+[1.407887] (-) TimerEvent: {}
+[1.431944] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksoftware_training/srv/success.hpp: No such file or directory\n'}
+[1.432079] (ros_tut) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"software_training/srv/success.hpp"\x1b[m\x1b[K\n'}
+[1.432117] (ros_tut) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.432152] (ros_tut) StderrLine: {'line': b'compilation terminated.\n'}
+[1.438434] (ros_tut) StderrLine: {'line': b'make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1\n'}
+[1.438951] (ros_tut) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/clear.dir/all] Error 2\n'}
+[1.439015] (ros_tut) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.469094] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_generator_c\x1b[0m\n'}
+[1.478095] (ros_tut) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.478245] (ros_tut) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.481008] (ros_tut) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/success__functions.c.o\x1b[0m\n'}
+[1.506444] (ros_tut) StdoutLine: {'line': b'[ 27%] Built target ros_tut__cpp\n'}
+[1.507959] (-) TimerEvent: {}
+[1.608188] (-) TimerEvent: {}
+[1.708661] (-) TimerEvent: {}
+[1.776387] (ros_tut) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libros_tut__rosidl_generator_c.so\x1b[0m\n'}
+[1.808775] (-) TimerEvent: {}
+[1.824280] (ros_tut) StdoutLine: {'line': b'[ 28%] Built target ros_tut__rosidl_generator_c\n'}
+[1.827046] (ros_tut) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.831738] (ros_tut) CommandEnded: {'returncode': 2}
+[1.909647] (-) TimerEvent: {}
+[1.933752] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 2}
+[1.944847] (-) EventReactorShutdown: {}

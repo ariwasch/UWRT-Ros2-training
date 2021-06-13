@@ -1,0 +1,308 @@
+[0.018s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ari/ros-tut -DCMAKE_INSTALL_PREFIX=/home/ari/ros-tut/install/ros_tut
+[0.269s] -- The C compiler identification is GNU 9.3.0
+[0.482s] -- The CXX compiler identification is GNU 9.3.0
+[0.486s] -- Check for working C compiler: /usr/bin/cc
+[0.537s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.538s] -- Detecting C compiler ABI info
+[0.583s] -- Detecting C compiler ABI info - done
+[0.590s] -- Detecting C compile features
+[0.592s] -- Detecting C compile features - done
+[0.593s] -- Check for working CXX compiler: /usr/bin/c++
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.651s] -- Detecting CXX compiler ABI info
+[0.698s] -- Detecting CXX compiler ABI info - done
+[0.705s] -- Detecting CXX compile features
+[0.706s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.732s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.732s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.845s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.896s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.011s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.045s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.159s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.160s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.162s] -- Looking for pthread.h
+[1.228s] -- Looking for pthread.h - found
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.286s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.286s] -- Looking for pthread_create in pthreads
+[1.326s] -- Looking for pthread_create in pthreads - not found
+[1.326s] -- Looking for pthread_create in pthread
+[1.366s] -- Looking for pthread_create in pthread - found
+[1.368s] -- Found Threads: TRUE  
+[1.475s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.555s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.576s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.658s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.772s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.786s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.789s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.811s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[1.811s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.811s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.811s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.824s] -- Found PythonExtra: .so  
+[1.857s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.880s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.901s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.902s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_c>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_c;/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_py;$<BUILD_INTERFACE:/home/ari/ros-tut/include>
+[1.902s] -- Configured cppcheck exclude dirs and/or files: 
+[1.920s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.920s] -- Configured cpplint exclude dirs and/or files: 
+[1.923s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.927s] -- Added test 'lint_cmake' to check CMake code style
+[1.930s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.950s] -- Added test 'uncrustify' to check C / C++ code style
+[1.950s] -- Configured uncrustify additional arguments: 
+[1.953s] -- Added test 'xmllint' to check XML markup files
+[1.958s] -- Configuring done
+[2.005s] -- Generating done
+[2.008s] -- Build files have been written to: /home/ari/ros-tut/build/ros_tut
+[2.013s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ari/ros-tut -DCMAKE_INSTALL_PREFIX=/home/ari/ros-tut/install/ros_tut
+[2.015s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[2.044s] [35m[1mScanning dependencies of target client[0m
+[2.044s] [35m[1mScanning dependencies of target listener[0m
+[2.045s] [35m[1mScanning dependencies of target my_node[0m
+[2.052s] [35m[1mScanning dependencies of target server[0m
+[2.052s] [35m[1mScanning dependencies of target talker[0m
+[2.057s] [35m[1mScanning dependencies of target ros_tut__cpp[0m
+[2.058s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.064s] [  4%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.077s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.109s] [  8%] [32m[1mLinking CXX executable my_node[0m
+[2.142s] [  8%] Built target my_node
+[2.276s] [ 10%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[2.278s] [ 12%] [32mBuilding CXX object CMakeFiles/talker.dir/src/my_publisher.cpp.o[0m
+[2.281s] [ 14%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[2.292s] [ 16%] [32mBuilding CXX object CMakeFiles/listener.dir/src/my_subscriber.cpp.o[0m
+[2.307s] [ 16%] Built target ros_tut__cpp
+[2.323s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.326s] [35m[1mScanning dependencies of target ros_tut__rosidl_generator_c[0m
+[2.328s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.333s] [ 22%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.389s] [ 24%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/num__functions.c.o[0m
+[2.455s] [ 26%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c.o[0m
+[2.504s] [ 28%] [32m[1mLinking C shared library libros_tut__rosidl_generator_c.so[0m
+[2.550s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_cpp[0m
+[2.561s] [ 28%] Built target ros_tut__rosidl_generator_c
+[2.572s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o[0m
+[2.572s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_cpp[0m
+[2.591s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.642s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp.o[0m
+[2.723s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_cpp[0m
+[2.890s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.940s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[2.991s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c[0m
+[3.036s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o[0m
+[3.048s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp.o[0m
+[3.143s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[3.266s] [ 46%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so[0m
+[3.368s] [ 48%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so[0m
+[3.381s] [ 48%] Built target ros_tut__rosidl_typesupport_c
+[3.396s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.447s] [ 53%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_introspection_cpp.so[0m
+[3.448s] [ 53%] Built target ros_tut__rosidl_typesupport_cpp
+[3.464s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.496s] [ 55%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[3.691s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c[0m
+[3.721s] [ 59%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o[0m
+[3.721s] [ 59%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o[0m
+[3.809s] [ 61%] [32m[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so[0m
+[3.856s] [ 61%] Built target ros_tut__rosidl_typesupport_introspection_c
+[3.973s] [ 63%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.083s] [ 63%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[4.095s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.381s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[4.412s] [ 67%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[4.420s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.825s] [ 71%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[4.876s] [ 73%] [32m[1mLinking CXX executable server[0m
+[4.897s] [ 73%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[4.906s] [35m[1mScanning dependencies of target ros_tut[0m
+[4.917s] [ 73%] Built target ros_tut
+[4.925s] [35m[1mScanning dependencies of target ros_tut__py[0m
+[4.934s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.080s] [ 77%] [32m[1mLinking CXX executable client[0m
+[5.084s] [ 77%] Built target server
+[5.182s] [ 77%] Built target client
+[5.370s] [ 79%] [32m[1mLinking CXX executable talker[0m
+[5.437s] [ 79%] Built target ros_tut__py
+[5.445s] [35m[1mScanning dependencies of target ros_tut__python[0m
+[5.475s] [ 79%] Built target talker
+[5.496s] [ 81%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o[0m
+[5.497s] [ 83%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o[0m
+[5.570s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so[0m
+[5.595s] [ 85%] Built target ros_tut__python
+[5.601s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c__pyext[0m
+[5.602s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.602s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c__pyext[0m
+[5.617s] [ 87%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c.o[0m
+[5.625s] [ 89%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.625s] [ 91%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.692s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[5.696s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[5.713s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[5.719s] [ 97%] Built target ros_tut__rosidl_typesupport_c__pyext
+[5.734s] [ 97%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[5.734s] [ 97%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[6.237s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.368s] [100%] Built target listener
+[6.378s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[6.445s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut
+[6.453s] -- Install configuration: ""
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/rosidl_interfaces/ros_tut
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.h
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.c
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.h
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.h
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_generator_c__visibility_control.h
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.h
+[6.453s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.h
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.h
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.c
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.h
+[6.454s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.h
+[6.455s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.sh
+[6.455s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.dsv
+[6.455s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_generator_c.so
+[6.455s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_generator_c.so" to ""
+[6.455s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.456s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.457s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.457s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.457s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[6.457s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.457s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.457s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[6.457s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_c.so
+[6.457s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_c.so" to ""
+[6.457s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.457s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/dds_fastrtps
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/dds_fastrtps
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so
+[6.458s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.c
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.458s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.c
+[6.458s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_c.so
+[6.459s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_c.so" to ""
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_c.so
+[6.459s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_c.so" to ""
+[6.459s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.459s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.459s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.hpp
+[6.459s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.459s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.hpp
+[6.459s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.460s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp
+[6.460s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp
+[6.460s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp
+[6.460s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[6.460s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[6.460s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[6.460s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp
+[6.460s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[6.460s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[6.460s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_cpp.so
+[6.461s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_cpp.so" to ""
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_cpp.so
+[6.461s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_cpp.so" to ""
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.sh
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.dsv
+[6.461s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py
+[6.483s] Compiling '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py'...
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num_s.c
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py
+[6.486s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints_s.c
+[6.488s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[6.488s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[6.488s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[6.488s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[6.488s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[6.489s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[6.489s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__python.so
+[6.489s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__python.so" to ""
+[6.489s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.idl
+[6.489s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.idl
+[6.489s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.msg
+[6.489s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.srv
+[6.490s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Request.msg
+[6.490s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Response.msg
+[6.490s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/my_node
+[6.490s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/talker
+[6.491s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/talker" to ""
+[6.492s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/listener
+[6.492s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/listener" to ""
+[6.492s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/server
+[6.493s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/server" to ""
+[6.493s] -- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/client
+[6.493s] -- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/client" to ""
+[6.494s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/package_run_dependencies/ros_tut
+[6.495s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/parent_prefix_path/ros_tut
+[6.495s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.sh
+[6.495s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.dsv
+[6.495s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.sh
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.dsv
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.bash
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.sh
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.zsh
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.dsv
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.dsv
+[6.496s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/packages/ros_tut
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake
+[6.497s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.498s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.499s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig.cmake
+[6.499s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig-version.cmake
+[6.499s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.xml
+[6.502s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut

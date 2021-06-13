@@ -1,0 +1,53 @@
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ari/ros-tut/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ari/ros-tut/build/ros-tut
+[ 20%] Built target my_node
+[ 60%] Built target client
+[ 60%] Built target server
+[100%] Built target listener
+[100%] Built target talker
+-- Install configuration: ""
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/my_node
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/talker
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/listener
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/server
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/client
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/package_run_dependencies/ros-tut
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/parent_prefix_path/ros-tut
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/ament_prefix_path.sh
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/path.sh
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/path.dsv
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.bash
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.sh
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.zsh
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.dsv
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/package.dsv
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/packages/ros-tut
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/cmake/ros-tutConfig.cmake
+-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/cmake/ros-tutConfig-version.cmake
+-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/package.xml

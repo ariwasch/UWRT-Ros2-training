@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.000610] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.028009] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.028200] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.028230] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ari/ros-tut/install/ros_tut/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1524'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2261'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install:/home/ari/ros-tut/src/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:35705'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1830,unix/ari-ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', 'ddfe11af678d4b5087654806caaa1044'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy')]), 'shell': False}
+[0.100294] (-) TimerEvent: {}
+[0.102376] (ros_tut) StdoutLine: {'line': b'[  6%] Built target client\n'}
+[0.102671] (ros_tut) StdoutLine: {'line': b'[  6%] Built target server\n'}
+[0.102724] (ros_tut) StdoutLine: {'line': b'[ 15%] Built target ros_tut__rosidl_generator_c\n'}
+[0.106603] (ros_tut) StdoutLine: {'line': b'[ 20%] Built target listener\n'}
+[0.106909] (ros_tut) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[0.107487] (ros_tut) StdoutLine: {'line': b'[ 23%] Built target my_node\n'}
+[0.112721] (ros_tut) StdoutLine: {'line': b'[ 28%] Built target ros_tut__cpp\n'}
+[0.112868] (ros_tut) StdoutLine: {'line': b'[ 28%] Built target talker\n'}
+[0.114869] (ros_tut) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.123037] (ros_tut) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.128683] (ros_tut) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.131993] (ros_tut) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.133132] (ros_tut) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.200616] (-) TimerEvent: {}
+[0.299736] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksoftware_training/srv/success.hpp: No such file or directory\n'}
+[0.300098] (ros_tut) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K"software_training/srv/success.hpp"\x1b[m\x1b[K\n'}
+[0.300153] (ros_tut) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.300187] (ros_tut) StderrLine: {'line': b'compilation terminated.\n'}
+[0.300975] (-) TimerEvent: {}
+[0.302552] (ros_tut) StderrLine: {'line': b'make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1\n'}
+[0.303628] (ros_tut) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/clear.dir/all] Error 2\n'}
+[0.303826] (ros_tut) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.392108] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_typesupport_c\x1b[0m\n'}
+[0.401093] (-) TimerEvent: {}
+[0.404477] (ros_tut) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o\x1b[0m\n'}
+[0.410445] (ros_tut) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp.o\x1b[0m\n'}
+[0.422569] (ros_tut) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[0.461822] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.482426] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.488738] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.493427] (ros_tut) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o\x1b[0m\n'}
+[0.496748] (ros_tut) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[0.498699] (ros_tut) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp.o\x1b[0m\n'}
+[0.501313] (-) TimerEvent: {}
+[0.502386] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.512155] (ros_tut) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.516824] (ros_tut) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[0.537598] (ros_tut) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[0.537745] (ros_tut) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[0.537794] (ros_tut) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[0.602669] (-) TimerEvent: {}
+[0.617289] (ros_tut) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c.o\x1b[0m\n'}
+[0.674027] (ros_tut) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[0.689663] (ros_tut) StdoutLine: {'line': b'[ 59%] Built target ros_tut__rosidl_typesupport_c\n'}
+[0.702770] (-) TimerEvent: {}
+[0.707772] (ros_tut) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[0.736775] (ros_tut) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.802905] (-) TimerEvent: {}
+[0.903277] (-) TimerEvent: {}
+[0.991385] (ros_tut) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp.o\x1b[0m\n'}
+[0.996376] (ros_tut) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp.o\x1b[0m\n'}
+[1.003546] (-) TimerEvent: {}
+[1.005801] (ros_tut) StdoutLine: {'line': b'[ 66%] Built target ros_tut__rosidl_typesupport_introspection_c\n'}
+[1.022176] (ros_tut) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.090846] (ros_tut) StdoutLine: {'line': b'[ 67%] Built target ros_tut__rosidl_typesupport_cpp\n'}
+[1.104495] (-) TimerEvent: {}
+[1.205461] (-) TimerEvent: {}
+[1.212303] (ros_tut) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libros_tut__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.243998] (ros_tut) StdoutLine: {'line': b'[ 69%] Built target ros_tut__rosidl_typesupport_introspection_cpp\n'}
+[1.305580] (-) TimerEvent: {}
+[1.322579] (ros_tut) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.389851] (ros_tut) StdoutLine: {'line': b'[ 71%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp\n'}
+[1.390878] (ros_tut) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[1.393007] (ros_tut) CommandEnded: {'returncode': 2}
+[1.405735] (-) TimerEvent: {}
+[1.490757] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 2}
+[1.502465] (-) EventReactorShutdown: {}

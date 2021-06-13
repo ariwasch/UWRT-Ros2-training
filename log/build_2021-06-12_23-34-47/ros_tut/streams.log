@@ -1,0 +1,53 @@
+[0.029s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.102s] [  6%] Built target client
+[0.102s] [  6%] Built target server
+[0.102s] [ 15%] Built target ros_tut__rosidl_generator_c
+[0.106s] [ 20%] Built target listener
+[0.106s] [ 20%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[0.107s] [ 23%] Built target my_node
+[0.112s] [ 28%] Built target ros_tut__cpp
+[0.112s] [ 28%] Built target talker
+[0.114s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.123s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.128s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.131s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.133s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.299s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Ksoftware_training/srv/success.hpp: No such file or directory
+[0.300s]     8 | #include [01;31m[K"software_training/srv/success.hpp"[m[K
+[0.300s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.300s] compilation terminated.
+[0.302s] make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+[0.303s] make[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/clear.dir/all] Error 2
+[0.303s] make[1]: *** Waiting for unfinished jobs....
+[0.392s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c[0m
+[0.404s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o[0m
+[0.410s] [ 40%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp.o[0m
+[0.422s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[0.462s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_cpp[0m
+[0.482s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c[0m
+[0.488s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_cpp[0m
+[0.493s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o[0m
+[0.496s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[0.498s] [ 47%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp.o[0m
+[0.502s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_cpp[0m
+[0.512s] [ 49%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so[0m
+[0.516s] [ 50%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o[0m
+[0.537s] [ 52%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o[0m
+[0.537s] [ 54%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp.o[0m
+[0.537s] [ 55%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[0.617s] [ 57%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c.o[0m
+[0.674s] [ 59%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp.o[0m
+[0.689s] [ 59%] Built target ros_tut__rosidl_typesupport_c
+[0.707s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[0.736s] [ 62%] [32m[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so[0m
+[0.991s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp.o[0m
+[0.996s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp.o[0m
+[1.005s] [ 66%] Built target ros_tut__rosidl_typesupport_introspection_c
+[1.022s] [ 67%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so[0m
+[1.090s] [ 67%] Built target ros_tut__rosidl_typesupport_cpp
+[1.212s] [ 69%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_introspection_cpp.so[0m
+[1.243s] [ 69%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[1.322s] [ 71%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.389s] [ 71%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[1.390s] make: *** [Makefile:141: all] Error 2
+[1.393s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

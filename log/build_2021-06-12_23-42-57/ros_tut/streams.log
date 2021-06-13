@@ -1,0 +1,31 @@
+[0.051s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.126s] [35m[1mScanning dependencies of target clear[0m
+[0.152s] [  3%] Built target my_node
+[0.153s] [  6%] Built target client
+[0.153s] [  8%] Built target ros_tut__cpp
+[0.162s] [ 18%] Built target server
+[0.162s] [ 20%] Built target ros_tut__rosidl_generator_c
+[0.167s] [ 23%] Built target listener
+[0.173s] [ 27%] Built target talker
+[0.177s] [ 28%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[0.185s] [ 37%] Built target ros_tut__rosidl_typesupport_c
+[0.185s] [ 45%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[0.195s] [ 54%] Built target ros_tut__rosidl_typesupport_introspection_c
+[0.201s] [ 62%] Built target ros_tut__rosidl_typesupport_cpp
+[0.220s] [ 71%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[0.230s] [ 72%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.297s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kros_tut/srv/success.hpp: No such file or directory
+[0.297s]     8 | #include [01;31m[K"ros_tut/srv/success.hpp"[m[K
+[0.297s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.298s] compilation terminated.
+[0.301s] make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+[0.302s] make[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/clear.dir/all] Error 2
+[0.302s] make[1]: *** Waiting for unfinished jobs....
+[0.439s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[0.452s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[0.454s] [ 76%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[0.455s] [ 77%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp.o[0m
+[0.806s] [ 79%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[0.863s] [ 79%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[0.864s] make: *** [Makefile:141: all] Error 2
+[0.867s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

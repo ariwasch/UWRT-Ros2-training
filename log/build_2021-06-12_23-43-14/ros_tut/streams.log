@@ -1,0 +1,29 @@
+[0.021s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.069s] [  3%] Built target my_node
+[0.078s] [  5%] Built target ros_tut__cpp
+[0.080s] [  8%] Built target listener
+[0.080s] [35m[1mScanning dependencies of target clear[0m
+[0.091s] [ 13%] Built target client
+[0.091s] [ 15%] Built target server
+[0.092s] [ 18%] Built target talker
+[0.094s] [ 27%] Built target ros_tut__rosidl_generator_c
+[0.109s] [ 28%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[0.118s] [ 37%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[0.119s] [ 45%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[0.123s] [ 54%] Built target ros_tut__rosidl_typesupport_cpp
+[0.145s] [ 67%] Built target ros_tut__rosidl_typesupport_c
+[0.158s] [ 71%] Built target ros_tut__rosidl_typesupport_introspection_c
+[0.158s] [ 79%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[0.170s] [ 79%] Built target ros_tut
+[0.179s] [35m[1mScanning dependencies of target ros_tut__py[0m
+[0.179s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kros-tut/srv/success.hpp: No such file or directory
+[0.179s]     8 | #include [01;31m[K"ros-tut/srv/success.hpp"[m[K
+[0.179s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.179s] compilation terminated.
+[0.181s] make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+[0.181s] make[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/clear.dir/all] Error 2
+[0.181s] make[1]: *** Waiting for unfinished jobs....
+[0.190s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.668s] [ 81%] Built target ros_tut__py
+[0.669s] make: *** [Makefile:141: all] Error 2
+[0.673s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

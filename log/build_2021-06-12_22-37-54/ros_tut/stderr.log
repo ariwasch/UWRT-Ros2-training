@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:45 (add_executable):
+  add_executable cannot create target "client" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/ari/ros-tut".  See documentation for policy
+  CMP0002 for more details.
+
+
+make: *** [Makefile:1208: cmake_check_build_system] Error 1

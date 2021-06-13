@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (ros-tut) JobQueued: {'identifier': 'ros-tut', 'dependencies': OrderedDict()}
+[0.001204] (ros-tut) JobStarted: {'identifier': 'ros-tut'}
+[0.030819] (ros-tut) JobProgress: {'identifier': 'ros-tut', 'progress': 'cmake'}
+[0.036543] (ros-tut) JobProgress: {'identifier': 'ros-tut', 'progress': 'build'}
+[0.036598] (ros-tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros-tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros-tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ari/ros-tut/src'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2162'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:35207'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1820,unix/ari-ubuntu:/tmp/.ICE-unix/1820'), ('INVOCATION_ID', '2b5a96a332094b5e8528e8243465c361'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros-tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.101609] (-) TimerEvent: {}
+[0.205059] (-) TimerEvent: {}
+[0.239681] (ros-tut) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.257537] (ros-tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.305192] (-) TimerEvent: {}
+[0.370175] (ros-tut) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.410311] (-) TimerEvent: {}
+[0.511868] (-) TimerEvent: {}
+[0.523248] (ros-tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.532796] (ros-tut) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.616986] (-) TimerEvent: {}
+[0.675763] (ros-tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.720668] (-) TimerEvent: {}
+[0.727164] (ros-tut) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.729974] (ros-tut) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.823513] (-) TimerEvent: {}
+[0.850922] (ros-tut) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[0.923851] (-) TimerEvent: {}
+[0.949746] (ros-tut) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.998252] (ros-tut) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.014858] (ros-tut) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.015020] (ros-tut) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ari/ros-tut/include>\n'}
+[1.015060] (ros-tut) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.023414] (ros-tut) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.023493] (ros-tut) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.024843] (-) TimerEvent: {}
+[1.025993] (ros-tut) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.027877] (ros-tut) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.030127] (ros-tut) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.038011] (ros-tut) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.039006] (ros-tut) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.039525] (ros-tut) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.042790] (ros-tut) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.070863] (ros-tut) StdoutLine: {'line': b'-- Generating done\n'}
+[1.073883] (ros-tut) StdoutLine: {'line': b'-- Build files have been written to: /home/ari/ros-tut/build/ros-tut\n'}
+[1.102518] (ros-tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target server\x1b[0m\n'}
+[1.102819] (ros-tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[1.123092] (ros-tut) StdoutLine: {'line': b'[ 20%] Built target my_node\n'}
+[1.124802] (-) TimerEvent: {}
+[1.163592] (ros-tut) StdoutLine: {'line': b'[ 40%] Built target listener\n'}
+[1.163996] (ros-tut) StdoutLine: {'line': b'[ 60%] Built target talker\n'}
+[1.216329] (ros-tut) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[1.221134] (ros-tut) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[1.224903] (-) TimerEvent: {}
+[1.326626] (-) TimerEvent: {}
+[1.427057] (-) TimerEvent: {}
+[1.527384] (-) TimerEvent: {}
+[1.627734] (-) TimerEvent: {}
+[1.729566] (-) TimerEvent: {}
+[1.830381] (-) TimerEvent: {}
+[1.932948] (-) TimerEvent: {}
+[2.034002] (-) TimerEvent: {}
+[2.137440] (-) TimerEvent: {}
+[2.238733] (-) TimerEvent: {}
+[2.339164] (-) TimerEvent: {}
+[2.441085] (-) TimerEvent: {}
+[2.543447] (-) TimerEvent: {}
+[2.643907] (-) TimerEvent: {}
+[2.744967] (-) TimerEvent: {}
+[2.846042] (-) TimerEvent: {}
+[2.946399] (-) TimerEvent: {}
+[3.046788] (-) TimerEvent: {}
+[3.057321] (ros-tut) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[3.135661] (ros-tut) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[3.146877] (-) TimerEvent: {}
+[3.224800] (ros-tut) StdoutLine: {'line': b'[100%] Built target server\n'}
+[3.235112] (ros-tut) StdoutLine: {'line': b'[100%] Built target client\n'}
+[3.243828] (ros-tut) CommandEnded: {'returncode': 0}
+[3.247005] (-) TimerEvent: {}
+[3.268573] (ros-tut) JobProgress: {'identifier': 'ros-tut', 'progress': 'install'}
+[3.278919] (ros-tut) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ari/ros-tut/build/ros-tut'], 'cwd': '/home/ari/ros-tut/build/ros-tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1724'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ari/ros-tut/src'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2162'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:35207'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1820,unix/ari-ubuntu:/tmp/.ICE-unix/1820'), ('INVOCATION_ID', '2b5a96a332094b5e8528e8243465c361'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros-tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.283861] (ros-tut) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.284639] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/my_node\n'}
+[3.285791] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/talker\n'}
+[3.286694] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/listener\n'}
+[3.286969] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/server\n'}
+[3.287382] (ros-tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros-tut/lib/ros-tut/server" to ""\n'}
+[3.287436] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/lib/ros-tut/client\n'}
+[3.287801] (ros-tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros-tut/lib/ros-tut/client" to ""\n'}
+[3.287942] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/package_run_dependencies/ros-tut\n'}
+[3.287995] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/parent_prefix_path/ros-tut\n'}
+[3.288631] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/ament_prefix_path.sh\n'}
+[3.288700] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/ament_prefix_path.dsv\n'}
+[3.290197] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/path.sh\n'}
+[3.290268] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/environment/path.dsv\n'}
+[3.290308] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.bash\n'}
+[3.290344] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.sh\n'}
+[3.290378] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.zsh\n'}
+[3.290410] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/local_setup.dsv\n'}
+[3.290608] (ros-tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros-tut/share/ros-tut/package.dsv\n'}
+[3.290655] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ament_index/resource_index/packages/ros-tut\n'}
+[3.290709] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/cmake/ros-tutConfig.cmake\n'}
+[3.290741] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/cmake/ros-tutConfig-version.cmake\n'}
+[3.290830] (ros-tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros-tut/share/ros-tut/package.xml\n'}
+[3.293666] (ros-tut) CommandEnded: {'returncode': 0}
+[3.347245] (-) TimerEvent: {}
+[3.353330] (ros-tut) JobEnded: {'identifier': 'ros-tut', 'rc': 0}
+[3.355108] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (-) JobUnselected: {'identifier': 'ros-tut'}
+[0.000424] (-) EventReactorShutdown: {}

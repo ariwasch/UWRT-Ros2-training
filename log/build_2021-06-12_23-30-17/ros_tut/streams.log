@@ -1,0 +1,54 @@
+[0.022s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.055s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.085s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.199s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.231s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.233s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.477s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.552s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.557s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.595s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.619s] -- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.644s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.769s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.770s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name ros_tut
+[0.770s]   --arguments-file
+[0.770s]   /home/ari/ros-tut/build/ros_tut/rosidl_adapter__arguments__ros_tut.json
+[0.770s]   --output-dir /home/ari/ros-tut/build/ros_tut/rosidl_adapter/ros_tut
+[0.770s]   --output-file /home/ari/ros-tut/build/ros_tut/rosidl_adapter/ros_tut.idls)
+[0.770s]   returned error code 1:
+[0.770s] 
+[0.770s]   Traceback (most recent call last):
+[0.770s] 
+[0.770s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.770s]       return _run_code(code, main_globals, None,
+[0.770s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.770s]       exec(code, run_globals)
+[0.770s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.770s]       sys.exit(main())
+[0.770s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.770s]       abs_idl_file = convert_to_idl(
+[0.770s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.770s]       return convert_srv_to_idl(
+[0.770s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.770s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.770s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 843, in parse_service_string
+[0.770s]       raise InvalidServiceSpecification(
+[0.770s] 
+[0.771s]   rosidl_adapter.parser.InvalidServiceSpecification: Could not find separator
+[0.771s]   '---' between request and response
+[0.771s] 
+[0.771s] Call Stack (most recent call first):
+[0.771s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.771s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[0.771s] 
+[0.771s] 
+[0.772s] -- Configuring incomplete, errors occurred!
+[0.772s] See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeOutput.log".
+[0.772s] See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeError.log".
+[0.776s] make: *** [Makefile:1252: cmake_check_build_system] Error 1
+[0.778s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
