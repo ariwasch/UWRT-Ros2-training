@@ -1,0 +1,205 @@
+[0.024s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.085s] [35m[1mScanning dependencies of target clear[0m
+[0.113s] [  8%] Built target ros_tut__rosidl_generator_c
+[0.126s] [  9%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[0.130s] [ 11%] Built target ros_tut__cpp
+[0.132s] [ 14%] Built target talker
+[0.143s] [ 18%] Built target my_node
+[0.148s] [ 24%] Built target client
+[0.150s] [ 24%] Built target server
+[0.161s] [ 27%] Built target listener
+[0.173s] [35m[1mScanning dependencies of target turtle_request[0m
+[0.217s] [ 36%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[0.220s] [ 37%] [32mBuilding CXX object CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o[0m
+[0.222s] [ 45%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[0.234s] [ 54%] Built target ros_tut__rosidl_typesupport_c
+[0.241s] [ 62%] Built target ros_tut__rosidl_typesupport_introspection_c
+[0.266s] [ 70%] Built target ros_tut__rosidl_typesupport_cpp
+[0.291s] [ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[0.312s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.312s]    12 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.312s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.312s] compilation terminated.
+[0.317s] [ 78%] Built target ros_tut
+[0.320s] make[2]: *** [CMakeFiles/turtle_request.dir/build.make:63: CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o] Error 1
+[0.320s] make[1]: *** [CMakeFiles/Makefile2:702: CMakeFiles/turtle_request.dir/all] Error 2
+[0.320s] make[1]: *** Waiting for unfinished jobs....
+[0.332s] [ 80%] Built target ros_tut__py
+[1.480s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_service_request_node[m[K’ does not name a type
+[1.480s]    17 |   [01;31m[Kturtle_service_request_node[m[K::turtle_service_request_node(
+[1.480s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.480s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:24:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtle_service_request_node[m[K’ has not been declared
+[1.480s]    24 |   void [01;31m[Kturtle_service_request_node[m[K::clear()
+[1.481s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.482s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In function ‘[01m[Kvoid composition::clear()[m[K’:
+[1.482s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:26:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.482s]    26 |     if (![01;31m[Kclient_[m[K->wait_for_service(1s)) {
+[1.482s]       |          [01;31m[K^~~~~~~[m[K
+[1.482s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.482s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.483s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.483s]    29 |           [01;31m[Kthis[m[K->get_logger(),
+[1.483s]       |           [01;31m[K^~~~[m[K
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.483s]    28 |         [01;31m[KRCLCPP_ERROR[m[K(
+[1.483s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.483s]    28 |         [01;31m[KRCLCPP_ERROR[m[K(
+[1.483s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.483s]    28 |         [01;31m[KRCLCPP_ERROR[m[K(
+[1.483s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[1.483s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.483s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.483s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.483s]    29 |           [01;31m[Kthis[m[K->get_logger(),
+[1.483s]       |           [01;31m[K^~~~[m[K
+[1.483s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.484s]    29 |           [01;31m[Kthis[m[K->get_logger(),
+[1.484s]       |           [01;31m[K^~~~[m[K
+[1.484s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.484s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.484s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.484s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.484s]    33 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service not available after waiting");
+[1.484s]       |                   [01;31m[K^~~~[m[K
+[1.484s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.484s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.484s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service not available after waiting");
+[1.484s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.484s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.485s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service not available after waiting");
+[1.485s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.485s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.485s]    33 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service not available after waiting");
+[1.485s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.485s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.485s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.485s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.486s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.486s]    33 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service not available after waiting");
+[1.486s]       |                   [01;31m[K^~~~[m[K
+[1.486s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.486s]    33 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service not available after waiting");
+[1.486s]       |                   [01;31m[K^~~~[m[K
+[1.486s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:36:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[1.486s]    36 |   auto request = std::make_shared<[01;31m[Kturtlesim[m[K::srv::Empty::Request>();
+[1.486s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[1.486s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:36:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.486s]    36 |   auto request = std::[01;31m[Kmake_shared<turtlesim::srv::Empty::Request>[m[K();
+[1.486s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.486s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:36:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[1.486s]    36 |   auto request = std::make_shared<turtlesim::srv::Empty::Request>([01;31m[K)[m[K;
+[1.486s]       |                                                                   [01;31m[K^[m[K
+[1.486s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[1.486s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:3[m[K:
+[1.487s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[1.487s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[1.487s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[1.487s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:36:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.487s]    36 |   auto request = std::make_shared<turtlesim::srv::Empty::Request>([01;31m[K)[m[K;
+[1.487s]       |                                                                   [01;31m[K^[m[K
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kkill_turtles[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+[1.487s]    39 |     rclcpp::[01;31m[Kkill_turtles[m[K<turtlesim::srv::Empty>::SharedFuture;
+[1.487s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:40:38:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.487s]    40 |   auto response_received_callback = [[01;31m[Kthis[m[K](ServiceResponseFuture future) {
+[1.487s]       |                                      [01;31m[K^~~~[m[K
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:40:44:[m[K [01;31m[Kerror: [m[K‘[01m[KServiceResponseFuture[m[K’ has not been declared
+[1.487s]    40 |   auto response_received_callback = [this]([01;31m[KServiceResponseFuture[m[K future) {
+[1.487s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.487s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.487s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.487s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In lambda function:
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.487s]    41 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.487s]       |                   [01;31m[K^~~~[m[K
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.487s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.488s]    41 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.488s]    41 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.488s]    41 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[1.488s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.488s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.488s]                  from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:12[m[K:
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.488s]    41 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |                   [01;31m[K^~~~[m[K
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[1.488s]    41 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |                   [01;31m[K^~~~[m[K
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KPRId64[m[K’
+[1.488s]    41 |       RCLCPP_INFO(this->get_logger(), "Got result: [%" [01;31m[KPRId64[m[K "]", future.get()->sum);
+[1.488s]       |                                                        [01;31m[K^~~~~~[m[K
+[1.488s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.488s]    41 |       [01;36m[KRCLCPP_INFO[m[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);
+[1.488s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[1.489s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:41:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget[m[K’ in ‘[01m[Kfuture[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.489s]    41 |       RCLCPP_INFO(this->get_logger(), "Got result: [%" PRId64 "]", future.[01;31m[Kget[m[K()->sum);
+[1.489s]       |                                                                           [01;31m[K^~~[m[K
+[1.489s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In function ‘[01m[Kvoid composition::clear()[m[K’:
+[1.489s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[1.489s]    43 |   auto future_result = [01;31m[Kclient_[m[K->async_send_request(request, response_received_callback);
+[1.489s]       |                        [01;31m[K^~~~~~~[m[K
+[1.726s] make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+[1.726s] make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2
+[1.726s] make: *** [Makefile:141: all] Error 2
+[1.728s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

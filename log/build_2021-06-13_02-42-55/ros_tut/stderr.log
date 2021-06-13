@@ -1,0 +1,14 @@
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kros-tut/reset_moving_turtle_service.hpp: No such file or directory
+    7 | #include [01;31m[K<ros-tut/reset_moving_turtle_service.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kros-tut/reset_moving_turtle_service.hpp: No such file or directory
+    7 | #include [01;31m[K<ros-tut/reset_moving_turtle_service.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/turtle_request.dir/build.make:63: CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:702: CMakeFiles/turtle_request.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

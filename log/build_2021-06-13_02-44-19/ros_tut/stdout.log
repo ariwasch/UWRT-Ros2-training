@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target clear[0m
+[  1%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[  4%] Built target my_node
+[ 13%] Built target ros_tut__rosidl_generator_c
+[ 16%] Built target server
+[ 18%] Built target ros_tut__cpp
+[ 21%] Built target talker
+[ 24%] Built target client
+[ 27%] Built target listener
+[35m[1mScanning dependencies of target turtle_request[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o[0m
+[ 37%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[ 54%] Built target ros_tut__rosidl_typesupport_c
+[ 54%] Built target ros_tut__rosidl_typesupport_cpp
+[ 62%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target ros_tut__rosidl_typesupport_introspection_c
+[ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c

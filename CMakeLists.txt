@@ -42,6 +42,8 @@ rclcpp example_interfaces)
 add_executable(client src/add_two_ints_client.cpp)
 ament_target_dependencies(client
   rclcpp example_interfaces)
+add_library(turtle_request SHARED 
+	src/clear_turtles.cpp)
 
 add_executable(clear src/clear_turtles.cpp)
 ament_target_dependencies(clear

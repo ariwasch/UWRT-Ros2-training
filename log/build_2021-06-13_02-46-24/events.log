@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000140] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.000157] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.015207] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.016949] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.016995] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1734'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ari/ros-tut/install/ros_tut/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1524'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2261'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:35705'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1830,unix/ari-ubuntu:/tmp/.ICE-unix/1830'), ('INVOCATION_ID', 'ddfe11af678d4b5087654806caaa1044'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/home/ari/ros-tut/install/ros-tut:/opt/ros/foxy')]), 'shell': False}
+[0.090531] (ros_tut) StdoutLine: {'line': b'[  8%] Built target ros_tut__rosidl_generator_c\n'}
+[0.091860] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target clear\x1b[0m\n'}
+[0.096773] (ros_tut) StdoutLine: {'line': b'[  9%] Built target ros_tut__cpp\n'}
+[0.100819] (-) TimerEvent: {}
+[0.109124] (ros_tut) StdoutLine: {'line': b'[ 13%] Built target my_node\n'}
+[0.110733] (ros_tut) StdoutLine: {'line': b'[ 19%] Built target talker\n'}
+[0.110850] (ros_tut) StdoutLine: {'line': b'[ 19%] Built target listener\n'}
+[0.120652] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtle_request\x1b[0m\n'}
+[0.121085] (ros_tut) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[0.127878] (ros_tut) StdoutLine: {'line': b'[ 24%] Built target server\n'}
+[0.144674] (ros_tut) StdoutLine: {'line': b'[ 27%] Built target client\n'}
+[0.146516] (ros_tut) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[0.157203] (ros_tut) StdoutLine: {'line': b'[ 37%] Built target ros_tut__rosidl_typesupport_introspection_cpp\n'}
+[0.161664] (ros_tut) StdoutLine: {'line': b'[ 45%] Built target ros_tut__rosidl_typesupport_introspection_c\n'}
+[0.163202] (ros_tut) StdoutLine: {'line': b'[ 54%] Built target ros_tut__rosidl_typesupport_cpp\n'}
+[0.168082] (ros_tut) StdoutLine: {'line': b'[ 62%] Built target ros_tut__rosidl_typesupport_c\n'}
+[0.181617] (ros_tut) StdoutLine: {'line': b'[ 70%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp\n'}
+[0.200305] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.200491] (ros_tut) StderrLine: {'line': b'   12 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[0.200566] (ros_tut) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.200609] (ros_tut) StderrLine: {'line': b'compilation terminated.\n'}
+[0.201066] (-) TimerEvent: {}
+[0.204006] (ros_tut) StderrLine: {'line': b'make[2]: *** [CMakeFiles/turtle_request.dir/build.make:63: CMakeFiles/turtle_request.dir/src/clear_turtles.cpp.o] Error 1\n'}
+[0.204249] (ros_tut) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:702: CMakeFiles/turtle_request.dir/all] Error 2\n'}
+[0.204300] (ros_tut) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.212908] (ros_tut) StdoutLine: {'line': b'[ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c\n'}
+[0.301165] (-) TimerEvent: {}
+[0.404731] (-) TimerEvent: {}
+[0.510082] (-) TimerEvent: {}
+[0.611727] (-) TimerEvent: {}
+[0.716600] (-) TimerEvent: {}
+[0.816997] (-) TimerEvent: {}
+[0.920404] (-) TimerEvent: {}
+[1.020697] (-) TimerEvent: {}
+[1.122451] (-) TimerEvent: {}
+[1.227779] (-) TimerEvent: {}
+[1.333097] (-) TimerEvent: {}
+[1.436428] (-) TimerEvent: {}
+[1.539715] (-) TimerEvent: {}
+[1.641045] (-) TimerEvent: {}
+[1.746341] (-) TimerEvent: {}
+[1.850345] (-) TimerEvent: {}
+[1.955638] (-) TimerEvent: {}
+[2.055934] (-) TimerEvent: {}
+[2.093033] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:17:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkill_turtles\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.093266] (ros_tut) StderrLine: {'line': b'   17 |   \x1b[01;31m\x1b[Kkill_turtles\x1b[m\x1b[K::kill_turtles(\n'}
+[2.093313] (ros_tut) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.093354] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:24:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkill_turtles\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.093393] (ros_tut) StderrLine: {'line': b'   24 |   void \x1b[01;31m\x1b[Kkill_turtles\x1b[m\x1b[K::clear()\n'}
+[2.093422] (ros_tut) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.094670] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid composition::clear()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.094983] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:26:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.095024] (ros_tut) StderrLine: {'line': b'   26 |     if (!\x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->wait_for_service(1s)) {\n'}
+[2.095057] (ros_tut) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.095087] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.095131] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.095162] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.095191] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.095220] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.095250] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.095279] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.095309] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.095340] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.095917] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.095970] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.096004] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.096036] (ros_tut) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(),\n'}
+[2.096066] (ros_tut) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.096095] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.096169] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.096212] (ros_tut) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[2.096251] (ros_tut) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096279] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.096309] (ros_tut) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[2.096369] (ros_tut) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096415] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.096445] (ros_tut) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[KRCLCPP_ERROR\x1b[m\x1b[K(\n'}
+[2.096498] (ros_tut) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.096530] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.096560] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.096589] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.096641] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.096675] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.096760] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.096849] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.096881] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.096910] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.096943] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.096972] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.097002] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.097031] (ros_tut) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(),\n'}
+[2.097060] (ros_tut) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.097090] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:29:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.097121] (ros_tut) StderrLine: {'line': b'   29 |           \x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(),\n'}
+[2.097150] (ros_tut) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.097193] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.097247] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.097280] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.097320] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.097351] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.097379] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.097408] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.097437] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.097502] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.097673] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.097776] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.097834] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.097884] (ros_tut) StderrLine: {'line': b'   33 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Service not available after waiting");\n'}
+[2.097917] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.097948] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.097978] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.098028] (ros_tut) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service not available after waiting");\n'}
+[2.098442] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.098485] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.098514] (ros_tut) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service not available after waiting");\n'}
+[2.098544] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.098573] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.098603] (ros_tut) StderrLine: {'line': b'   33 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Service not available after waiting");\n'}
+[2.098632] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.098661] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.098702] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.098739] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.098767] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.098796] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.098839] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.098868] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.098898] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.098927] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.098955] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.098984] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.099013] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.099043] (ros_tut) StderrLine: {'line': b'   33 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Service not available after waiting");\n'}
+[2.099071] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.099102] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:33:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.099131] (ros_tut) StderrLine: {'line': b'   33 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Service not available after waiting");\n'}
+[2.099160] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.099188] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:36:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturtlesim\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.099218] (ros_tut) StderrLine: {'line': b'   36 |   auto request = std::make_shared<\x1b[01;31m\x1b[Kturtlesim\x1b[m\x1b[K::srv::Empty::Request>();\n'}
+[2.099247] (ros_tut) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099276] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:36:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.099305] (ros_tut) StderrLine: {'line': b'   36 |   auto request = std::\x1b[01;31m\x1b[Kmake_shared<turtlesim::srv::Empty::Request>\x1b[m\x1b[K();\n'}
+[2.099334] (ros_tut) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099363] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.099515] (ros_tut) StderrLine: {'line': b'   36 |   auto request = std::make_shared<turtlesim::srv::Empty::Request>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.099551] (ros_tut) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.099581] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.099611] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:3\x1b[m\x1b[K:\n'}
+[2.099641] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.099678] (ros_tut) StderrLine: {'line': b'  714 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.099707] (ros_tut) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099735] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.099790] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:36:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.099821] (ros_tut) StderrLine: {'line': b'   36 |   auto request = std::make_shared<turtlesim::srv::Empty::Request>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.099852] (ros_tut) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.099881] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:39:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkill_turtles\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[2.099911] (ros_tut) StderrLine: {'line': b'   39 |     rclcpp::\x1b[01;31m\x1b[Kkill_turtles\x1b[m\x1b[K<turtlesim::srv::Empty>::SharedFuture;\n'}
+[2.099941] (ros_tut) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.099969] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.099999] (ros_tut) StderrLine: {'line': b'   40 |   auto response_received_callback = [\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K](ServiceResponseFuture future) {\n'}
+[2.100028] (ros_tut) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.100056] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:40:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KServiceResponseFuture\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.100085] (ros_tut) StderrLine: {'line': b'   40 |   auto response_received_callback = [this](\x1b[01;31m\x1b[KServiceResponseFuture\x1b[m\x1b[K future) {\n'}
+[2.100114] (ros_tut) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.100142] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.100174] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.100203] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.100232] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.100261] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.100315] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.100410] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.100452] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.100481] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.100524] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.100568] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.100599] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.100642] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.100673] (ros_tut) StderrLine: {'line': b'   41 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.100702] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.100730] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 in non-member function\n'}
+[2.100760] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.100789] (ros_tut) StderrLine: {'line': b'   41 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.100818] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.100846] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.100875] (ros_tut) StderrLine: {'line': b'   41 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.100908] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.100937] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.100965] (ros_tut) StderrLine: {'line': b'   41 |       \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.100994] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.101022] (ros_tut) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.101053] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.101093] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.101122] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.101151] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.101179] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.101207] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.101235] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.101264] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.101293] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.101322] (ros_tut) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:12\x1b[m\x1b[K:\n'}
+[2.101351] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 was not captured for this lambda function\n'}
+[2.101381] (ros_tut) StderrLine: {'line': b'   41 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.101409] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.101438] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 was not captured for this lambda function\n'}
+[2.101467] (ros_tut) StderrLine: {'line': b'   41 |       RCLCPP_INFO(\x1b[01;31m\x1b[Kthis\x1b[m\x1b[K->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.101495] (ros_tut) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.101523] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KPRId64\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.101553] (ros_tut) StderrLine: {'line': b'   41 |       RCLCPP_INFO(this->get_logger(), "Got result: [%" \x1b[01;31m\x1b[KPRId64\x1b[m\x1b[K "]", future.get()->sum);\n'}
+[2.101582] (ros_tut) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.101612] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.101642] (ros_tut) StderrLine: {'line': b'   41 |       \x1b[01;36m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "Got result: [%" PRId64 "]", future.get()->sum);\n'}
+[2.101670] (ros_tut) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.101703] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:41:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kfuture\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.101734] (ros_tut) StderrLine: {'line': b'   41 |       RCLCPP_INFO(this->get_logger(), "Got result: [%" PRId64 "]", future.\x1b[01;31m\x1b[Kget\x1b[m\x1b[K()->sum);\n'}
+[2.101763] (ros_tut) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.101791] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid composition::clear()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.101837] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:43:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.101869] (ros_tut) StderrLine: {'line': b'   43 |   auto future_result = \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K->async_send_request(request, response_received_callback);\n'}
+[2.101898] (ros_tut) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.158214] (-) TimerEvent: {}
+[2.259506] (-) TimerEvent: {}
+[2.325786] (ros_tut) StderrLine: {'line': b'make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1\n'}
+[2.326127] (ros_tut) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2\n'}
+[2.326613] (ros_tut) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.328510] (ros_tut) CommandEnded: {'returncode': 2}
+[2.359703] (-) TimerEvent: {}
+[2.420552] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 2}
+[2.431741] (-) EventReactorShutdown: {}
