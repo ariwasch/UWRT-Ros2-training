@@ -1,0 +1,205 @@
+-- run_test.py: invoking following command in '/home/ari/ros-tut':
+ - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/ari/ros-tut/build/ros_tut/test_results/ros_tut/uncrustify.xunit.xml
+
+Ignoring unknown language: C++
+Output prefix: /tmp/uncrustify_lt8etlhs/
+Output suffix: .uncrustify
+Parsing: /home/ari/ros-tut/build/ros_tut/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/num.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/add_three_ints.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/success.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 95, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 95, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 197, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 293, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 95, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 197, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 293, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp as language CPP
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 160, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 206, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 372, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 407, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 159, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 326, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 361, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 180, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 152, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 172, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 152, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 172, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 218, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 403, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 464, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 179, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 367, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 428, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 106, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 45, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 64, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 136, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 253, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 361, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 45, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 64, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 106, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 223, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 331, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/include/visibility.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 62, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 106, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 152, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 172, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 45, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 64, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 136, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 253, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 361, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 76, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 152, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 172, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp as language CPP
+parse_cleanup(440): pc->orig_line is 24, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 45, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 64, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp as language CPP
+Parsing: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 106, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 223, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(440): pc->orig_line is 331, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+Parsing: /home/ari/ros-tut/src/add_two_ints_client.cpp as language CPP
+Parsing: /home/ari/ros-tut/src/add_two_ints_server.cpp as language CPP
+Parsing: /home/ari/ros-tut/src/clear_turtles.cpp as language CPP
+parse_cleanup(440): pc->orig_line is 70, orig_col is 1, text() is '}', type is BRACE_CLOSE
+parse_cleanup(442): (frm.top().type + 1) is UNKNOWN
+parse_cleanup(757): Unmatched BRACE_CLOSE
+orig_line is 70, orig_col is 1
+parse_cleanup(761): Try the option 'tok_split_gte = true'
+
+The invocation of 'uncrustify' failed with error code 1: Command '['/usr/bin/uncrustify', '-c', '/opt/ros/foxy/lib/python3.8/site-packages/ament_uncrustify/configuration/ament_code_style.cfg', '-l', 'C++', '--prefix', '/tmp/uncrustify_lt8etlhs', '--suffix', '.uncrustify', '/home/ari/ros-tut/build/ros_tut/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/num.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__builder.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__struct.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__traits.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/add_three_ints.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/success.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__builder.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__struct.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__traits.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp', '/home/ari/ros-tut/include/visibility.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp', '/home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp', '/home/ari/ros-tut/src/add_two_ints_client.cpp', '/home/ari/ros-tut/src/add_two_ints_server.cpp', '/home/ari/ros-tut/src/clear_turtles.cpp', '/home/ari/ros-tut/src/my_node.cpp', '/home/ari/ros-tut/src/my_publisher.cpp', '/home/ari/ros-tut/src/my_subscriber.cpp']' returned non-zero exit status 1.
+
+
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/ari/ros-tut/build/ros_tut/test_results/ros_tut/uncrustify.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/ari/ros-tut/build/ros_tut/test_results/ros_tut/uncrustify.xunit.xml'

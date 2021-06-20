@@ -18,13 +18,16 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
-find_package(example_interfaces REQUIRED)
-find_package(rosidl_default_generators REQUIRED)
 find_package(turtlesim REQUIRED)
-find_package(geometry_msgs REQUIRED)
-find_package(std_srvs REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(rcutils REQUIRED)
+find_package(rcl REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+include_directories(include)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
@@ -37,16 +40,16 @@ ament_target_dependencies(talker rclcpp std_msgs)
 add_executable(my_node src/my_node.cpp)
 add_executable(listener src/my_subscriber.cpp)
 ament_target_dependencies(listener rclcpp std_msgs)
-add_executable(server src/add_two_ints_server.cpp)
-ament_target_dependencies(server
-rclcpp example_interfaces)
-add_executable(client src/add_two_ints_client.cpp)
-ament_target_dependencies(client
-  rclcpp example_interfaces)
+# add_executable(server src/add_two_ints_server.cpp)
+# ament_target_dependencies(server
+# rclcpp example_interfaces)
+# add_executable(client src/add_two_ints_client.cpp)
+# ament_target_dependencies(client
+#   rclcpp example_interfaces)
 
 add_executable(clear src/clear_turtles.cpp)
 ament_target_dependencies(clear
-    rclcpp std_srvs)
+    rclcpp )
   
 target_include_directories(my_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -70,8 +73,9 @@ install(TARGETS
   my_node
   talker
   listener
-  server
-  client
+  kill_turtles
+  # server
+  # client
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

@@ -1,0 +1,21 @@
+[  3%] Built target my_node
+[  8%] Built target ros_tut__cpp
+[  8%] Built target talker
+[ 16%] Built target ros_tut__rosidl_generator_c
+[ 18%] [32m[1mLinking CXX executable clear[0m
+[ 21%] Built target kill_turtles
+[ 24%] Built target listener
+[ 27%] Built target server
+[ 31%] Built target client
+[ 39%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[ 50%] Built target ros_tut__rosidl_typesupport_cpp
+[ 55%] Built target ros_tut__rosidl_typesupport_introspection_c
+[ 63%] Built target ros_tut__rosidl_typesupport_c
+[ 72%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[ 80%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[ 80%] Built target ros_tut
+[ 81%] Built target ros_tut__py
+[ 88%] Built target ros_tut__python
+[ 91%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target ros_tut__rosidl_typesupport_c__pyext

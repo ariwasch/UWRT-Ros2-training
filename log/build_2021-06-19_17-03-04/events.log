@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.001988] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.002032] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.032284] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.036150] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.036186] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2278'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:39229'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1875,unix/ari-ubuntu:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', 'a54a8137c156409099044ea216cf5cb2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.104853] (-) TimerEvent: {}
+[0.205357] (-) TimerEvent: {}
+[0.254679] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target kill_turtles\x1b[0m\n'}
+[0.272305] (ros_tut) StdoutLine: {'line': b'[  1%] Built target ros_tut__cpp\n'}
+[0.276132] (ros_tut) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target clear\x1b[0m\n'}
+[0.281677] (ros_tut) StdoutLine: {'line': b'[  9%] Built target ros_tut__rosidl_generator_c\n'}
+[0.305509] (-) TimerEvent: {}
+[0.311451] (ros_tut) StdoutLine: {'line': b'[ 13%] Built target my_node\n'}
+[0.336608] (ros_tut) StdoutLine: {'line': b'[ 18%] Built target talker\n'}
+[0.336928] (ros_tut) StdoutLine: {'line': b'[ 19%] Built target listener\n'}
+[0.341139] (ros_tut) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[0.343284] (ros_tut) StdoutLine: {'line': b'[ 24%] Built target server\n'}
+[0.358181] (ros_tut) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o\x1b[0m\n'}
+[0.364405] (ros_tut) StdoutLine: {'line': b'[ 34%] Built target ros_tut__rosidl_typesupport_introspection_cpp\n'}
+[0.371909] (ros_tut) StdoutLine: {'line': b'[ 42%] Built target ros_tut__rosidl_typesupport_introspection_c\n'}
+[0.373126] (ros_tut) StdoutLine: {'line': b'[ 50%] Built target ros_tut__rosidl_typesupport_cpp\n'}
+[0.374190] (ros_tut) StdoutLine: {'line': b'[ 54%] Built target client\n'}
+[0.380042] (ros_tut) StdoutLine: {'line': b'[ 62%] Built target ros_tut__rosidl_typesupport_c\n'}
+[0.391767] (ros_tut) StdoutLine: {'line': b'[ 70%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp\n'}
+[0.405593] (-) TimerEvent: {}
+[0.432174] (ros_tut) StdoutLine: {'line': b'[ 78%] Built target ros_tut__rosidl_typesupport_fastrtps_c\n'}
+[0.454372] (ros_tut) StdoutLine: {'line': b'[ 78%] Built target ros_tut\n'}
+[0.483194] (ros_tut) StdoutLine: {'line': b'[ 80%] Built target ros_tut__py\n'}
+[0.505791] (-) TimerEvent: {}
+[0.534327] (ros_tut) StdoutLine: {'line': b'[ 86%] Built target ros_tut__python\n'}
+[0.580397] (ros_tut) StdoutLine: {'line': b'[ 90%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.594733] (ros_tut) StdoutLine: {'line': b'[ 93%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext\n'}
+[0.597409] (ros_tut) StdoutLine: {'line': b'[ 96%] Built target ros_tut__rosidl_typesupport_c__pyext\n'}
+[0.605890] (-) TimerEvent: {}
+[0.706248] (-) TimerEvent: {}
+[0.806939] (-) TimerEvent: {}
+[0.912295] (-) TimerEvent: {}
+[1.014885] (-) TimerEvent: {}
+[1.115262] (-) TimerEvent: {}
+[1.215611] (-) TimerEvent: {}
+[1.315935] (-) TimerEvent: {}
+[1.417626] (-) TimerEvent: {}
+[1.519297] (-) TimerEvent: {}
+[1.622463] (-) TimerEvent: {}
+[1.722873] (-) TimerEvent: {}
+[1.824043] (-) TimerEvent: {}
+[1.926348] (-) TimerEvent: {}
+[2.026785] (-) TimerEvent: {}
+[2.127690] (-) TimerEvent: {}
+[2.231070] (-) TimerEvent: {}
+[2.331466] (-) TimerEvent: {}
+[2.433201] (-) TimerEvent: {}
+[2.534556] (-) TimerEvent: {}
+[2.635011] (-) TimerEvent: {}
+[2.736765] (-) TimerEvent: {}
+[2.842146] (-) TimerEvent: {}
+[2.969279] (-) TimerEvent: {}
+[3.071068] (-) TimerEvent: {}
+[3.172025] (-) TimerEvent: {}
+[3.274698] (-) TimerEvent: {}
+[3.376810] (-) TimerEvent: {}
+[3.478948] (-) TimerEvent: {}
+[3.579462] (-) TimerEvent: {}
+[3.681097] (-) TimerEvent: {}
+[3.782673] (-) TimerEvent: {}
+[3.891299] (-) TimerEvent: {}
+[4.007912] (-) TimerEvent: {}
+[4.108943] (-) TimerEvent: {}
+[4.214241] (-) TimerEvent: {}
+[4.322153] (-) TimerEvent: {}
+[4.424298] (-) TimerEvent: {}
+[4.525666] (-) TimerEvent: {}
+[4.626489] (-) TimerEvent: {}
+[4.728224] (-) TimerEvent: {}
+[4.841406] (-) TimerEvent: {}
+[4.951104] (-) TimerEvent: {}
+[5.052132] (-) TimerEvent: {}
+[5.153788] (-) TimerEvent: {}
+[5.223494] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.261313] (-) TimerEvent: {}
+[5.262189] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:64:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.266982] (ros_tut) StderrLine: {'line': b'   64 |   auto response_received_callback = [this](\x1b[01;35m\x1b[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response\x1b[m\x1b[K) {\n'}
+[5.267327] (ros_tut) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.362769] (-) TimerEvent: {}
+[5.445618] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[5.446136] (ros_tut) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ari/ros-tut/src/clear_turtles.cpp:64:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.446266] (ros_tut) StderrLine: {'line': b'   64 |   auto response_received_callback = [this](\x1b[01;35m\x1b[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response\x1b[m\x1b[K) {\n'}
+[5.446353] (ros_tut) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.465740] (-) TimerEvent: {}
+[5.569469] (-) TimerEvent: {}
+[5.673266] (-) TimerEvent: {}
+[5.777300] (-) TimerEvent: {}
+[5.880337] (-) TimerEvent: {}
+[5.981325] (-) TimerEvent: {}
+[6.084015] (-) TimerEvent: {}
+[6.189617] (-) TimerEvent: {}
+[6.293623] (-) TimerEvent: {}
+[6.401471] (-) TimerEvent: {}
+[6.505751] (-) TimerEvent: {}
+[6.608766] (-) TimerEvent: {}
+[6.715173] (-) TimerEvent: {}
+[6.817001] (-) TimerEvent: {}
+[6.917684] (-) TimerEvent: {}
+[7.019809] (-) TimerEvent: {}
+[7.120749] (-) TimerEvent: {}
+[7.224146] (-) TimerEvent: {}
+[7.326458] (-) TimerEvent: {}
+[7.428109] (-) TimerEvent: {}
+[7.529488] (-) TimerEvent: {}
+[7.631773] (-) TimerEvent: {}
+[7.736377] (-) TimerEvent: {}
+[7.836669] (-) TimerEvent: {}
+[7.938490] (-) TimerEvent: {}
+[8.040081] (-) TimerEvent: {}
+[8.145941] (-) TimerEvent: {}
+[8.250131] (-) TimerEvent: {}
+[8.350931] (-) TimerEvent: {}
+[8.455358] (-) TimerEvent: {}
+[8.556456] (-) TimerEvent: {}
+[8.660399] (-) TimerEvent: {}
+[8.761148] (-) TimerEvent: {}
+[8.862913] (-) TimerEvent: {}
+[8.963796] (-) TimerEvent: {}
+[9.065745] (-) TimerEvent: {}
+[9.166341] (-) TimerEvent: {}
+[9.267347] (-) TimerEvent: {}
+[9.368004] (-) TimerEvent: {}
+[9.468575] (-) TimerEvent: {}
+[9.569531] (-) TimerEvent: {}
+[9.671959] (-) TimerEvent: {}
+[9.774183] (-) TimerEvent: {}
+[9.875359] (-) TimerEvent: {}
+[9.975803] (-) TimerEvent: {}
+[10.077710] (-) TimerEvent: {}
+[10.178278] (-) TimerEvent: {}
+[10.280511] (-) TimerEvent: {}
+[10.380841] (-) TimerEvent: {}
+[10.481282] (-) TimerEvent: {}
+[10.581682] (-) TimerEvent: {}
+[10.682975] (-) TimerEvent: {}
+[10.783336] (-) TimerEvent: {}
+[10.810945] (ros_tut) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libkill_turtles.so\x1b[0m\n'}
+[10.811657] (ros_tut) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable clear\x1b[0m\n'}
+[10.887735] (-) TimerEvent: {}
+[10.939056] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[10.939210] (ros_tut) StderrLine: {'line': b"(.text+0x18): undefined reference to `main'\n"}
+[10.939257] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: (.text+0x1c): undefined reference to `main'\n"}
+[10.939289] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `(anonymous namespace)::ProxyExec0::ProxyExec0()':\n"}
+[10.939346] (ros_tut) StderrLine: {'line': b"clear_turtles.cpp:(.text+0xd2c): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'\n"}
+[10.939404] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `void class_loader::impl::registerPlugin<rclcpp_components::NodeFactoryTemplate<composition::kill_turtles>, rclcpp_components::NodeFactory>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[10.939452] (ros_tut) StderrLine: {'line': b"clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x34): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'\n"}
+[10.939526] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x44): undefined reference to `class_loader::impl::getCurrentlyLoadingLibraryName[abi:cxx11]()'\n"}
+[10.939571] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x74): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'\n"}
+[10.939603] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x80): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'\n"}
+[10.939635] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xb8): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'\n"}
+[10.939685] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xc0): undefined reference to `class_loader::impl::hasANonPurePluginLibraryBeenOpened(bool)'\n"}
+[10.939723] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xe8): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'\n"}
+[10.939989] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xf4): undefined reference to `class_loader::impl::AbstractMetaObjectBase::addOwningClassLoader(class_loader::ClassLoader*)'\n"}
+[10.940049] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x104): undefined reference to `class_loader::impl::getCurrentlyLoadingLibraryName[abi:cxx11]()'\n"}
+[10.941138] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x114): undefined reference to `class_loader::impl::AbstractMetaObjectBase::setAssociatedLibraryPath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[10.941427] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x120): undefined reference to `class_loader::impl::getPluginBaseToFactoryMapMapMutex()'\n"}
+[10.941591] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x188): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'\n"}
+[10.941646] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x1a4): undefined reference to `class_loader::impl::getPluginBaseToFactoryMapMapMutex()'\n"}
+[10.941719] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x1d4): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'\n"}
+[10.941757] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, class_loader::impl::AbstractMetaObjectBase*, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, class_loader::impl::AbstractMetaObjectBase*> > >& class_loader::impl::getFactoryMapForBaseClass<rclcpp_components::NodeFactory>()':\n"}
+[10.942002] (ros_tut) StderrLine: {'line': b"clear_turtles.cpp:(.text._ZN12class_loader4impl25getFactoryMapForBaseClassIN17rclcpp_components11NodeFactoryEEERSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS0_22AbstractMetaObjectBaseESt4lessISA_ESaISt4pairIKSA_SC_EEEv[_ZN12class_loader4impl25getFactoryMapForBaseClassIN17rclcpp_components11NodeFactoryEEERSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS0_22AbstractMetaObjectBaseESt4lessISA_ESaISt4pairIKSA_SC_EEEv]+0x50): undefined reference to `class_loader::impl::getFactoryMapForBaseClass(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[10.942090] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `class_loader::impl::AbstractMetaObject<rclcpp_components::NodeFactory>::AbstractMetaObject(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[10.942134] (ros_tut) StderrLine: {'line': b"clear_turtles.cpp:(.text._ZN12class_loader4impl18AbstractMetaObjectIN17rclcpp_components11NodeFactoryEEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_[_ZN12class_loader4impl18AbstractMetaObjectIN17rclcpp_components11NodeFactoryEEC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_]+0x70): undefined reference to `class_loader::impl::AbstractMetaObjectBase::AbstractMetaObjectBase(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[10.942196] (ros_tut) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `rclcpp::Client<turtlesim::srv::Kill>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_t&)':\n"}
+[10.942232] (ros_tut) StderrLine: {'line': b"clear_turtles.cpp:(.text._ZN6rclcpp6ClientIN9turtlesim3srv4KillEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t[_ZN6rclcpp6ClientIN9turtlesim3srv4KillEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t]+0x88): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<turtlesim::srv::Kill>()'\n"}
+[10.942282] (ros_tut) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.945124] (ros_tut) StderrLine: {'line': b'make[2]: *** [CMakeFiles/clear.dir/build.make:136: clear] Error 1\n'}
+[10.946016] (ros_tut) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2\n'}
+[10.946102] (ros_tut) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[10.954989] (ros_tut) StdoutLine: {'line': b'[100%] Built target kill_turtles\n'}
+[10.956190] (ros_tut) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.965419] (ros_tut) CommandEnded: {'returncode': 2}
+[10.987920] (-) TimerEvent: {}
+[11.090380] (-) TimerEvent: {}
+[11.113321] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 2}
+[11.124121] (-) EventReactorShutdown: {}

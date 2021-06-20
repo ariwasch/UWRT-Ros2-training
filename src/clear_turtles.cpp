@@ -1,3 +1,5 @@
+#ifndef TURTLE_SERVICE_REQUEST_NODE_HPP_
+#define TURTLE_SERVICE_REQUEST_NODE_HPP_
 
 #include <cstdlib>
 #include <memory>
@@ -18,8 +20,6 @@ using namespace std::chrono_literals;
 
 namespace composition {
 
-#ifndef TURTLE_SERVICE_REQUEST_NODE_HPP_
-#define TURTLE_SERVICE_REQUEST_NODE_HPP_
 
 class kill_turtles : public rclcpp::Node {
  public:

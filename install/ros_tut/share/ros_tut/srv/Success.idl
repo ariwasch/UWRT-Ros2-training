@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros_tut/srv/Success.srv
+// generated code does not contain a copyright notice
+
+
+module ros_tut {
+  module srv {
+    struct Success_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Success_Response {
+      boolean result;
+    };
+  };
+};

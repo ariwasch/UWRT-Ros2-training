@@ -1,0 +1,24 @@
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:71[m[K:
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:73:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   73 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(composition::kill_turtles) //what is this??
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:21:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | namespace composition [01;36m[K{[m[K
+      |                       [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+                 from [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:71[m[K:
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:73:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   73 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(composition::kill_turtles) //what is this??
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ari/ros-tut/src/clear_turtles.cpp:21:23:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   21 | namespace composition [01;36m[K{[m[K
+      |                       [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/kill_turtles.dir/build.make:63: CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:412: CMakeFiles/kill_turtles.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/clear.dir/build.make:63: CMakeFiles/clear.dir/src/clear_turtles.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:243: CMakeFiles/clear.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

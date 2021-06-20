@@ -1,0 +1,179 @@
+[0.015s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.055s] [  3%] Built target my_node
+[0.058s] [  5%] Built target ros_tut__cpp
+[0.061s] [ 14%] Built target ros_tut__rosidl_generator_c
+[0.062s] [ 21%] Built target talker
+[0.062s] [ 21%] Built target listener
+[0.068s] [ 25%] Built target kill_turtles
+[0.079s] [ 34%] Built target ros_tut__rosidl_typesupport_cpp
+[0.081s] [ 43%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[0.082s] [ 52%] Built target ros_tut__rosidl_typesupport_c
+[0.084s] [ 61%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[0.087s] [ 70%] Built target ros_tut__rosidl_typesupport_introspection_c
+[0.104s] [ 80%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[0.116s] [ 80%] Built target ros_tut
+[0.128s] [ 81%] Built target ros_tut__py
+[0.147s] [ 89%] Built target ros_tut__python
+[0.168s] [100%] Built target ros_tut__rosidl_typesupport_c__pyext
+[0.168s] [100%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[0.168s] [100%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[0.176s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.245s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut
+[0.250s] -- Install configuration: ""
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/rosidl_interfaces/ros_tut
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.h
+[0.250s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.c
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_generator_c__visibility_control.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__functions.c
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__functions.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.c
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.h
+[0.251s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.sh
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.dsv
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_generator_c.so
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h
+[0.252s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_c.so
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/dds_fastrtps
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/dds_fastrtps
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.c
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h
+[0.253s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.c
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.c
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_c.so
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_c.so
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.hpp
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail
+[0.254s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_cpp.so
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_cpp.so
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.sh
+[0.255s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.dsv
+[0.256s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py
+[0.273s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg
+[0.273s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num_s.c
+[0.273s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success_s.c
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints_s.c
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[0.274s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[0.275s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[0.275s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__python.so
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.idl
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.idl
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success.idl
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.msg
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.srv
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Request.msg
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Response.msg
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success.srv
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Request.msg
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Response.msg
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/my_node
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/talker
+[0.276s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/listener
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/libkill_turtles.so
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/package_run_dependencies/ros_tut
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/parent_prefix_path/ros_tut
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.sh
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.dsv
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.sh
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.dsv
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.bash
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.sh
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.zsh
+[0.277s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.dsv
+[0.277s] -- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.dsv
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/packages/ros_tut
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake
+[0.278s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/rclcpp_components/ros_tut
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.279s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig.cmake
+[0.280s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig-version.cmake
+[0.280s] -- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.xml
+[0.285s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut

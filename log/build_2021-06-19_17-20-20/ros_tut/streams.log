@@ -1,0 +1,47 @@
+[0.037s] Invoking command in '/home/ari/ros-tut/build/ros_tut': /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.455s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.490s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.491s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.633s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.705s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.898s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.018s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.104s] -- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.162s] -- Found rclcpp_action: 2.3.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.190s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.220s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.280s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.364s] Error parsing '/home/ari/ros-tut/package.xml':
+[1.612s] Traceback (most recent call last):
+[1.612s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[1.612s]     main()
+[1.612s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[1.612s]     raise e
+[1.612s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[1.612s]     package = parse_package_string(
+[1.612s]   File "/home/ari/.local/lib/python3.8/site-packages/catkin_pkg/package.py", line 771, in parse_package_string
+[1.612s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.613s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ari/ros-tut/package.xml':
+[1.613s] Error(s):
+[1.613s] - The generic dependency on 'rclcpp' is redundant with: build_depend, exec_depend
+[1.613s] - The generic dependency on 'std_msgs' is redundant with: build_depend, exec_depend
+[1.625s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.625s]   execute_process(/usr/bin/python3
+[1.625s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.625s]   /home/ari/ros-tut/package.xml
+[1.625s]   /home/ari/ros-tut/build/ros_tut/ament_cmake_core/package.cmake) returned
+[1.625s]   error code 1
+[1.625s] Call Stack (most recent call first):
+[1.625s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.625s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[1.625s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[1.625s] 
+[1.625s] 
+[1.627s] -- Configuring incomplete, errors occurred!
+[1.627s] See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeOutput.log".
+[1.627s] See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeError.log".
+[1.632s] make: *** [Makefile:1509: cmake_check_build_system] Error 1
+[1.634s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000121] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.000141] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.014801] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.014894] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.014926] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1776'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ari/ros-tut/install/ros_tut/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2330'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:39424'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1872,unix/ari-ubuntu:/tmp/.ICE-unix/1872'), ('INVOCATION_ID', 'bee34760175e42b6b3d2da0d41ea9b57'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/opt/ros/foxy')]), 'shell': False}
+[0.055056] (ros_tut) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.089263] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.089392] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098523] (-) TimerEvent: {}
+[0.200062] (-) TimerEvent: {}
+[0.254833] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.297856] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300673] (-) TimerEvent: {}
+[0.303100] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.401601] (-) TimerEvent: {}
+[0.434578] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.476782] (ros_tut) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.479505] (ros_tut) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.502157] (-) TimerEvent: {}
+[0.592416] (ros_tut) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[0.602599] (-) TimerEvent: {}
+[0.673633] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.702699] (-) TimerEvent: {}
+[0.721198] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp_action: 2.3.1 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.745840] (ros_tut) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.771367] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.802789] (-) TimerEvent: {}
+[0.803915] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[0.902885] (-) TimerEvent: {}
+[0.934087] (ros_tut) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.003015] (-) TimerEvent: {}
+[1.051771] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.058216] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.077176] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.078541] (ros_tut) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.093708] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.093822] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.093867] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[1.103107] (-) TimerEvent: {}
+[1.109066] (ros_tut) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.132332] (ros_tut) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.204488] (-) TimerEvent: {}
+[1.302516] (ros_tut) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.304923] (ros_tut) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ari/ros-tut/include;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_c>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_c;/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_py;$<BUILD_INTERFACE:/home/ari/ros-tut/include>\n'}
+[1.305009] (-) TimerEvent: {}
+[1.305082] (ros_tut) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.401074] (ros_tut) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.401216] (ros_tut) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.405648] (-) TimerEvent: {}
+[1.415042] (ros_tut) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.440480] (ros_tut) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.453483] (ros_tut) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.505808] (-) TimerEvent: {}
+[1.558110] (ros_tut) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.558253] (ros_tut) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.570879] (ros_tut) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.578928] (ros_tut) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.605927] (-) TimerEvent: {}
+[1.630999] (ros_tut) StdoutLine: {'line': b'-- Generating done\n'}
+[1.636653] (ros_tut) StdoutLine: {'line': b'-- Build files have been written to: /home/ari/ros-tut/build/ros_tut\n'}
+[1.666371] (ros_tut) StdoutLine: {'line': b'[  3%] Built target my_node\n'}
+[1.673948] (ros_tut) StdoutLine: {'line': b'[  5%] Built target ros_tut__cpp\n'}
+[1.676779] (ros_tut) StdoutLine: {'line': b'[  9%] Built target talker\n'}
+[1.688952] (ros_tut) StdoutLine: {'line': b'[ 18%] Built target ros_tut__rosidl_generator_c\n'}
+[1.689829] (ros_tut) StdoutLine: {'line': b'[ 21%] Built target kill_turtles\n'}
+[1.690284] (ros_tut) StdoutLine: {'line': b'[ 25%] Built target listener\n'}
+[1.691258] (ros_tut) StdoutLine: {'line': b'[ 34%] Built target ros_tut__rosidl_typesupport_introspection_cpp\n'}
+[1.694829] (ros_tut) StdoutLine: {'line': b'[ 43%] Built target ros_tut__rosidl_typesupport_cpp\n'}
+[1.700648] (ros_tut) StdoutLine: {'line': b'[ 52%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp\n'}
+[1.706069] (-) TimerEvent: {}
+[1.708051] (ros_tut) StdoutLine: {'line': b'[ 61%] Built target ros_tut__rosidl_typesupport_c\n'}
+[1.717503] (ros_tut) StdoutLine: {'line': b'[ 70%] Built target ros_tut__rosidl_typesupport_introspection_c\n'}
+[1.722389] (ros_tut) StdoutLine: {'line': b'[ 80%] Built target ros_tut__rosidl_typesupport_fastrtps_c\n'}
+[1.735152] (ros_tut) StdoutLine: {'line': b'[ 80%] Built target ros_tut\n'}
+[1.747324] (ros_tut) StdoutLine: {'line': b'[ 81%] Built target ros_tut__py\n'}
+[1.769763] (ros_tut) StdoutLine: {'line': b'[ 89%] Built target ros_tut__python\n'}
+[1.790250] (ros_tut) StdoutLine: {'line': b'[ 96%] Built target ros_tut__rosidl_typesupport_c__pyext\n'}
+[1.790402] (ros_tut) StdoutLine: {'line': b'[ 96%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.790637] (ros_tut) StdoutLine: {'line': b'[100%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext\n'}
+[1.800030] (ros_tut) CommandEnded: {'returncode': 0}
+[1.806248] (-) TimerEvent: {}
+[1.864748] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'install'}
+[1.871440] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ari/ros-tut/build/ros_tut'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1776'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ari/ros-tut/install/ros_tut/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1563'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2330'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:39424'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1872,unix/ari-ubuntu:/tmp/.ICE-unix/1872'), ('INVOCATION_ID', 'bee34760175e42b6b3d2da0d41ea9b57'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ari/ros-tut/install/ros_tut:/opt/ros/foxy')]), 'shell': False}
+[1.876525] (ros_tut) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.877185] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/rosidl_interfaces/ros_tut\n'}
+[1.877240] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.877276] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.878311] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.878427] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.h\n'}
+[1.878481] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.c\n'}
+[1.878626] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.h\n'}
+[1.878663] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__functions.h\n'}
+[1.878696] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.878824] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.h\n'}
+[1.878889] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.878981] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.879014] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.h\n'}
+[1.879044] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__functions.c\n'}
+[1.879077] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.h\n'}
+[1.879114] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.h\n'}
+[1.879155] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__functions.h\n'}
+[1.879188] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.h\n'}
+[1.879220] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.c\n'}
+[1.879251] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.h\n'}
+[1.879282] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.h\n'}
+[1.879316] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.h\n'}
+[1.879350] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.sh\n'}
+[1.879380] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/library_path.dsv\n'}
+[1.880600] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_generator_c.so\n'}
+[1.880991] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_generator_c.so" to ""\n'}
+[1.881039] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.881072] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.881103] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.881138] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.881170] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[1.881200] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.881230] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.881260] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.881291] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h\n'}
+[1.882268] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_c.so\n'}
+[1.882598] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.882673] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.882782] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.882843] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.882897] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.882967] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/dds_fastrtps\n'}
+[1.883014] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.883116] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.883162] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.883249] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.883283] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.883315] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/dds_fastrtps\n'}
+[1.883489] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.884185] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.884257] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.884296] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.884329] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.884360] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.c\n'}
+[1.884392] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[1.884422] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.884451] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.884486] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.884519] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h\n'}
+[1.884551] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.c\n'}
+[1.884580] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[1.884610] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.c\n'}
+[1.885656] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_c.so\n'}
+[1.885718] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.886250] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_c.so\n'}
+[1.886490] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_c.so" to ""\n'}
+[1.886535] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.886565] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.886595] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.886937] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp\n'}
+[1.886990] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp\n'}
+[1.887041] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp\n'}
+[1.887086] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/num.hpp\n'}
+[1.887121] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.887252] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/add_three_ints.hpp\n'}
+[1.887287] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.887317] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp\n'}
+[1.887351] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp\n'}
+[1.887383] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp\n'}
+[1.887417] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp\n'}
+[1.887449] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp\n'}
+[1.887481] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp\n'}
+[1.887513] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/success.hpp\n'}
+[1.887545] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut\n'}
+[1.887575] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg\n'}
+[1.887606] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail\n'}
+[1.887637] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp\n'}
+[1.887670] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.887707] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv\n'}
+[1.887737] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail\n'}
+[1.887770] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.887805] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp\n'}
+[1.887839] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.887872] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp\n'}
+[1.888087] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_cpp.so\n'}
+[1.888668] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.889953] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_cpp.so\n'}
+[1.890162] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__rosidl_typesupport_cpp.so" to ""\n'}
+[1.890258] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.sh\n'}
+[1.890291] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/pythonpath.dsv\n'}
+[1.890417] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py\n'}
+[1.906339] (-) TimerEvent: {}
+[1.909804] (ros_tut) StdoutLine: {'line': b"Compiling '/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py'...\n"}
+[1.912318] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg\n'}
+[1.912884] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num_s.c\n'}
+[1.912941] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py\n'}
+[1.912974] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py\n'}
+[1.913049] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv\n'}
+[1.913101] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success_s.c\n'}
+[1.913137] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py\n'}
+[1.913169] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py\n'}
+[1.913199] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py\n'}
+[1.913229] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints_s.c\n'}
+[1.914170] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.914544] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[1.915486] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.916067] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[1.916892] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.917090] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/python3.8/site-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[1.918127] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/libros_tut__python.so\n'}
+[1.918365] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/libros_tut__python.so" to ""\n'}
+[1.918419] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.idl\n'}
+[1.918665] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.idl\n'}
+[1.918710] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success.idl\n'}
+[1.918741] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/msg/Num.msg\n'}
+[1.918785] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts.srv\n'}
+[1.918934] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Request.msg\n'}
+[1.919224] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/AddThreeInts_Response.msg\n'}
+[1.919281] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success.srv\n'}
+[1.919315] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Request.msg\n'}
+[1.919347] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Response.msg\n'}
+[1.919377] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/my_node\n'}
+[1.921144] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/talker\n'}
+[1.922251] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/talker" to ""\n'}
+[1.923667] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/listener\n'}
+[1.925359] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/listener" to ""\n'}
+[1.926814] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/lib/ros_tut/libkill_turtles.so\n'}
+[1.927687] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/home/ari/ros-tut/install/ros_tut/lib/ros_tut/libkill_turtles.so" to ""\n'}
+[1.928484] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/package_run_dependencies/ros_tut\n'}
+[1.928775] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/parent_prefix_path/ros_tut\n'}
+[1.928844] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.sh\n'}
+[1.928879] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.dsv\n'}
+[1.928910] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.sh\n'}
+[1.928941] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/path.dsv\n'}
+[1.928971] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.bash\n'}
+[1.929000] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.sh\n'}
+[1.929031] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.zsh\n'}
+[1.929064] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/local_setup.dsv\n'}
+[1.929095] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.dsv\n'}
+[1.929125] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/packages/ros_tut\n'}
+[1.929430] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake\n'}
+[1.929483] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.929641] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.929696] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.930155] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake\n'}
+[1.930205] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.930456] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake\n'}
+[1.930687] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.930821] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.931023] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake\n'}
+[1.931139] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.931265] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/rclcpp_components/ros_tut\n'}
+[1.931315] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake-extras.cmake\n'}
+[1.931410] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.931456] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.931498] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.932038] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.932086] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.932122] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.932153] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig.cmake\n'}
+[1.932183] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /home/ari/ros-tut/install/ros_tut/share/ros_tut/cmake/ros_tutConfig-version.cmake\n'}
+[1.932218] (ros_tut) StdoutLine: {'line': b'-- Installing: /home/ari/ros-tut/install/ros_tut/share/ros_tut/package.xml\n'}
+[1.934383] (ros_tut) CommandEnded: {'returncode': 0}
+[2.006534] (-) TimerEvent: {}
+[2.045511] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 0}
+[2.046324] (-) EventReactorShutdown: {}

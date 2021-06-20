@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros_tut.copyright"
+  tests="247"
+  errors="0"
+  failures="244"
+  time="0.058"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="ros_tut.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="LICENSE"
+    classname="ros_tut.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/3.16.3/CMakeSystem.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/Makefile.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/clear.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/clear.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/client.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/client.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/kill_turtles.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/kill_turtles.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/listener.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/listener.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/my_node.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/my_node.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__cpp.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__cpp.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__python.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__python.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_generator_c.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_generator_c.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut_uninstall.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/ros_tut_uninstall.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/server.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/server.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/talker.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/talker.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/uninstall.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CMakeFiles/uninstall.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CTestCustom.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/CTestTestfile.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_core/package.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_core/ros_tutConfig-version.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_core/ros_tutConfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_package_templates/templates.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/cmake_install.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ros_tut__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ros_tut__py/CMakeFiles/ros_tut__py.dir/DependInfo.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ros_tut__py/CMakeFiles/ros_tut__py.dir/cmake_clean.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ros_tut__py/CTestTestfile.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/ros_tut__py/cmake_install.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_cmake/rosidl_cmake-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/num.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/msg/rosidl_generator_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/add_three_ints.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_c/ros_tut/srv/success.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/msg/num.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/add_three_ints.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_cpp/ros_tut/srv/success.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/__init__.py"
+    classname="ros_tut.copyright"/>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/msg/__init__.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/msg/_num_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/srv/__init__.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_generator_py/ros_tut/srv/_success_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="include/visibility.hpp"
+    classname="ros_tut.copyright"/>
+  <testcase
+    name="install/_local_setup_util_ps1.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/_local_setup_util_sh.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/detail/num__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/num.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/num.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/rosidl_generator_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/add_three_ints.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/add_three_ints.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__functions.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__functions.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__struct.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__type_support.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/detail/success__type_support.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/success.h"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/include/ros_tut/srv/success.hpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py"
+    classname="ros_tut.copyright"/>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success_s.c"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tutConfig-version.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tutConfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/rosidl_cmake-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/add_two_ints_client.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/add_two_ints_server.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/clear_turtles.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/install/_local_setup_util_ps1.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="src/install/_local_setup_util_sh.py"
+    classname="ros_tut.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="src/my_node.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/my_publisher.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/my_subscriber.cpp"
+    classname="ros_tut.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE
+* build/ros_tut/CMakeFiles/3.16.3/CMakeCCompiler.cmake
+* build/ros_tut/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+* build/ros_tut/CMakeFiles/3.16.3/CMakeSystem.cmake
+* build/ros_tut/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+* build/ros_tut/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* build/ros_tut/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+* build/ros_tut/CMakeFiles/Export/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake
+* build/ros_tut/CMakeFiles/Makefile.cmake
+* build/ros_tut/CMakeFiles/clear.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/clear.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/client.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/client.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/kill_turtles.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/kill_turtles.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/listener.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/listener.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/my_node.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/my_node.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__cpp.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__cpp.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__python.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__python.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_generator_c.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_generator_c.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/ros_tut_uninstall.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/ros_tut_uninstall.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/server.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/server.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/talker.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/talker.dir/cmake_clean.cmake
+* build/ros_tut/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/ros_tut/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/ros_tut/CTestCustom.cmake
+* build/ros_tut/CTestTestfile.cmake
+* build/ros_tut/ament_cmake_core/package.cmake
+* build/ros_tut/ament_cmake_core/ros_tutConfig-version.cmake
+* build/ros_tut/ament_cmake_core/ros_tutConfig.cmake
+* build/ros_tut/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake
+* build/ros_tut/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake
+* build/ros_tut/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake
+* build/ros_tut/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake
+* build/ros_tut/ament_cmake_package_templates/templates.cmake
+* build/ros_tut/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/ros_tut/cmake_install.cmake
+* build/ros_tut/ros_tut__py/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/ros_tut/ros_tut__py/CMakeFiles/ros_tut__py.dir/DependInfo.cmake
+* build/ros_tut/ros_tut__py/CMakeFiles/ros_tut__py.dir/cmake_clean.cmake
+* build/ros_tut/ros_tut__py/CTestTestfile.cmake
+* build/ros_tut/ros_tut__py/cmake_install.cmake
+* build/ros_tut/rosidl_cmake/rosidl_cmake-extras.cmake
+* build/ros_tut/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+* build/ros_tut/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__functions.c
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__functions.h
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__struct.h
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__type_support.h
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/num.h
+* build/ros_tut/rosidl_generator_c/ros_tut/msg/rosidl_generator_c__visibility_control.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/add_three_ints.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__struct.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__type_support.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__functions.c
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__functions.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__struct.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/detail/success__type_support.h
+* build/ros_tut/rosidl_generator_c/ros_tut/srv/success.h
+* build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__builder.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__struct.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/msg/detail/num__traits.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/msg/num.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/add_three_ints.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__builder.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__struct.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/add_three_ints__traits.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp
+* build/ros_tut/rosidl_generator_cpp/ros_tut/srv/success.hpp
+* build/ros_tut/rosidl_generator_py/ros_tut/__init__.py
+* build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c
+* build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c
+* build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c
+* build/ros_tut/rosidl_generator_py/ros_tut/msg/__init__.py
+* build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py
+* build/ros_tut/rosidl_generator_py/ros_tut/msg/_num_s.c
+* build/ros_tut/rosidl_generator_py/ros_tut/srv/__init__.py
+* build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py
+* build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c
+* build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py
+* build/ros_tut/rosidl_generator_py/ros_tut/srv/_success_s.c
+* build/ros_tut/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp
+* build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c__visibility_control.h
+* build/ros_tut/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp
+* build/ros_tut/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp
+* build/ros_tut/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp
+* build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp
+* build/ros_tut/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h
+* build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp
+* build/ros_tut/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h
+* build/ros_tut/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp
+* build/ros_tut/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp
+* include/visibility.hpp
+* install/_local_setup_util_ps1.py
+* install/_local_setup_util_sh.py
+* install/ros_tut/include/ros_tut/msg/detail/num__builder.hpp
+* install/ros_tut/include/ros_tut/msg/detail/num__functions.c
+* install/ros_tut/include/ros_tut/msg/detail/num__functions.h
+* install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+* install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+* install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h
+* install/ros_tut/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+* install/ros_tut/include/ros_tut/msg/detail/num__struct.h
+* install/ros_tut/include/ros_tut/msg/detail/num__struct.hpp
+* install/ros_tut/include/ros_tut/msg/detail/num__traits.hpp
+* install/ros_tut/include/ros_tut/msg/detail/num__type_support.c
+* install/ros_tut/include/ros_tut/msg/detail/num__type_support.cpp
+* install/ros_tut/include/ros_tut/msg/detail/num__type_support.h
+* install/ros_tut/include/ros_tut/msg/num.h
+* install/ros_tut/include/ros_tut/msg/num.hpp
+* install/ros_tut/include/ros_tut/msg/rosidl_generator_c__visibility_control.h
+* install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+* install/ros_tut/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+* install/ros_tut/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h
+* install/ros_tut/include/ros_tut/srv/add_three_ints.h
+* install/ros_tut/include/ros_tut/srv/add_three_ints.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__builder.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.c
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__functions.h
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.h
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__struct.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__traits.hpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.c
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.cpp
+* install/ros_tut/include/ros_tut/srv/detail/add_three_ints__type_support.h
+* install/ros_tut/include/ros_tut/srv/detail/success__builder.hpp
+* install/ros_tut/include/ros_tut/srv/detail/success__functions.c
+* install/ros_tut/include/ros_tut/srv/detail/success__functions.h
+* install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h
+* install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp
+* install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h
+* install/ros_tut/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp
+* install/ros_tut/include/ros_tut/srv/detail/success__struct.h
+* install/ros_tut/include/ros_tut/srv/detail/success__struct.hpp
+* install/ros_tut/include/ros_tut/srv/detail/success__traits.hpp
+* install/ros_tut/include/ros_tut/srv/detail/success__type_support.c
+* install/ros_tut/include/ros_tut/srv/detail/success__type_support.cpp
+* install/ros_tut/include/ros_tut/srv/detail/success__type_support.h
+* install/ros_tut/include/ros_tut/srv/success.h
+* install/ros_tut/include/ros_tut/srv/success.hpp
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num_s.c
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints_s.c
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py
+* install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success_s.c
+* install/ros_tut/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tutConfig-version.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tutConfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+* install/ros_tut/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake
+* install/ros_tut/share/ros_tut/cmake/rosidl_cmake-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+* install/ros_tut/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+* src/add_two_ints_client.cpp
+* src/add_two_ints_server.cpp
+* src/clear_turtles.cpp
+* src/install/_local_setup_util_ps1.py
+* src/install/_local_setup_util_sh.py
+* src/my_node.cpp
+* src/my_publisher.cpp
+* src/my_subscriber.cpp</system-out>
+</testsuite>

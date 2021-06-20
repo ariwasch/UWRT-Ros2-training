@@ -1,0 +1,3 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (-) JobUnselected: {'identifier': 'software_training'}
+[0.000660] (-) EventReactorShutdown: {}

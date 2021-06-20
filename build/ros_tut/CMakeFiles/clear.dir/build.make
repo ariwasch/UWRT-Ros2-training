@@ -80,10 +80,6 @@ clear_EXTERNAL_OBJECTS =
 clear: CMakeFiles/clear.dir/src/clear_turtles.cpp.o
 clear: CMakeFiles/clear.dir/build.make
 clear: /opt/ros/foxy/lib/librclcpp.so
-clear: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
-clear: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_c.so
-clear: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
-clear: /opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so
 clear: /opt/ros/foxy/lib/liblibstatistics_collector.so
 clear: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 clear: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -121,16 +117,15 @@ clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection
 clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-clear: /opt/ros/foxy/lib/libtracetools.so
-clear: /opt/ros/foxy/lib/libstd_srvs__rosidl_generator_c.so
 clear: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 clear: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
+clear: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 clear: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 clear: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 clear: /opt/ros/foxy/lib/librcpputils.so
 clear: /opt/ros/foxy/lib/librosidl_runtime_c.so
 clear: /opt/ros/foxy/lib/librcutils.so
+clear: /opt/ros/foxy/lib/libtracetools.so
 clear: CMakeFiles/clear.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable clear"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clear.dir/link.txt --verbose=$(VERBOSE)

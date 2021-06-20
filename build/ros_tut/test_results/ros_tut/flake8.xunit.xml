@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros_tut.flake8"
+  tests="16"
+  errors="0"
+  failures="16"
+  time="0.455"
+>
+  <testcase
+    name="E501 (./install/_local_setup_util_sh.py:14:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (109 &gt; 99 characters):&#10;FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX=&quot;{prefix}&quot; _colcon_prefix_sh_source_script &quot;{script_path}&quot;'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/_local_setup_util_sh.py:15:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ &quot;$(echo -n ${name} | tail -c 1)&quot; = &quot;:&quot; ]; then export {name}=${{{name}%?}} ; fi'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py:87:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py:95:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py:205:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (100 &gt; 99 characters):&#10;            cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__add_three_ints__response&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py:251:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py:83:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py:188:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./src/install/_local_setup_util_sh.py:14:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (109 &gt; 99 characters):&#10;FORMAT_STR_INVOKE_SCRIPT = 'COLCON_CURRENT_PREFIX=&quot;{prefix}&quot; _colcon_prefix_sh_source_script &quot;{script_path}&quot;'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./src/install/_local_setup_util_sh.py:15:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (125 &gt; 99 characters):&#10;FORMAT_STR_REMOVE_TRAILING_SEPARATOR = 'if [ &quot;$(echo -n ${name} | tail -c 1)&quot; = &quot;:&quot; ]; then export {name}=${{{name}%?}} ; fi'&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py:87:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py:95:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py:205:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (100 &gt; 99 characters):&#10;            cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__add_three_ints__response&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py:251:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py:83:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <testcase
+    name="E501 (./build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py:188:100)"
+    classname="ros_tut.flake8"
+  >
+      <failure message="line too long (134 &gt; 99 characters):&#10;                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']&#10;"/>
+  </testcase>
+  <system-out>Checked files:
+* ./install/_local_setup_util_sh.py
+* ./install/_local_setup_util_ps1.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py
+* ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py
+* ./src/install/_local_setup_util_sh.py
+* ./src/install/_local_setup_util_ps1.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/__init__.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/msg/__init__.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/srv/__init__.py
+* ./build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py</system-out>
+</testsuite>

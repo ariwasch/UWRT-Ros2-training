@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../../include"
   "rosidl_generator_cpp"
   "/opt/ros/foxy/include"
   )

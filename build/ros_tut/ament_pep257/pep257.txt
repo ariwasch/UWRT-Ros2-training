@@ -1,0 +1,24 @@
+-- run_test.py: invoking following command in '/home/ari/ros-tut':
+ - /opt/ros/foxy/bin/ament_pep257 --xunit-file /home/ari/ros-tut/build/ros_tut/test_results/ros_tut/pep257.xunit.xml
+
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/__init__.py
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/msg/__init__.py
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/srv/__init__.py
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/srv/_add_three_ints.py
+checking ./build/ros_tut/rosidl_generator_py/ros_tut/srv/_success.py
+checking ./install/_local_setup_util_ps1.py
+checking ./install/_local_setup_util_sh.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/__init__.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/__init__.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/msg/_num.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/__init__.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_add_three_ints.py
+checking ./install/ros_tut/lib/python3.8/site-packages/ros_tut/srv/_success.py
+checking ./src/install/_local_setup_util_ps1.py
+checking ./src/install/_local_setup_util_sh.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/ari/ros-tut/build/ros_tut/test_results/ros_tut/pep257.xunit.xml'

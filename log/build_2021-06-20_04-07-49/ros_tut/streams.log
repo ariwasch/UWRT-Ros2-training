@@ -1,0 +1,159 @@
+[0.042s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.178s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.195s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.307s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.511s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.627s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.701s] -- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.741s] -- Found rclcpp_action: 2.3.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.764s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.787s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.812s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.896s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.997s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.013s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.014s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.028s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.029s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.041s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.050s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.153s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.155s] -- Configured cppcheck include dirs: /home/ari/ros-tut/include;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_c>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_c;/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_py;$<BUILD_INTERFACE:/home/ari/ros-tut/include>
+[1.155s] -- Configured cppcheck exclude dirs and/or files: 
+[1.257s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.257s] -- Configured cpplint exclude dirs and/or files: 
+[1.270s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.292s] -- Added test 'lint_cmake' to check CMake code style
+[1.305s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.399s] -- Added test 'uncrustify' to check C / C++ code style
+[1.399s] -- Configured uncrustify additional arguments: 
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.416s] -- Configuring done
+[1.466s] -- Generating done
+[1.470s] -- Build files have been written to: /home/ari/ros-tut/build/ros_tut
+[1.490s] [35m[1mScanning dependencies of target listener[0m
+[1.495s] [35m[1mScanning dependencies of target ros_tut__rosidl_generator_c[0m
+[1.495s] [35m[1mScanning dependencies of target talker[0m
+[1.499s] [35m[1mScanning dependencies of target kill_turtles[0m
+[1.502s] [35m[1mScanning dependencies of target clear[0m
+[1.515s] [  1%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c.o[0m
+[1.517s] [  3%] [32mBuilding CXX object CMakeFiles/listener.dir/src/my_subscriber.cpp.o[0m
+[1.524s] [  5%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/num__functions.c.o[0m
+[1.525s] [  7%] [32mBuilding CXX object CMakeFiles/clear.dir/src/clear_turtles.cpp.o[0m
+[1.531s] [  8%] [32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o[0m
+[1.548s] [ 10%] Built target ros_tut__cpp
+[1.550s] [ 14%] Built target my_node
+[1.551s] [ 15%] [32mBuilding CXX object CMakeFiles/talker.dir/src/my_publisher.cpp.o[0m
+[1.557s] [ 17%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/success__functions.c.o[0m
+[1.558s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_cpp[0m
+[1.571s] [ 19%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp.o[0m
+[1.934s] [ 21%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp.o[0m
+[1.949s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.962s] [ 24%] [32m[1mLinking C shared library libros_tut__rosidl_generator_c.so[0m
+[2.104s] [ 26%] Built target ros_tut__rosidl_generator_c
+[2.151s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_cpp[0m
+[2.189s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.546s] [ 29%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[2.717s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp.o[0m
+[2.902s] [ 33%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_introspection_cpp.so[0m
+[3.783s] [ 35%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[3.895s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c[0m
+[4.045s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o[0m
+[4.048s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_cpp[0m
+[4.115s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o[0m
+[4.129s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c[0m
+[4.233s] [ 40%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o[0m
+[4.274s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[4.374s] [ 43%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.421s] [ 45%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp.o[0m
+[4.438s] [ 47%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o[0m
+[4.538s] [ 49%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so[0m
+[4.589s] [ 50%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c.o[0m
+[4.645s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[4.658s] [ 54%] Built target ros_tut__rosidl_typesupport_c
+[4.668s] [ 56%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[4.673s] [ 57%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp.o[0m
+[4.707s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[4.724s] [ 59%] [32m[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so[0m
+[4.797s] [ 61%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[4.821s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In lambda function:
+[4.821s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:64:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.822s]    64 |   auto response_received_callback = [this]([01;35m[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response[m[K) {
+[4.822s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.931s] [ 63%] Built target ros_tut__rosidl_typesupport_introspection_c
+[5.037s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:[m[K In lambda function:
+[5.037s] [01m[K/home/ari/ros-tut/src/clear_turtles.cpp:64:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.037s]    64 |   auto response_received_callback = [this]([01;35m[Krclcpp::Client<turtlesim::srv::Kill>::SharedFuture response[m[K) {
+[5.037s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.047s] [ 64%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[5.776s] [ 66%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so[0m
+[5.781s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp.o[0m
+[6.165s] [ 70%] Built target ros_tut__rosidl_typesupport_cpp
+[7.279s] [ 71%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[7.575s] [ 73%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[7.620s] [ 73%] Built target ros_tut
+[7.682s] [ 75%] Built target ros_tut__py
+[7.757s] [35m[1mScanning dependencies of target ros_tut__python[0m
+[7.828s] [ 77%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o[0m
+[7.832s] [ 78%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o[0m
+[7.844s] [ 80%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o[0m
+[8.569s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so[0m
+[8.697s] [ 82%] Built target ros_tut__python
+[8.780s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c__pyext[0m
+[8.792s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.816s] [ 84%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c.o[0m
+[8.823s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c__pyext[0m
+[8.869s] [ 85%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.932s] [ 87%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.342s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.345s] [ 91%] [32m[1mLinking CXX shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.387s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[9.431s] [ 92%] Built target ros_tut__rosidl_typesupport_c__pyext
+[9.483s] [ 92%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[9.484s] [ 92%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[12.219s] [ 94%] [32m[1mLinking CXX shared library libkill_turtles.so[0m
+[12.344s] [ 96%] [32m[1mLinking CXX executable clear[0m
+[12.531s] /usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/9/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+[12.531s] (.text+0x18): undefined reference to `main'
+[12.531s] /usr/bin/ld: (.text+0x1c): undefined reference to `main'
+[12.533s] /usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `(anonymous namespace)::ProxyExec0::ProxyExec0()':
+[12.534s] clear_turtles.cpp:(.text+0xd2c): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'
+[12.534s] /usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `void class_loader::impl::registerPlugin<rclcpp_components::NodeFactoryTemplate<composition::kill_turtles>, rclcpp_components::NodeFactory>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[12.534s] clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x34): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'
+[12.534s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x44): undefined reference to `class_loader::impl::getCurrentlyLoadingLibraryName[abi:cxx11]()'
+[12.534s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x74): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'
+[12.534s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x80): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'
+[12.535s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xb8): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'
+[12.535s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xc0): undefined reference to `class_loader::impl::hasANonPurePluginLibraryBeenOpened(bool)'
+[12.536s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xe8): undefined reference to `class_loader::impl::getCurrentlyActiveClassLoader()'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0xf4): undefined reference to `class_loader::impl::AbstractMetaObjectBase::addOwningClassLoader(class_loader::ClassLoader*)'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x104): undefined reference to `class_loader::impl::getCurrentlyLoadingLibraryName[abi:cxx11]()'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x114): undefined reference to `class_loader::impl::AbstractMetaObjectBase::setAssociatedLibraryPath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x120): undefined reference to `class_loader::impl::getPluginBaseToFactoryMapMapMutex()'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x188): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x1a4): undefined reference to `class_loader::impl::getPluginBaseToFactoryMapMapMutex()'
+[12.538s] /usr/bin/ld: clear_turtles.cpp:(.text._ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_[_ZN12class_loader4impl14registerPluginIN17rclcpp_components19NodeFactoryTemplateIN11composition12kill_turtlesEEENS2_11NodeFactoryEEEvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESF_]+0x1d4): undefined reference to `console_bridge::log(char const*, int, console_bridge::LogLevel, char const*, ...)'
+[12.538s] /usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, class_loader::impl::AbstractMetaObjectBase*, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, class_loader::impl::AbstractMetaObjectBase*> > >& class_loader::impl::getFactoryMapForBaseClass<rclcpp_components::NodeFactory>()':
+[12.538s] clear_turtles.cpp:(.text._ZN12class_loader4impl25getFactoryMapForBaseClassIN17rclcpp_components11NodeFactoryEEERSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS0_22AbstractMetaObjectBaseESt4lessISA_ESaISt4pairIKSA_SC_EEEv[_ZN12class_loader4impl25getFactoryMapForBaseClassIN17rclcpp_components11NodeFactoryEEERSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPNS0_22AbstractMetaObjectBaseESt4lessISA_ESaISt4pairIKSA_SC_EEEv]+0x50): undefined reference to `class_loader::impl::getFactoryMapForBaseClass(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[12.538s] /usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `class_loader::impl::AbstractMetaObject<rclcpp_components::NodeFactory>::AbstractMetaObject(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+[12.539s] clear_turtles.cpp:(.text._ZN12class_loader4impl18AbstractMetaObjectIN17rclcpp_components11NodeFactoryEEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_[_ZN12class_loader4impl18AbstractMetaObjectIN17rclcpp_components11NodeFactoryEEC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESC_]+0x70): undefined reference to `class_loader::impl::AbstractMetaObjectBase::AbstractMetaObjectBase(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[12.539s] /usr/bin/ld: CMakeFiles/clear.dir/src/clear_turtles.cpp.o: in function `rclcpp::Client<turtlesim::srv::Kill>::Client(rclcpp::node_interfaces::NodeBaseInterface*, std::shared_ptr<rclcpp::node_interfaces::NodeGraphInterface>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rcl_client_options_t&)':
+[12.539s] clear_turtles.cpp:(.text._ZN6rclcpp6ClientIN9turtlesim3srv4KillEEC2EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t[_ZN6rclcpp6ClientIN9turtlesim3srv4KillEEC5EPNS_15node_interfaces17NodeBaseInterfaceESt10shared_ptrINS5_18NodeGraphInterfaceEERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER20rcl_client_options_t]+0x88): undefined reference to `rosidl_service_type_support_t const* rosidl_typesupport_cpp::get_service_type_support_handle<turtlesim::srv::Kill>()'
+[12.539s] collect2: error: ld returned 1 exit status
+[12.539s] make[2]: *** [CMakeFiles/clear.dir/build.make:131: clear] Error 1
+[12.539s] make[1]: *** [CMakeFiles/Makefile2:563: CMakeFiles/clear.dir/all] Error 2
+[12.539s] make[1]: *** Waiting for unfinished jobs....
+[12.549s] [ 96%] Built target kill_turtles
+[12.575s] [ 98%] [32m[1mLinking CXX executable talker[0m
+[12.700s] [ 98%] Built target talker
+[13.820s] [100%] [32m[1mLinking CXX executable listener[0m
+[13.975s] [100%] Built target listener
+[13.977s] make: *** [Makefile:141: all] Error 2
+[14.008s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

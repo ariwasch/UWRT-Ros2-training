@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.001114] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.028112] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.030398] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.030462] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ari'), ('SSH_AGENT_PID', '1779'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ari'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.57.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1565'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2278'), ('_colcon_cd_root', '/home/ari/ros2_install'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ari/ros-tut/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ari'), ('JOURNAL_STREAM', '9:39229'), ('_', '/home/ari/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ari/.local/bin:/opt/ros/foxy/bin:/home/ari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ari-ubuntu:@/tmp/.ICE-unix/1875,unix/ari-ubuntu:/tmp/.ICE-unix/1875'), ('INVOCATION_ID', 'a54a8137c156409099044ea216cf5cb2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ea8ec978e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BREAKPAD_DUMP_LOCATION', '/home/ari/.config/Code/exthost Crash Reports'), ('COLCON', '1')]), 'shell': False}
+[0.102915] (-) TimerEvent: {}
+[0.204014] (-) TimerEvent: {}
+[0.304341] (-) TimerEvent: {}
+[0.325061] (ros_tut) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.358549] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.358680] (ros_tut) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.404439] (-) TimerEvent: {}
+[0.507754] (-) TimerEvent: {}
+[0.525757] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.577804] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.580254] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.607873] (-) TimerEvent: {}
+[0.708201] (-) TimerEvent: {}
+[0.770546] (ros_tut) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.808309] (-) TimerEvent: {}
+[0.834006] (ros_tut) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.839926] (ros_tut) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.913432] (-) TimerEvent: {}
+[0.958439] (ros_tut) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[1.018576] (-) TimerEvent: {}
+[1.039868] (ros_tut) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.047130] (ros_tut) StdoutLine: {'line': b'-- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)\n'}
+[1.086052] (ros_tut) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.111485] (ros_tut) StdoutLine: {'line': b'-- Found std_srvs: 2.0.4 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[1.119284] (ros_tut) StdoutLine: {'line': b'-- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[1.119368] (-) TimerEvent: {}
+[1.181195] (ros_tut) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.223653] (-) TimerEvent: {}
+[1.307994] (ros_tut) StderrLine: {'line': b"Error parsing '/home/ari/ros-tut/package.xml':\n"}
+[1.323788] (-) TimerEvent: {}
+[1.428694] (-) TimerEvent: {}
+[1.530191] (-) TimerEvent: {}
+[1.635565] (-) TimerEvent: {}
+[1.655403] (ros_tut) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.655616] (ros_tut) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[1.655658] (ros_tut) StderrLine: {'line': b'    main()\n'}
+[1.655690] (ros_tut) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[1.655722] (ros_tut) StderrLine: {'line': b'    raise e\n'}
+[1.655752] (ros_tut) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main\n'}
+[1.655815] (ros_tut) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.655882] (ros_tut) StderrLine: {'line': b'  File "/home/ari/.local/lib/python3.8/site-packages/catkin_pkg/package.py", line 771, in parse_package_string\n'}
+[1.655928] (ros_tut) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[1.655958] (ros_tut) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ari/ros-tut/package.xml':\n"}
+[1.655988] (ros_tut) StderrLine: {'line': b'Error(s):\n'}
+[1.656017] (ros_tut) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: build_depend, exec_depend\n"}
+[1.656047] (ros_tut) StderrLine: {'line': b"- The generic dependency on 'std_msgs' is redundant with: build_depend, exec_depend\n"}
+[1.669114] (ros_tut) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[1.669306] (ros_tut) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.669351] (ros_tut) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.669382] (ros_tut) StderrLine: {'line': b'  /home/ari/ros-tut/package.xml\n'}
+[1.669431] (ros_tut) StderrLine: {'line': b'  /home/ari/ros-tut/build/ros_tut/ament_cmake_core/package.cmake) returned\n'}
+[1.669579] (ros_tut) StderrLine: {'line': b'  error code 1\n'}
+[1.669636] (ros_tut) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.669679] (ros_tut) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.669729] (ros_tut) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[1.669775] (ros_tut) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[1.669835] (ros_tut) StderrLine: {'line': b'\n'}
+[1.669882] (ros_tut) StderrLine: {'line': b'\n'}
+[1.671675] (ros_tut) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.671768] (ros_tut) StdoutLine: {'line': b'See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeOutput.log".\n'}
+[1.671817] (ros_tut) StdoutLine: {'line': b'See also "/home/ari/ros-tut/build/ros_tut/CMakeFiles/CMakeError.log".\n'}
+[1.679649] (ros_tut) StderrLine: {'line': b'make: *** [Makefile:1509: cmake_check_build_system] Error 1\n'}
+[1.681887] (ros_tut) CommandEnded: {'returncode': 2}
+[1.682352] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 2}
+[1.692593] (-) EventReactorShutdown: {}
