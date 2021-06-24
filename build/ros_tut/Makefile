@@ -56,18 +56,6 @@ CMAKE_BINARY_DIR = /home/ari/ros-tut/build/ros_tut
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -79,6 +67,18 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -166,45 +166,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named listener
-
-# Build rule for target.
-listener: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 listener
-.PHONY : listener
-
-# fast build rule for target.
-listener/fast:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
-.PHONY : listener/fast
-
-#=============================================================================
-# Target rules for targets named my_node
-
-# Build rule for target.
-my_node: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 my_node
-.PHONY : my_node
-
-# fast build rule for target.
-my_node/fast:
-	$(MAKE) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/build
-.PHONY : my_node/fast
-
-#=============================================================================
-# Target rules for targets named talker
-
-# Build rule for target.
-talker: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 talker
-.PHONY : talker
-
-# fast build rule for target.
-talker/fast:
-	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
-.PHONY : talker/fast
 
 #=============================================================================
 # Target rules for targets named ros_tut__rosidl_typesupport_c__pyext
@@ -361,19 +322,6 @@ ros_tut__rosidl_typesupport_cpp: cmake_check_build_system
 ros_tut__rosidl_typesupport_cpp/fast:
 	$(MAKE) -f CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/build.make CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/build
 .PHONY : ros_tut__rosidl_typesupport_cpp/fast
-
-#=============================================================================
-# Target rules for targets named clear
-
-# Build rule for target.
-clear: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clear
-.PHONY : clear
-
-# fast build rule for target.
-clear/fast:
-	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/build
-.PHONY : clear/fast
 
 #=============================================================================
 # Target rules for targets named ros_tut__rosidl_typesupport_introspection_c
@@ -1176,7 +1124,6 @@ src/clear_turtles.o: src/clear_turtles.cpp.o
 # target to build an object file
 src/clear_turtles.cpp.o:
 	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o
-	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.o
 .PHONY : src/clear_turtles.cpp.o
 
 src/clear_turtles.i: src/clear_turtles.cpp.i
@@ -1186,7 +1133,6 @@ src/clear_turtles.i: src/clear_turtles.cpp.i
 # target to preprocess a source file
 src/clear_turtles.cpp.i:
 	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.i
-	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.i
 .PHONY : src/clear_turtles.cpp.i
 
 src/clear_turtles.s: src/clear_turtles.cpp.s
@@ -1196,89 +1142,7 @@ src/clear_turtles.s: src/clear_turtles.cpp.s
 # target to generate assembly for a file
 src/clear_turtles.cpp.s:
 	$(MAKE) -f CMakeFiles/kill_turtles.dir/build.make CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.s
-	$(MAKE) -f CMakeFiles/clear.dir/build.make CMakeFiles/clear.dir/src/clear_turtles.cpp.s
 .PHONY : src/clear_turtles.cpp.s
-
-src/my_node.o: src/my_node.cpp.o
-
-.PHONY : src/my_node.o
-
-# target to build an object file
-src/my_node.cpp.o:
-	$(MAKE) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.o
-.PHONY : src/my_node.cpp.o
-
-src/my_node.i: src/my_node.cpp.i
-
-.PHONY : src/my_node.i
-
-# target to preprocess a source file
-src/my_node.cpp.i:
-	$(MAKE) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.i
-.PHONY : src/my_node.cpp.i
-
-src/my_node.s: src/my_node.cpp.s
-
-.PHONY : src/my_node.s
-
-# target to generate assembly for a file
-src/my_node.cpp.s:
-	$(MAKE) -f CMakeFiles/my_node.dir/build.make CMakeFiles/my_node.dir/src/my_node.cpp.s
-.PHONY : src/my_node.cpp.s
-
-src/my_publisher.o: src/my_publisher.cpp.o
-
-.PHONY : src/my_publisher.o
-
-# target to build an object file
-src/my_publisher.cpp.o:
-	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_publisher.cpp.o
-.PHONY : src/my_publisher.cpp.o
-
-src/my_publisher.i: src/my_publisher.cpp.i
-
-.PHONY : src/my_publisher.i
-
-# target to preprocess a source file
-src/my_publisher.cpp.i:
-	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_publisher.cpp.i
-.PHONY : src/my_publisher.cpp.i
-
-src/my_publisher.s: src/my_publisher.cpp.s
-
-.PHONY : src/my_publisher.s
-
-# target to generate assembly for a file
-src/my_publisher.cpp.s:
-	$(MAKE) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/my_publisher.cpp.s
-.PHONY : src/my_publisher.cpp.s
-
-src/my_subscriber.o: src/my_subscriber.cpp.o
-
-.PHONY : src/my_subscriber.o
-
-# target to build an object file
-src/my_subscriber.cpp.o:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.o
-.PHONY : src/my_subscriber.cpp.o
-
-src/my_subscriber.i: src/my_subscriber.cpp.i
-
-.PHONY : src/my_subscriber.i
-
-# target to preprocess a source file
-src/my_subscriber.cpp.i:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.i
-.PHONY : src/my_subscriber.cpp.i
-
-src/my_subscriber.s: src/my_subscriber.cpp.s
-
-.PHONY : src/my_subscriber.s
-
-# target to generate assembly for a file
-src/my_subscriber.cpp.s:
-	$(MAKE) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/my_subscriber.cpp.s
-.PHONY : src/my_subscriber.cpp.s
 
 # Help Target
 help:
@@ -1286,11 +1150,8 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
 	@echo "... install/strip"
-	@echo "... listener"
-	@echo "... my_node"
-	@echo "... talker"
+	@echo "... install"
 	@echo "... ros_tut__rosidl_typesupport_c__pyext"
 	@echo "... ros_tut__rosidl_typesupport_fastrtps_c__pyext"
 	@echo "... ros_tut_uninstall"
@@ -1306,7 +1167,6 @@ help:
 	@echo "... ros_tut__rosidl_typesupport_c"
 	@echo "... ros_tut__rosidl_typesupport_introspection_c__pyext"
 	@echo "... ros_tut__rosidl_typesupport_cpp"
-	@echo "... clear"
 	@echo "... ros_tut__rosidl_typesupport_introspection_c"
 	@echo "... ros_tut__cpp"
 	@echo "... rebuild_cache"
@@ -1398,15 +1258,6 @@ help:
 	@echo "... src/clear_turtles.o"
 	@echo "... src/clear_turtles.i"
 	@echo "... src/clear_turtles.s"
-	@echo "... src/my_node.o"
-	@echo "... src/my_node.i"
-	@echo "... src/my_node.s"
-	@echo "... src/my_publisher.o"
-	@echo "... src/my_publisher.i"
-	@echo "... src/my_publisher.s"
-	@echo "... src/my_subscriber.o"
-	@echo "... src/my_subscriber.i"
-	@echo "... src/my_subscriber.s"
 .PHONY : help
 
 

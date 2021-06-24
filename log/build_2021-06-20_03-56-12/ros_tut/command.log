@@ -1,2 +1,0 @@
-Invoking command in '/home/ari/ros-tut/build/ros_tut': /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
-Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

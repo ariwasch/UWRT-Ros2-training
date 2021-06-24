@@ -35,11 +35,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Success.srv"
  )
 
-add_executable(talker src/my_publisher.cpp)
-ament_target_dependencies(talker rclcpp std_msgs)
-add_executable(my_node src/my_node.cpp)
-add_executable(listener src/my_subscriber.cpp)
-ament_target_dependencies(listener rclcpp std_msgs)
+# add_executable(talker src/my_publisher.cpp)
+# ament_target_dependencies(talker rclcpp std_msgs)
+# add_executable(my_node src/my_node.cpp)
+# add_executable(listener src/my_subscriber.cpp)
+# ament_target_dependencies(listener rclcpp std_msgs)
+
+
 # add_executable(server src/add_two_ints_server.cpp)
 # ament_target_dependencies(server
 # rclcpp example_interfaces)
@@ -47,13 +49,13 @@ ament_target_dependencies(listener rclcpp std_msgs)
 # ament_target_dependencies(client
 #   rclcpp example_interfaces)
 
-add_executable(clear src/clear_turtles.cpp)
-ament_target_dependencies(clear
-    rclcpp )
+# add_executable(clear src/clear_turtles.cpp)
+# ament_target_dependencies(clear
+#     rclcpp )
   
-target_include_directories(my_node PUBLIC
-  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-  $<INSTALL_INTERFACE:include>)
+# target_include_directories(my_node PUBLIC
+#   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+#   $<INSTALL_INTERFACE:include>)
 
 #add kill_turtles as a plugin
 add_library(kill_turtles SHARED 
@@ -70,13 +72,15 @@ rclcpp_components_register_nodes(kill_turtles "composition::kill_turtles")
 set(node_plugins "${node_plugins}compositon::kill_turtles;$<TARGET_FILE:kill_turtles>\n")
 
 install(TARGETS 
-  my_node
-  talker
-  listener
+  # my_node
+  # talker
+  # listener
   kill_turtles
   # server
   # client
-  DESTINATION lib/${PROJECT_NAME})
+  RUNTIME DESTINATION lib
+  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION bin)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

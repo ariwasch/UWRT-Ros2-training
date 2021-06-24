@@ -1,6 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001819] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict([('ros_tut', '/home/ari/ros-tut/install/ros_tut')])}
-[0.001956] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
-[0.098961] (-) TimerEvent: {}
-[0.145660] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 0}
-[0.145989] (-) EventReactorShutdown: {}

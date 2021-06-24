@@ -63,7 +63,9 @@ void kill_turtles::clear() {
   // using ServiceResponseFuture     = kill_turtles<turtlesim::srv::Empty>::SharedFuture;
   auto response_received_callback = [this](rclcpp::Client<turtlesim::srv::Kill>::SharedFuture response) {
     RCLCPP_INFO(this->get_logger(), "POGGERS");
+    (void)response;
   };
+  
   auto future_result = client->async_send_request(request, response_received_callback);
   }
 }
