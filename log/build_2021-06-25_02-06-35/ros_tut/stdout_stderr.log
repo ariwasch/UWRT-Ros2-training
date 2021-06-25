@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target circle[0m
+[  7%] Built target ros_tut__cpp
+[  9%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[ 13%] Built target ros_tut__rosidl_generator_c
+[ 17%] Built target kill_turtles
+[ 27%] Built target ros_tut__rosidl_typesupport_cpp
+[ 37%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[ 47%] Built target ros_tut__rosidl_typesupport_c
+[ 56%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target ros_tut__rosidl_typesupport_introspection_c
+[ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+In file included from [01m[K/home/ari/ros-tut/src/circle.cpp:1[m[K:
+[01m[K/home/ari/ros-tut/include/ros-tut/circle.hpp:14:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   14 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/circle.dir/build.make:63: CMakeFiles/circle.dir/src/circle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/circle.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[ 76%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+make: *** [Makefile:141: all] Error 2

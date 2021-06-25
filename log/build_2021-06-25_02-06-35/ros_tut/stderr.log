@@ -1,0 +1,9 @@
+In file included from [01m[K/home/ari/ros-tut/src/circle.cpp:1[m[K:
+[01m[K/home/ari/ros-tut/include/ros-tut/circle.hpp:14:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+   14 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/circle.dir/build.make:63: CMakeFiles/circle.dir/src/circle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/circle.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

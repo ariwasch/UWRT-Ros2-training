@@ -411,6 +411,9 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_xmllint
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 
+//Dependencies for the target
+circle_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;turtlesim::turtlesim__rosidl_generator_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_c;general;turtlesim::turtlesim__rosidl_typesupport_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_cpp;general;turtlesim::turtlesim__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;
+
 //The directory containing a CMake configuration file for class_loader.
 class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
 

@@ -71,11 +71,26 @@ rclcpp_components_register_nodes(kill_turtles "composition::kill_turtles")
 # this way we can execute the component with - ros2 component standalone software_training composition::turtle_service_request_node
 set(node_plugins "${node_plugins}compositon::kill_turtles;$<TARGET_FILE:kill_turtles>\n")
 
+add_library(circle SHARED 
+	src/circle.cpp)
+target_compile_definitions(circle
+	PRIVATE "COMPOSITION_BUILDING_DLL")
+ament_target_dependencies(circle
+	"rclcpp"
+	"rclcpp_components"
+	"turtlesim"
+  "geometry_msgs")
+rclcpp_components_register_nodes(circle "composition::circle")
+# this way we can execute the component with - ros2 component standalone software_training composition::turtle_service_request_node
+set(node_plugins "${node_plugins}compositon::circle;$<TARGET_FILE:circle>\n")
+
+
 install(TARGETS 
   # my_node
   # talker
   # listener
   kill_turtles
+  circle
   # server
   # client
   RUNTIME DESTINATION lib

@@ -1,0 +1,95 @@
+[0.016s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ari/ros-tut -DCMAKE_INSTALL_PREFIX=/home/ari/ros-tut/install/ros_tut
+[0.217s] -- The C compiler identification is GNU 9.3.0
+[0.307s] -- The CXX compiler identification is GNU 9.3.0
+[0.311s] -- Check for working C compiler: /usr/bin/cc
+[0.367s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.369s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.427s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.481s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.542s] -- Detecting CXX compile features
+[0.543s] -- Detecting CXX compile features - done
+[0.547s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.562s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.562s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.681s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.725s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.831s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.860s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.966s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.967s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.968s] -- Looking for pthread.h
+[1.015s] -- Looking for pthread.h - found
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.056s] -- Looking for pthread_create in pthreads
+[1.094s] -- Looking for pthread_create in pthreads - not found
+[1.094s] -- Looking for pthread_create in pthread
+[1.138s] -- Looking for pthread_create in pthread - found
+[1.139s] -- Found Threads: TRUE  
+[1.252s] -- Found turtlesim: 1.2.5 (/opt/ros/foxy/share/turtlesim/cmake)
+[1.329s] -- Found rclcpp_components: 2.3.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.373s] -- Found rclcpp_action: 2.3.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.398s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.423s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.443s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.520s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.645s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.664s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") 
+[1.664s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.664s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.664s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[1.678s] -- Found PythonExtra: .so  
+[1.708s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.727s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.819s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.820s] -- Configured cppcheck include dirs: /home/ari/ros-tut/include;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_c>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_c;/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c;/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp>;/home/ari/ros-tut/build/ros_tut/rosidl_generator_py
+[1.820s] -- Configured cppcheck exclude dirs and/or files: 
+[1.900s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.900s] -- Configured cpplint exclude dirs and/or files: 
+[1.910s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.929s] -- Added test 'lint_cmake' to check CMake code style
+[1.939s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.005s] -- Added test 'uncrustify' to check C / C++ code style
+[2.005s] -- Configured uncrustify additional arguments: 
+[2.015s] -- Added test 'xmllint' to check XML markup files
+[2.020s] -- Configuring done
+[2.056s] -- Generating done
+[2.060s] -- Build files have been written to: /home/ari/ros-tut/build/ros_tut
+[2.067s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ari/ros-tut -DCMAKE_INSTALL_PREFIX=/home/ari/ros-tut/install/ros_tut
+[2.068s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[2.095s] [35m[1mScanning dependencies of target circle[0m
+[2.095s] [35m[1mScanning dependencies of target ros_tut__cpp[0m
+[2.103s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.103s] [  3%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[2.109s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.109s] [35m[1mScanning dependencies of target kill_turtles[0m
+[2.159s] [  7%] [32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o[0m
+[2.168s] In file included from [01m[K/home/ari/ros-tut/src/circle.cpp:1[m[K:
+[2.168s] [01m[K/home/ari/ros-tut/include/ros-tut/circle.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.168s]    11 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[2.168s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.169s] compilation terminated.
+[2.176s] make[2]: *** [CMakeFiles/circle.dir/build.make:63: CMakeFiles/circle.dir/src/circle.cpp.o] Error 1
+[2.176s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/circle.dir/all] Error 2
+[2.176s] make[1]: *** Waiting for unfinished jobs....
+[2.403s] [  7%] Built target ros_tut__cpp
+[2.416s] [35m[1mScanning dependencies of target ros_tut__rosidl_generator_c[0m
+[2.425s] [  9%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c.o[0m
+[2.425s] [ 11%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/num__functions.c.o[0m
+[2.427s] [ 13%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/success__functions.c.o[0m
+[2.480s] [ 15%] [32m[1mLinking C shared library libros_tut__rosidl_generator_c.so[0m
+[2.502s] [ 15%] Built target ros_tut__rosidl_generator_c
+[4.108s] [ 17%] [32m[1mLinking CXX shared library libkill_turtles.so[0m
+[4.244s] [ 17%] Built target kill_turtles
+[4.246s] make: *** [Makefile:141: all] Error 2
+[4.249s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8

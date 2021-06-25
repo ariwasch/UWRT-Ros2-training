@@ -83,6 +83,7 @@
 /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Request.msg
 /home/ari/ros-tut/install/ros_tut/share/ros_tut/srv/Success_Response.msg
 /home/ari/ros-tut/install/ros_tut/lib/libkill_turtles.so
+/home/ari/ros-tut/install/ros_tut/lib/libcircle.so
 /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/package_run_dependencies/ros_tut
 /home/ari/ros-tut/install/ros_tut/share/ament_index/resource_index/parent_prefix_path/ros_tut
 /home/ari/ros-tut/install/ros_tut/share/ros_tut/environment/ament_prefix_path.sh
