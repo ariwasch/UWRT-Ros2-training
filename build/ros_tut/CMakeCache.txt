@@ -585,6 +585,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/foxy/share/rosidl_typesuppo
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/cmake
 
+//Dependencies for the target
+spawn_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;turtlesim::turtlesim__rosidl_generator_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_c;general;turtlesim::turtlesim__rosidl_typesupport_c;general;turtlesim::turtlesim__rosidl_typesupport_introspection_cpp;general;turtlesim::turtlesim__rosidl_typesupport_cpp;general;std_msgs::std_msgs__rosidl_generator_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_c;general;std_msgs::std_msgs__rosidl_typesupport_c;general;std_msgs::std_msgs__rosidl_typesupport_introspection_cpp;general;std_msgs::std_msgs__rosidl_typesupport_cpp;
+
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
 

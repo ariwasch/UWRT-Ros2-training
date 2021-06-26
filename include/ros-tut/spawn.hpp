@@ -1,8 +1,10 @@
+#ifndef SPAWN_TURTLE_NODELET_HPP_
+#define SPAWN_TURTLE_NODELET_HPP_
 
-#include <cstdlib>
-#include <map>
+// #include <cstdlib>
+// #include <map>
 #include <memory>
-#include <string>
+// #include <string>
 #include <vector>
 #include <rclcpp/rclcpp.hpp>
 #include <turtlesim/srv/spawn.hpp>
@@ -17,8 +19,6 @@ public:
 private:
   rclcpp::Client<turtlesim::srv::Spawn>::SharedPtr client;
   rclcpp::TimerBase::SharedPtr timer;
-
-  void spawn_2_turtles();
 
   int NUMBER_OF_TURTLES = 2;
 
@@ -40,3 +40,4 @@ private:
 };
 
 } 
+#endif

@@ -1,6 +1,9 @@
 #include <memory>
 #include <ros-tut/spawn.hpp>
 #include <vector>
+#include <cstdlib>
+#include <string>
+#include <rclcpp/rclcpp.hpp>
 
 using namespace std::chrono_literals;
 
@@ -20,16 +23,16 @@ namespace composition {
         return;
         }
     
-    for (const std::string &name : turtle_info) {
+    for (const turtle_info &turt_info : turtle_descriptions) { //whats the point in the & and const here?
 
     // create request
     std::unique_ptr<turtlesim::srv::Spawn::Request> request =
         std::make_unique<turtlesim::srv::Spawn::Request>();
 
     // fill in repsonse
-    request->name = name;
-    request->x = turtle_description[name].x;
-    request->y = turtle_description[name].y;
+    request->name = turt_info.name;
+    request->x = turt_info.x;
+    request->y = turt_info.y;
 
     // create a callback to call client and because no 'spin()' is available
     auto callback =
@@ -48,6 +51,6 @@ namespace composition {
 
 }
 
-#include <rclcpp_components/register_node_macro.hpp>
-
+#include "rclcpp_components/register_node_macro.hpp"
 RCLCPP_COMPONENTS_REGISTER_NODE(composition::spawn)
+

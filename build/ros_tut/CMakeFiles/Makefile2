@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = /home/ari/ros-tut/build/ros_tut
 # The main recursive "all" target.
 all: CMakeFiles/circle.dir/all
 all: CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/all
+all: CMakeFiles/spawn.dir/all
 all: CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/all
 all: CMakeFiles/ros_tut.dir/all
 all: CMakeFiles/ros_tut__python.dir/all
@@ -79,6 +80,7 @@ preinstall: ros_tut__py/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/circle.dir/clean
 clean: CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/clean
+clean: CMakeFiles/spawn.dir/clean
 clean: CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 clean: CMakeFiles/ros_tut_uninstall.dir/clean
 clean: CMakeFiles/ros_tut.dir/clean
@@ -173,6 +175,33 @@ ros_tut__rosidl_typesupport_c__pyext: CMakeFiles/ros_tut__rosidl_typesupport_c__
 CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/clean:
 	$(MAKE) -f CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/clean
 .PHONY : CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/spawn.dir
+
+# All Build rule for target.
+CMakeFiles/spawn.dir/all:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/depend
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=52,53 "Built target spawn"
+.PHONY : CMakeFiles/spawn.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/spawn.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ari/ros-tut/build/ros_tut/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/spawn.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ari/ros-tut/build/ros_tut/CMakeFiles 0
+.PHONY : CMakeFiles/spawn.dir/rule
+
+# Convenience name for target.
+spawn: CMakeFiles/spawn.dir/rule
+
+.PHONY : spawn
+
+# clean rule for target.
+CMakeFiles/spawn.dir/clean:
+	$(MAKE) -f CMakeFiles/spawn.dir/build.make CMakeFiles/spawn.dir/clean
+.PHONY : CMakeFiles/spawn.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir

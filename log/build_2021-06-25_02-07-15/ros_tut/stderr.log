@@ -1,3 +1,0 @@
-[01m[K/home/ari/ros-tut/src/circle.cpp:22:53:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
-   22 | RCLCPP_COMPONENTS_REGISTER_NODE(composition::circle)[01;35m[K;[m[K
-      |                                                     [01;35m[K^[m[K
