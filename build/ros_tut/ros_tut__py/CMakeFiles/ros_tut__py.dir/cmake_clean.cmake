@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/ros_tut/msg/__init__.py"
+  "../rosidl_generator_py/ros_tut/msg/_distance.py"
+  "../rosidl_generator_py/ros_tut/msg/_distance_s.c"
   "../rosidl_generator_py/ros_tut/msg/_num.py"
   "../rosidl_generator_py/ros_tut/msg/_num_s.c"
   "../rosidl_generator_py/ros_tut/srv/__init__.py"

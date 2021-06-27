@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/distance__type_support.cpp
+cstddef
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/cstddef
+rosidl_runtime_c/message_type_support_struct.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_runtime_c/message_type_support_struct.h
+ros_tut/msg/rosidl_typesupport_c__visibility_control.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/ros_tut/msg/rosidl_typesupport_c__visibility_control.h
+ros_tut/msg/detail/distance__struct.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/ros_tut/msg/detail/distance__struct.h
+rosidl_typesupport_c/identifier.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c/identifier.h
+rosidl_typesupport_c/message_type_support_dispatch.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c/message_type_support_dispatch.h
+rosidl_typesupport_c/type_support_map.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c/type_support_map.h
+rosidl_typesupport_c/visibility_control.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_c/visibility_control.h
+rosidl_typesupport_interface/macros.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/rosidl_typesupport_interface/macros.h
+
 /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp
 cstddef
 /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_c/ros_tut/msg/cstddef
@@ -111,6 +131,14 @@ cstddef
 /opt/ros/foxy/include/rosidl_typesupport_c/visibility_control.h
 
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/ros_tut/msg/detail/num__struct.h
 stdbool.h

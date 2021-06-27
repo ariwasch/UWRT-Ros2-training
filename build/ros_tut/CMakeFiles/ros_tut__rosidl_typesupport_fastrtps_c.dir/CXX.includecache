@@ -6,6 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/distance__type_support_c.cpp
+ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+cassert
+-
+limits
+-
+string
+-
+rosidl_typesupport_fastrtps_c/identifier.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/rosidl_typesupport_fastrtps_c/identifier.h
+rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+rosidl_typesupport_fastrtps_cpp/message_type_support.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/rosidl_typesupport_fastrtps_cpp/message_type_support.h
+ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+ros_tut/msg/detail/distance__struct.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__struct.h
+ros_tut/msg/detail/distance__functions.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__functions.h
+fastcdr/Cdr.h
+/home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/fastcdr/Cdr.h
+
 /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp
 ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
 /home/ari/ros-tut/build/ros_tut/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
@@ -502,6 +526,26 @@ rosidl_typesupport_fastrtps_cpp/message_type_support.h
 
 /opt/ros/foxy/include/rosidl_typesupport_interface/macros.h
 
+rosidl_generator_c/ros_tut/msg/detail/distance__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/rosidl_runtime_c/visibility_control.h
+ros_tut/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/rosidl_generator_c__visibility_control.h
+ros_tut/msg/detail/distance__struct.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__struct.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
 rosidl_generator_c/ros_tut/msg/detail/num__functions.h
 stdbool.h
 -
@@ -599,6 +643,16 @@ ros_tut/srv/detail/success__functions.h
 rosidl_generator_c/ros_tut/srv/ros_tut/srv/detail/success__functions.h
 ros_tut/srv/detail/success__type_support.h
 rosidl_generator_c/ros_tut/srv/ros_tut/srv/detail/success__type_support.h
+
+rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+stddef.h
+-
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/rosidl_runtime_c/message_type_support_struct.h
+rosidl_typesupport_interface/macros.h
+rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/rosidl_typesupport_interface/macros.h
+ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 
 rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
 stddef.h

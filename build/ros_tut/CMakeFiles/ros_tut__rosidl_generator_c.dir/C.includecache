@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/ari/ros-tut/build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/distance__functions.c
+ros_tut/msg/detail/distance__functions.h
+/home/ari/ros-tut/build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
 /home/ari/ros-tut/build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/num__functions.c
 ros_tut/msg/detail/num__functions.h
 /home/ari/ros-tut/build/ros_tut/rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/detail/num__functions.h
@@ -43,6 +55,26 @@ string.h
 -
 
 /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/rosidl_runtime_c/visibility_control.h
+ros_tut/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/rosidl_generator_c__visibility_control.h
+ros_tut/msg/detail/distance__struct.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__struct.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
 
 rosidl_generator_c/ros_tut/msg/detail/num__functions.h
 stdbool.h

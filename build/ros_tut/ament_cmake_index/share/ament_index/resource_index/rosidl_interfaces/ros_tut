@@ -1,3 +1,5 @@
+msg/Distance.idl
+msg/Distance.msg
 msg/Num.idl
 msg/Num.msg
 srv/AddThreeInts.idl

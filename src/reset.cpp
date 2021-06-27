@@ -1,5 +1,17 @@
-#include <chrono>
 #include <ros-tut/reset.hpp>
+#include <chrono>
+#include <cstdlib>
+#include <functional>
+#include <memory>
+#include <ros_tut/srv/success.hpp>
+
+#include <rclcpp/rclcpp.hpp>
+#include <turtlesim/srv/teleport_absolute.hpp>
+
+using namespace std::placeholders;
+using namespace std::chrono_literals;
+
+using namespace std::chrono_literals;
 
 namespace composition {
 
@@ -7,12 +19,12 @@ reset::reset(const rclcpp::NodeOptions &options) : Node("reset", options) {
   client = create_client<turtlesim::srv::TeleportAbsolute>("/moving_turtle/teleport_absolute");
 
   // create service
-  service = create_service<ros - tut::srv::Success>(
-      "/reset", std::bind(&reset::service_callback, this, _1, _2));  // what does this do????
+  service = create_service<ros_tut::srv::Success>(
+      "/reset", std::bind(&reset::reset_service, this, _1, _2));  // what does this do????
 }
 
-void reset::service_callback(const std::shared_ptr<ros - tut::srv::Success::Request> request,
-                             std::shared_ptr<ros - tut::srv::Success::Response> response) {
+void reset::reset_service(const std::shared_ptr<ros_tut::srv::Success::Request> request,
+                             std::shared_ptr<ros_tut::srv::Success::Response> response) {
   (void)request;  // request is not needed
 
   RCLCPP_INFO(this->get_logger(), "Starting ...");
@@ -21,11 +33,11 @@ void reset::service_callback(const std::shared_ptr<ros - tut::srv::Success::Requ
   if (!client->wait_for_service(1s)) {
     if (!rclcpp::ok()) {
       RCLCPP_ERROR(this->get_logger(), "System Aborted");
-      response.success = false;
+      response.result = false;
       return;
     }
     RCLCPP_INFO(this->get_logger(), "Service is not available! Exit!");
-    response.success = false;
+    response.result = false;
     return;
   }
 
@@ -47,7 +59,7 @@ void reset::service_callback(const std::shared_ptr<ros - tut::srv::Success::Requ
 
   RCLCPP_INFO(this->get_logger(), "I LIKE TURTLES!!!!!!");
 
-  response.success = true;
+  response.result = true;
 }
 
 }  // namespace composition

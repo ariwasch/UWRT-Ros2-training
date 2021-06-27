@@ -95,6 +95,9 @@ CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py
  /usr/include/python3.8/unicodeobject.h
  /usr/include/python3.8/warnings.h
  /usr/include/python3.8/weakrefobject.h
+ rosidl_generator_c/ros_tut/msg/detail/distance__functions.h
+ rosidl_generator_c/ros_tut/msg/detail/distance__struct.h
+ rosidl_generator_c/ros_tut/msg/detail/distance__type_support.h
  rosidl_generator_c/ros_tut/msg/detail/num__functions.h
  rosidl_generator_c/ros_tut/msg/detail/num__struct.h
  rosidl_generator_c/ros_tut/msg/detail/num__type_support.h

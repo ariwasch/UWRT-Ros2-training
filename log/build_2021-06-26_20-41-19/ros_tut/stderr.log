@@ -1,0 +1,31 @@
+CMake Warning (dev) at CMakeLists.txt:115:
+  Syntax Warning in cmake code at column 75
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[01m[K/home/ari/ros-tut/src/reset.cpp:[m[K In member function ‘[01m[Kvoid composition::reset::reset_service(std::shared_ptr<ros_tut::srv::Success_Request_<std::allocator<void> > >, std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ari/ros-tut/src/reset.cpp:36:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kresult[m[K’; did you mean ‘[01m[Kreset[m[K’?
+   36 |       response.[01;31m[Kresult[m[K = false;
+      |                [01;31m[K^~~~~~[m[K
+      |                [32m[Kreset[m[K
+[01m[K/home/ari/ros-tut/src/reset.cpp:40:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kresult[m[K’; did you mean ‘[01m[Kreset[m[K’?
+   40 |     response.[01;31m[Kresult[m[K = false;
+      |              [01;31m[K^~~~~~[m[K
+      |              [32m[Kreset[m[K
+[01m[K/home/ari/ros-tut/src/reset.cpp:47:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kx[m[K’
+   47 |   client_request.[01;31m[Kx[m[K     = 0;
+      |                  [01;31m[K^[m[K
+[01m[K/home/ari/ros-tut/src/reset.cpp:48:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ky[m[K’
+   48 |   client_request.[01;31m[Ky[m[K     = 0;
+      |                  [01;31m[K^[m[K
+[01m[K/home/ari/ros-tut/src/reset.cpp:49:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<turtlesim::srv::TeleportAbsolute_Request_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Ktheta[m[K’
+   49 |   client_request.[01;31m[Ktheta[m[K = 0;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/ari/ros-tut/src/reset.cpp:62:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kresult[m[K’; did you mean ‘[01m[Kreset[m[K’?
+   62 |   response.[01;31m[Kresult[m[K = true;
+      |            [01;31m[K^~~~~~[m[K
+      |            [32m[Kreset[m[K
+make[2]: *** [CMakeFiles/reset.dir/build.make:63: CMakeFiles/reset.dir/src/reset.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:275: CMakeFiles/reset.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

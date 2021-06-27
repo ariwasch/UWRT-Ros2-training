@@ -33,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "srv/AddThreeInts.srv"
   "srv/Success.srv"
+  "msg/Distance.msg"
+  DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
  )
 
 # add_executable(talker src/my_publisher.cpp)
@@ -96,6 +98,35 @@ ament_target_dependencies(spawn
 rclcpp_components_register_nodes(spawn "composition::spawn")
 # this way we can execute the component with - ros2 component standalone software_training composition::turtle_service_request_node
 set(node_plugins "${node_plugins}compositon::spawn;$<TARGET_FILE:spawn>\n")
+
+add_library(reset SHARED
+	src/reset.cpp)
+target_compile_definitions(reset
+	PRIVATE "COMPOSITION_BUILDING_DLL"
+	)
+ament_target_dependencies(reset
+	"rclcpp"
+	"rclcpp_components"
+	"turtlesim"
+	"turtlesim"
+	"std_msgs")
+rosidl_target_interfaces(reset ${PROJECT_NAME} "rosidl_typesupport_cpp") # need for custom srv
+rclcpp_components_register_nodes(reset "composition::reset")
+set(node_plugins "${node_plugins}composition::reset;$<TARGET_FILE:reset\n">)
+
+# add_library(publisher SHARED
+# 	src/publisher.cpp)
+# target_compile_definitions(publisher
+# 	PRIVATE "COMPOSITION_BUILDING_DLL"
+# 	)
+# ament_target_dependencies(publisher
+# 	"rclcpp"
+# 	"rclcpp_components"
+# 	"turtlesim"
+# 	"std_msgs")
+# rosidl_target_interfaces(publisher ${PROJECT_NAME} "rosidl_typesupport_cpp") # need this for custom messages - idk why tho
+# rclcpp_components_register_nodes(publisher "composition::publisher")
+# set(node_plugins "${node_plugins}composition::publisher;$<TARGET_FILE:turtle_pub\n>")
 
 
 install(TARGETS 

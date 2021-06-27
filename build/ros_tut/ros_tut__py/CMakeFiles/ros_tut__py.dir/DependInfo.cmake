@@ -8,6 +8,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/__init__.py" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_distance.py" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_distance_s.c" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_num.py" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_num_s.c" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/srv/__init__.py" "/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c"

@@ -96,11 +96,25 @@ CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.s: c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/srv/_success_s.c -o CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.s
 
+CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o: CMakeFiles/ros_tut__python.dir/flags.make
+CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o: rosidl_generator_py/ros_tut/msg/_distance_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o   -c /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_distance_s.c
+
+CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_distance_s.c > CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.i
+
+CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/msg/_distance_s.c -o CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.s
+
 # Object files for target ros_tut__python
 ros_tut__python_OBJECTS = \
 "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o" \
 "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o" \
-"CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o"
+"CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o" \
+"CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o"
 
 # External object files for target ros_tut__python
 ros_tut__python_EXTERNAL_OBJECTS =
@@ -108,16 +122,38 @@ ros_tut__python_EXTERNAL_OBJECTS =
 rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o
 rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o
 rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o
+rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o
 rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/build.make
 rosidl_generator_py/ros_tut/libros_tut__python.so: libros_tut__rosidl_generator_c.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: libros_tut__rosidl_typesupport_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librcpputils.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: /opt/ros/foxy/lib/librcutils.so
 rosidl_generator_py/ros_tut/libros_tut__python.so: CMakeFiles/ros_tut__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ros_tut__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

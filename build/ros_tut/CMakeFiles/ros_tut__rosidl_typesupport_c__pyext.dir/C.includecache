@@ -27,6 +27,12 @@ ros_tut/msg/detail/num__struct.h
 /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/msg/detail/num__struct.h
 ros_tut/msg/detail/num__functions.h
 /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/msg/detail/num__functions.h
+ros_tut/msg/detail/distance__type_support.h
+/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/msg/detail/distance__type_support.h
+ros_tut/msg/detail/distance__struct.h
+/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/msg/detail/distance__struct.h
+ros_tut/msg/detail/distance__functions.h
+/home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/msg/detail/distance__functions.h
 ros_tut/srv/detail/add_three_ints__type_support.h
 /home/ari/ros-tut/build/ros_tut/rosidl_generator_py/ros_tut/ros_tut/srv/detail/add_three_ints__type_support.h
 ros_tut/srv/detail/add_three_ints__struct.h
@@ -567,6 +573,34 @@ cpython/unicodeobject.h
 /usr/include/python3.8/warnings.h
 
 /usr/include/python3.8/weakrefobject.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/rosidl_runtime_c/visibility_control.h
+ros_tut/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/rosidl_generator_c__visibility_control.h
+ros_tut/msg/detail/distance__struct.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/detail/distance__struct.h
+
+rosidl_generator_c/ros_tut/msg/detail/distance__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/ros_tut/msg/detail/distance__type_support.h
+rosidl_typesupport_interface/macros.h
+rosidl_generator_c/ros_tut/msg/detail/rosidl_typesupport_interface/macros.h
+ros_tut/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/ros_tut/msg/detail/ros_tut/msg/rosidl_generator_c__visibility_control.h
+rosidl_runtime_c/message_type_support_struct.h
+rosidl_generator_c/ros_tut/msg/detail/rosidl_runtime_c/message_type_support_struct.h
 
 rosidl_generator_c/ros_tut/msg/detail/num__functions.h
 stdbool.h

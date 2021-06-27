@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o"
   "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o"
   "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o"
   "CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o"

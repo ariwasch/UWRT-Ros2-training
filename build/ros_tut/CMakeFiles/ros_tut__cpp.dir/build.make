@@ -65,6 +65,10 @@ CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/success.hpp
 CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp
 CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp
 CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp
+CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/distance.hpp
+CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__builder.hpp
+CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__struct.hpp
+CMakeFiles/ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__traits.hpp
 
 
 rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -85,6 +89,68 @@ rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/rosidl_generator_c
 rosidl_generator_cpp/ros_tut/msg/num.hpp: rosidl_adapter/ros_tut/msg/Num.idl
 rosidl_generator_cpp/ros_tut/msg/num.hpp: rosidl_adapter/ros_tut/srv/AddThreeInts.idl
 rosidl_generator_cpp/ros_tut/msg/num.hpp: rosidl_adapter/ros_tut/srv/Success.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: rosidl_adapter/ros_tut/msg/Distance.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Bool.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Byte.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Char.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Empty.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Header.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/String.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Point.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_cpp/ros_tut/msg/num.hpp: /opt/ros/foxy/share/geometry_msgs/msg/WrenchStamped.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ari/ros-tut/build/ros_tut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ari/ros-tut/build/ros_tut/rosidl_generator_cpp__arguments.json
 
@@ -121,6 +187,18 @@ rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp: rosidl_generator_cp
 rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp
 
+rosidl_generator_cpp/ros_tut/msg/distance.hpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_tut/msg/distance.hpp
+
+rosidl_generator_cpp/ros_tut/msg/detail/distance__builder.hpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_tut/msg/detail/distance__builder.hpp
+
+rosidl_generator_cpp/ros_tut/msg/detail/distance__struct.hpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_tut/msg/detail/distance__struct.hpp
+
+rosidl_generator_cpp/ros_tut/msg/detail/distance__traits.hpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/ros_tut/msg/detail/distance__traits.hpp
+
 ros_tut__cpp: CMakeFiles/ros_tut__cpp
 ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/num.hpp
 ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/num__builder.hpp
@@ -134,6 +212,10 @@ ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/success.hpp
 ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__builder.hpp
 ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__struct.hpp
 ros_tut__cpp: rosidl_generator_cpp/ros_tut/srv/detail/success__traits.hpp
+ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/distance.hpp
+ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__builder.hpp
+ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__struct.hpp
+ros_tut__cpp: rosidl_generator_cpp/ros_tut/msg/detail/distance__traits.hpp
 ros_tut__cpp: CMakeFiles/ros_tut__cpp.dir/build.make
 
 .PHONY : ros_tut__cpp
