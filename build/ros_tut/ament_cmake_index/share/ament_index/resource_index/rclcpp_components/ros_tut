@@ -1,4 +1,0 @@
-composition::kill_turtles;lib/libkill_turtles.so
-composition::circle;lib/libcircle.so
-composition::spawn;lib/libspawn.so
-composition::reset;lib/libreset.so

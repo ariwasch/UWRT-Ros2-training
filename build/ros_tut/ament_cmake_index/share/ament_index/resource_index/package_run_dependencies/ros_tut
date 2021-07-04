@@ -1,1 +1,0 @@
-rclcpp;rclcpp_components;launch_ros;rcutils;turtlesim;geometry_msgs;rosidl_default_runtime;rclcpp_action;ament_lint_auto;ament_lint_common
