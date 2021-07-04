@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 05664aa6e107e36f75dce4fb5fb5254275dd8908 ariwasch <ariwasch@gmail.com> 1623549852 +0000	commit (initial): software training
+05664aa6e107e36f75dce4fb5fb5254275dd8908 05664aa6e107e36f75dce4fb5fb5254275dd8908 ariwasch <ariwasch@gmail.com> 1623550112 +0000	checkout: moving from master to master
+05664aa6e107e36f75dce4fb5fb5254275dd8908 3dbcb1491b0fe6d99518781f225cc9a3860b440d ariwasch <ariwasch@gmail.com> 1623552782 +0000	commit: part way through clear turtles
+3dbcb1491b0fe6d99518781f225cc9a3860b440d 563e8701cc82f0cbc99b922be8071a0205ad748d ariwasch <ariwasch@gmail.com> 1623559328 +0000	commit: still broken
+563e8701cc82f0cbc99b922be8071a0205ad748d f37933b2a68006f1ea5ce38068db0178ead7ecba ariwasch <ariwasch@gmail.com> 1624162805 +0000	commit: idk what I'm doing, plz help
+f37933b2a68006f1ea5ce38068db0178ead7ecba 82cd2b14f31a7d43ef0dded46fb024a9140970c1 ariwasch <ariwasch@gmail.com> 1624577190 +0000	commit: clear works
+82cd2b14f31a7d43ef0dded46fb024a9140970c1 14b4e941ceb77b16c0d07b3701bae1888b8c46f7 ariwasch <ariwasch@gmail.com> 1624587125 +0000	commit: circle worksgit add -Agit add -A
+14b4e941ceb77b16c0d07b3701bae1888b8c46f7 9bd2965e986c3b00c32109f4a09752de4c80fd98 ariwasch <ariwasch@gmail.com> 1624591984 +0000	commit: almost done adding spawn
+9bd2965e986c3b00c32109f4a09752de4c80fd98 90f651716b93367207e463990adf5e38b15f59a8 ariwasch <ariwasch@gmail.com> 1624673862 +0000	commit: working spawn
+90f651716b93367207e463990adf5e38b15f59a8 d220c1c17ccf8fdbfb70cedd0af4ccd0587241ef ariwasch <ariwasch@gmail.com> 1624736268 +0000	pull: Fast-forward
+d220c1c17ccf8fdbfb70cedd0af4ccd0587241ef 01606ab1ae44b2734d811beebef943912b065dcf ariwasch <ariwasch@gmail.com> 1624763567 +0000	commit: backup

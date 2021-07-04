@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "UWRT-Ros2-training"]
+	url = https://github.com/ariwasch/UWRT-Ros2-training.git
+	fetch = +refs/heads/*:refs/remotes/UWRT-Ros2-training/*
+[branch "master"]
+	remote = UWRT-Ros2-training
+	merge = refs/heads/master
