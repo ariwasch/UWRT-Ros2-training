@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000830] (ros_tut) JobQueued: {'identifier': 'ros_tut', 'dependencies': OrderedDict()}
+[0.000852] (ros_tut) JobStarted: {'identifier': 'ros_tut'}
+[0.023114] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'cmake'}
+[0.024703] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'build'}
+[0.024736] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ari/ros-tut/build/ros_tut', '--', '-j8', '-l8'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select ros_tut'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ari'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('COLCON', '1')]), 'shell': False}
+[0.099521] (-) TimerEvent: {}
+[0.155616] (ros_tut) StdoutLine: {'line': b'[  1%] Built target ros_tut__cpp\n'}
+[0.157175] (ros_tut) StdoutLine: {'line': b'[ 11%] Built target ros_tut__rosidl_generator_c\n'}
+[0.179021] (ros_tut) StdoutLine: {'line': b'[ 14%] Built target circle\n'}
+[0.182874] (ros_tut) StdoutLine: {'line': b'[ 20%] Built target kill_turtles\n'}
+[0.183502] (ros_tut) StdoutLine: {'line': b'[ 20%] Built target spawn\n'}
+[0.193258] (ros_tut) StdoutLine: {'line': b'[ 36%] Built target ros_tut__rosidl_typesupport_c\n'}
+[0.193418] (ros_tut) StdoutLine: {'line': b'[ 39%] Built target ros_tut__rosidl_typesupport_cpp\n'}
+[0.195337] (ros_tut) StdoutLine: {'line': b'[ 49%] Built target ros_tut__rosidl_typesupport_introspection_cpp\n'}
+[0.197964] (ros_tut) StdoutLine: {'line': b'[ 58%] Built target ros_tut__rosidl_typesupport_introspection_c\n'}
+[0.199555] (-) TimerEvent: {}
+[0.205251] (ros_tut) StdoutLine: {'line': b'[ 68%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp\n'}
+[0.232602] (ros_tut) StdoutLine: {'line': b'[ 77%] Built target ros_tut__rosidl_typesupport_fastrtps_c\n'}
+[0.244906] (ros_tut) StdoutLine: {'line': b'[ 77%] Built target ros_tut\n'}
+[0.256728] (ros_tut) StdoutLine: {'line': b'[ 79%] Built target ros_tut__py\n'}
+[0.268376] (ros_tut) StdoutLine: {'line': b'[ 82%] Built target reset\n'}
+[0.279058] (ros_tut) StdoutLine: {'line': b'[ 90%] Built target ros_tut__python\n'}
+[0.298395] (ros_tut) StdoutLine: {'line': b'[ 96%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.298765] (ros_tut) StdoutLine: {'line': b'[ 96%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext\n'}
+[0.298808] (ros_tut) StdoutLine: {'line': b'[100%] Built target ros_tut__rosidl_typesupport_c__pyext\n'}
+[0.299855] (-) TimerEvent: {}
+[0.308093] (ros_tut) CommandEnded: {'returncode': 0}
+[0.397495] (ros_tut) JobProgress: {'identifier': 'ros_tut', 'progress': 'install'}
+[0.400388] (-) TimerEvent: {}
+[0.402605] (ros_tut) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ari/ros-tut/build/ros_tut'], 'cwd': '/home/ari/ros-tut/build/ros_tut', 'env': OrderedDict([('SUDO_GID', '1000'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('HOME', '/root'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/colcon build --packages-select ros_tut'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'ari'), ('PWD', '/home/ari/ros-tut/build/ros_tut'), ('COLCON', '1')]), 'shell': False}
+[0.410380] (ros_tut) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.414706] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ament_index/resource_index/rosidl_interfaces/ros_tut\n'}
+[0.415257] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut\n'}
+[0.415928] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg\n'}
+[0.416025] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail\n'}
+[0.416080] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.h\n'}
+[0.416258] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__functions.c\n'}
+[0.416342] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__functions.h\n'}
+[0.416559] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__struct.h\n'}
+[0.416650] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__functions.c\n'}
+[0.416914] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__struct.h\n'}
+[0.416964] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__functions.h\n'}
+[0.417008] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.h\n'}
+[0.417095] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.417139] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/num.h\n'}
+[0.417292] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/distance.h\n'}
+[0.417351] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv\n'}
+[0.417393] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail\n'}
+[0.417425] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__struct.h\n'}
+[0.417576] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__functions.c\n'}
+[0.417624] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.h\n'}
+[0.417658] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.h\n'}
+[0.417692] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__functions.h\n'}
+[0.418438] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__functions.h\n'}
+[0.418480] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__functions.c\n'}
+[0.418511] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__struct.h\n'}
+[0.418541] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/success.h\n'}
+[0.418572] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/add_three_ints.h\n'}
+[0.418602] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/library_path.sh\n'}
+[0.420878] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/library_path.dsv\n'}
+[0.423106] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_generator_c.so\n'}
+[0.424335] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_generator_c.so" to ""\n'}
+[0.424387] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut\n'}
+[0.424509] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg\n'}
+[0.424749] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.424808] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg/detail\n'}
+[0.424848] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[0.424880] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_c.h\n'}
+[0.424911] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv\n'}
+[0.424941] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv/detail\n'}
+[0.424971] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[0.425008] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h\n'}
+[0.425243] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_c.so\n'}
+[0.425549] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[0.425787] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut\n'}
+[0.425838] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg\n'}
+[0.425877] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg/detail\n'}
+[0.426133] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.426206] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.426249] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/dds_fastrtps\n'}
+[0.426289] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.426516] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv\n'}
+[0.426574] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv/detail\n'}
+[0.426605] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.426636] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.426683] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/dds_fastrtps\n'}
+[0.426732] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.427605] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[0.427656] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut\n'}
+[0.427689] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg\n'}
+[0.427840] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg/detail\n'}
+[0.427883] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.c\n'}
+[0.427936] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[0.427988] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_introspection_c.h\n'}
+[0.428040] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.c\n'}
+[0.428090] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.428170] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv\n'}
+[0.428202] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv/detail\n'}
+[0.428259] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h\n'}
+[0.428290] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.c\n'}
+[0.428320] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[0.428371] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.c\n'}
+[0.428406] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_introspection_c.so\n'}
+[0.428436] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_introspection_c.so" to ""\n'}
+[0.428466] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_c.so\n'}
+[0.429917] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_c.so" to ""\n'}
+[0.430075] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut\n'}
+[0.430266] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg\n'}
+[0.430372] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg/detail\n'}
+[0.431285] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__traits.hpp\n'}
+[0.432111] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__struct.hpp\n'}
+[0.433335] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__builder.hpp\n'}
+[0.433537] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__traits.hpp\n'}
+[0.433899] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__struct.hpp\n'}
+[0.434402] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__builder.hpp\n'}
+[0.435874] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/distance.hpp\n'}
+[0.435924] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/num.hpp\n'}
+[0.435957] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv\n'}
+[0.435989] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/add_three_ints.hpp\n'}
+[0.436019] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv/detail\n'}
+[0.436049] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__builder.hpp\n'}
+[0.436181] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__builder.hpp\n'}
+[0.436233] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__traits.hpp\n'}
+[0.436392] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__struct.hpp\n'}
+[0.436629] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__traits.hpp\n'}
+[0.436678] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__struct.hpp\n'}
+[0.436711] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/success.hpp\n'}
+[0.436742] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut\n'}
+[0.436925] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg\n'}
+[0.437013] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/msg/detail\n'}
+[0.437073] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.cpp\n'}
+[0.437198] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.437264] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.cpp\n'}
+[0.437391] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.437468] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv\n'}
+[0.437557] (ros_tut) StdoutLine: {'line': b'-- Up-to-date: /usr/local/include/ros_tut/srv/detail\n'}
+[0.437592] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.437624] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.cpp\n'}
+[0.437988] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.438038] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.cpp\n'}
+[0.438073] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_introspection_cpp.so\n'}
+[0.438785] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[0.438841] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_cpp.so\n'}
+[0.439101] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_cpp.so" to ""\n'}
+[0.439185] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/pythonpath.sh\n'}
+[0.440068] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/pythonpath.dsv\n'}
+[0.440138] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/__init__.py\n'}
+[0.458741] (ros_tut) StdoutLine: {'line': b"Compiling '/usr/local/lib/python3/dist-packages/ros_tut/__init__.py'...\n"}
+[0.461444] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg\n'}
+[0.461566] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_num_s.c\n'}
+[0.461736] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_distance_s.c\n'}
+[0.461794] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_num.py\n'}
+[0.461983] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/__init__.py\n'}
+[0.462031] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_distance.py\n'}
+[0.462176] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv\n'}
+[0.462220] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_success_s.c\n'}
+[0.462250] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_add_three_ints.py\n'}
+[0.462614] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/__init__.py\n'}
+[0.462669] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_success.py\n'}
+[0.465184] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_add_three_ints_s.c\n'}
+[0.465824] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.466351] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[0.466400] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.467071] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[0.467136] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[0.467430] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[0.467568] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libros_tut__python.so\n'}
+[0.467954] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libros_tut__python.so" to ""\n'}
+[0.468006] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/msg/Num.idl\n'}
+[0.468136] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts.idl\n'}
+[0.468329] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/Success.idl\n'}
+[0.468379] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/msg/Distance.idl\n'}
+[0.468585] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/msg/Num.msg\n'}
+[0.471109] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts.srv\n'}
+[0.471525] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts_Request.msg\n'}
+[0.472213] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts_Response.msg\n'}
+[0.472499] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/Success.srv\n'}
+[0.472790] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/Success_Request.msg\n'}
+[0.472944] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/srv/Success_Response.msg\n'}
+[0.473230] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/msg/Distance.msg\n'}
+[0.473693] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libkill_turtles.so\n'}
+[0.478511] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libkill_turtles.so" to ""\n'}
+[0.478769] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libcircle.so\n'}
+[0.480783] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libcircle.so" to ""\n'}
+[0.480999] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libspawn.so\n'}
+[0.482639] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libspawn.so" to ""\n'}
+[0.482834] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/lib/libreset.so\n'}
+[0.484785] (ros_tut) StdoutLine: {'line': b'-- Set runtime path of "/usr/local/lib/libreset.so" to ""\n'}
+[0.484985] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ament_index/resource_index/package_run_dependencies/ros_tut\n'}
+[0.485438] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ament_index/resource_index/parent_prefix_path/ros_tut\n'}
+[0.485636] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/ament_prefix_path.sh\n'}
+[0.486262] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/ament_prefix_path.dsv\n'}
+[0.486581] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/path.sh\n'}
+[0.486896] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/environment/path.dsv\n'}
+[0.487385] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/local_setup.bash\n'}
+[0.488020] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/local_setup.sh\n'}
+[0.488194] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/local_setup.zsh\n'}
+[0.488464] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/local_setup.dsv\n'}
+[0.488696] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/package.dsv\n'}
+[0.489123] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ament_index/resource_index/packages/ros_tut\n'}
+[0.491490] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake\n'}
+[0.492086] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.492453] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.492908] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.493245] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake\n'}
+[0.493830] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.494476] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake\n'}
+[0.495659] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.496168] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.499234] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake\n'}
+[0.500463] (-) TimerEvent: {}
+[0.501500] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.501813] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ament_index/resource_index/rclcpp_components/ros_tut\n'}
+[0.502298] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake-extras.cmake\n'}
+[0.502707] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.503045] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.503784] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.504234] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.504764] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.505495] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.506277] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tutConfig.cmake\n'}
+[0.506929] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/cmake/ros_tutConfig-version.cmake\n'}
+[0.507026] (ros_tut) StdoutLine: {'line': b'-- Installing: /usr/local/share/ros_tut/package.xml\n'}
+[0.510174] (ros_tut) CommandEnded: {'returncode': 0}
+[0.600664] (-) TimerEvent: {}
+[0.607990] (ros_tut) JobEnded: {'identifier': 'ros_tut', 'rc': 0}
+[0.608662] (-) EventReactorShutdown: {}

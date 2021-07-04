@@ -1,0 +1,9 @@
+{
+  "package_name": "ros_tut",
+  "non_idl_tuples": [
+    "/home/ari/ros-tut:msg/Num.msg",
+    "/home/ari/ros-tut:srv/AddThreeInts.srv",
+    "/home/ari/ros-tut:srv/Success.srv",
+    "/home/ari/ros-tut:msg/Distance.msg"
+  ]
+}

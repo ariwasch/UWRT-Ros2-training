@@ -1,0 +1,10 @@
+[01m[K/home/ari/ros-tut/src/reset.cpp:[m[K In member function ‘[01m[Kvoid composition::reset::reset_service(std::shared_ptr<ros_tut::srv::Success_Request_<std::allocator<void> > >, std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ari/ros-tut/src/reset.cpp:27:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   27 | void reset::reset_service([01;35m[Kconst std::shared_ptr<ros_tut::srv::Success::Request> request[m[K,
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+CMake Error at cmake_install.cmake:41 (file):
+  file cannot create directory:
+  /usr/local/share/ament_index/resource_index/rosidl_interfaces.  Maybe need
+  administrative privileges.
+
+

@@ -1,0 +1,106 @@
+[0.044s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[0.374s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.387s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.431s] [  4%] [32mBuilding CXX object CMakeFiles/spawn.dir/src/spawn.cpp.o[0m
+[0.433s] [  6%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[0.443s] [  7%] [32mBuilding CXX object CMakeFiles/kill_turtles.dir/src/clear_turtles.cpp.o[0m
+[1.036s] [  7%] Built target ros_tut__cpp
+[1.041s] [  9%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/num__functions.c.o[0m
+[1.042s] [ 11%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/add_three_ints__functions.c.o[0m
+[1.047s] [ 12%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/msg/detail/distance__functions.c.o[0m
+[1.049s] [ 14%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_generator_c.dir/rosidl_generator_c/ros_tut/srv/detail/success__functions.c.o[0m
+[1.059s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.891s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.910s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.928s] [ 20%] [32m[1mLinking C shared library libros_tut__rosidl_generator_c.so[0m
+[2.261s] [ 22%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/num__type_support.cpp.o[0m
+[2.295s] [ 23%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/add_three_ints__type_support.cpp.o[0m
+[2.450s] [ 23%] Built target ros_tut__rosidl_generator_c
+[2.577s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.887s] [ 26%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/num__type_support.cpp.o[0m
+[3.029s] [ 28%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.443s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c[0m
+[3.450s] [ 30%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/srv/detail/success__type_support.cpp.o[0m
+[3.453s] [ 31%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_tut/msg/detail/distance__type_support.cpp.o[0m
+[3.505s] [ 33%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/num__type_support.cpp.o[0m
+[3.526s] [ 34%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[3.700s] [ 36%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/add_three_ints__type_support.cpp.o[0m
+[3.849s] [ 38%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.977s] [ 39%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/srv/success__type_support.cpp.o[0m
+[4.349s] [ 41%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_tut/msg/distance__type_support.cpp.o[0m
+[4.394s] [ 42%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/srv/success__type_support.cpp.o[0m
+[4.446s] [ 44%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_tut/msg/distance__type_support.cpp.o[0m
+[4.485s] [ 46%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_c.so[0m
+[4.506s] [ 47%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_introspection_cpp.so[0m
+[4.696s] [ 47%] Built target ros_tut__rosidl_typesupport_c
+[4.783s] [ 47%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[4.794s] [ 49%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.008s] [ 50%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/srv/detail/dds_fastrtps/success__type_support.cpp.o[0m
+[5.377s] [ 52%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_tut/msg/detail/dds_fastrtps/distance__type_support.cpp.o[0m
+[5.574s] [ 53%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_cpp.so[0m
+[5.801s] [ 53%] Built target ros_tut__rosidl_typesupport_cpp
+[6.096s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c[0m
+[6.151s] [ 55%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/num__type_support.c.o[0m
+[6.222s] [ 57%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/add_three_ints__type_support.c.o[0m
+[6.229s] [ 58%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/srv/detail/success__type_support.c.o[0m
+[6.512s] [ 60%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_tut/msg/detail/distance__type_support.c.o[0m
+[6.609s] [ 61%] [32m[1mLinking C shared library libros_tut__rosidl_typesupport_introspection_c.so[0m
+[6.705s] [ 61%] Built target ros_tut__rosidl_typesupport_introspection_c
+[6.884s] [ 63%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.154s] [ 63%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[7.223s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.927s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c[0m
+[8.090s] [ 66%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/num__type_support_c.cpp.o[0m
+[8.090s] [ 68%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/msg/detail/distance__type_support_c.cpp.o[0m
+[8.090s] [ 69%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/success__type_support_c.cpp.o[0m
+[8.091s] [ 71%] [32mBuilding CXX object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_tut/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[11.262s] [ 73%] [32m[1mLinking CXX shared library libros_tut__rosidl_typesupport_fastrtps_c.so[0m
+[11.598s] [ 73%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[11.667s] [35m[1mScanning dependencies of target ros_tut[0m
+[11.703s] [ 73%] Built target ros_tut
+[11.739s] [35m[1mScanning dependencies of target reset[0m
+[11.758s] [35m[1mScanning dependencies of target ros_tut__py[0m
+[11.838s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.932s] [ 76%] [32mBuilding CXX object CMakeFiles/reset.dir/src/reset.cpp.o[0m
+[14.465s] [ 77%] [32m[1mLinking CXX shared library libspawn.so[0m
+[14.466s] [ 79%] [32m[1mLinking CXX shared library libkill_turtles.so[0m
+[14.577s] [ 79%] Built target ros_tut__py
+[14.597s] [35m[1mScanning dependencies of target ros_tut__python[0m
+[14.723s] [ 80%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_num_s.c.o[0m
+[14.746s] [ 82%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_add_three_ints_s.c.o[0m
+[14.766s] [ 84%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/srv/_success_s.c.o[0m
+[14.777s] [ 85%] [32mBuilding C object CMakeFiles/ros_tut__python.dir/rosidl_generator_py/ros_tut/msg/_distance_s.c.o[0m
+[14.810s] [ 85%] Built target kill_turtles
+[14.816s] [ 85%] Built target spawn
+[15.100s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/libros_tut__python.so[0m
+[15.147s] [ 87%] Built target ros_tut__python
+[15.149s] [ 88%] [32m[1mLinking CXX shared library libcircle.so[0m
+[15.164s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_fastrtps_c__pyext[0m
+[15.164s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_c__pyext[0m
+[15.166s] [35m[1mScanning dependencies of target ros_tut__rosidl_typesupport_introspection_c__pyext[0m
+[15.197s] [ 90%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_c.c.o[0m
+[15.203s] [ 92%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.219s] [ 93%] [32mBuilding C object CMakeFiles/ros_tut__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_tut/_ros_tut_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.364s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[15.387s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[15.390s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[15.404s] [ 98%] Built target circle
+[15.418s] [ 98%] Built target ros_tut__rosidl_typesupport_c__pyext
+[15.427s] [ 98%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[15.469s] [ 98%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[15.561s] [01m[K/home/ari/ros-tut/src/reset.cpp:[m[K In member function ‘[01m[Kvoid composition::reset::reset_service(std::shared_ptr<ros_tut::srv::Success_Request_<std::allocator<void> > >, std::shared_ptr<ros_tut::srv::Success_Response_<std::allocator<void> > >)[m[K’:
+[15.562s] [01m[K/home/ari/ros-tut/src/reset.cpp:27:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[15.562s]    27 | void reset::reset_service([01;35m[Kconst std::shared_ptr<ros_tut::srv::Success::Request> request[m[K,
+[15.562s]       |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[16.824s] [100%] [32m[1mLinking CXX shared library libreset.so[0m
+[16.946s] [100%] Built target reset
+[16.991s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ari/ros-tut/build/ros_tut -- -j8 -l8
+[17.215s] Invoking command in '/home/ari/ros-tut/build/ros_tut': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut
+[17.227s] -- Install configuration: ""
+[17.227s] CMake Error at cmake_install.cmake:41 (file):
+[17.227s]   file cannot create directory:
+[17.228s]   /usr/local/share/ament_index/resource_index/rosidl_interfaces.  Maybe need
+[17.229s]   administrative privileges.
+[17.229s] 
+[17.229s] 
+[17.230s] Invoked command in '/home/ari/ros-tut/build/ros_tut' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ari/ros-tut/build/ros_tut

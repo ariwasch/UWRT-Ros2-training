@@ -1,0 +1,210 @@
+[  1%] Built target ros_tut__cpp
+[ 11%] Built target ros_tut__rosidl_generator_c
+[ 14%] Built target circle
+[ 20%] Built target kill_turtles
+[ 20%] Built target spawn
+[ 36%] Built target ros_tut__rosidl_typesupport_c
+[ 39%] Built target ros_tut__rosidl_typesupport_cpp
+[ 49%] Built target ros_tut__rosidl_typesupport_introspection_cpp
+[ 58%] Built target ros_tut__rosidl_typesupport_introspection_c
+[ 68%] Built target ros_tut__rosidl_typesupport_fastrtps_cpp
+[ 77%] Built target ros_tut__rosidl_typesupport_fastrtps_c
+[ 77%] Built target ros_tut
+[ 79%] Built target ros_tut__py
+[ 82%] Built target reset
+[ 90%] Built target ros_tut__python
+[ 96%] Built target ros_tut__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target ros_tut__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros_tut__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /usr/local/share/ament_index/resource_index/rosidl_interfaces/ros_tut
+-- Installing: /usr/local/include/ros_tut
+-- Installing: /usr/local/include/ros_tut/msg
+-- Installing: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__functions.c
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__functions.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__struct.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__functions.c
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__struct.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__functions.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.h
+-- Installing: /usr/local/include/ros_tut/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /usr/local/include/ros_tut/msg/num.h
+-- Installing: /usr/local/include/ros_tut/msg/distance.h
+-- Installing: /usr/local/include/ros_tut/srv
+-- Installing: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__struct.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__functions.c
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__functions.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__functions.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__functions.c
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__struct.h
+-- Installing: /usr/local/include/ros_tut/srv/success.h
+-- Installing: /usr/local/include/ros_tut/srv/add_three_ints.h
+-- Installing: /usr/local/share/ros_tut/environment/library_path.sh
+-- Installing: /usr/local/share/ros_tut/environment/library_path.dsv
+-- Installing: /usr/local/lib/libros_tut__rosidl_generator_c.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_generator_c.so" to ""
+-- Up-to-date: /usr/local/include/ros_tut
+-- Up-to-date: /usr/local/include/ros_tut/msg
+-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /usr/local/include/ros_tut/srv
+-- Up-to-date: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_c.h
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /usr/local/include/ros_tut
+-- Up-to-date: /usr/local/include/ros_tut/msg
+-- Up-to-date: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/dds_fastrtps
+-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /usr/local/include/ros_tut/srv
+-- Up-to-date: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/dds_fastrtps
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /usr/local/include/ros_tut
+-- Up-to-date: /usr/local/include/ros_tut/msg
+-- Up-to-date: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.c
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_c.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_introspection_c.h
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.c
+-- Installing: /usr/local/include/ros_tut/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /usr/local/include/ros_tut/srv
+-- Up-to-date: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_c.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.c
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.c
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_c.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /usr/local/include/ros_tut
+-- Up-to-date: /usr/local/include/ros_tut/msg
+-- Up-to-date: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__traits.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__struct.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__builder.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__traits.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__struct.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__builder.hpp
+-- Installing: /usr/local/include/ros_tut/msg/distance.hpp
+-- Installing: /usr/local/include/ros_tut/msg/num.hpp
+-- Up-to-date: /usr/local/include/ros_tut/srv
+-- Installing: /usr/local/include/ros_tut/srv/add_three_ints.hpp
+-- Up-to-date: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__builder.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__builder.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__traits.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__struct.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__traits.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__struct.hpp
+-- Installing: /usr/local/include/ros_tut/srv/success.hpp
+-- Up-to-date: /usr/local/include/ros_tut
+-- Up-to-date: /usr/local/include/ros_tut/msg
+-- Up-to-date: /usr/local/include/ros_tut/msg/detail
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__type_support.cpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__type_support.cpp
+-- Installing: /usr/local/include/ros_tut/msg/detail/distance__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /usr/local/include/ros_tut/srv
+-- Up-to-date: /usr/local/include/ros_tut/srv/detail
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__type_support.cpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/success__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /usr/local/include/ros_tut/srv/detail/add_three_ints__type_support.cpp
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /usr/local/lib/libros_tut__rosidl_typesupport_cpp.so
+-- Set runtime path of "/usr/local/lib/libros_tut__rosidl_typesupport_cpp.so" to ""
+-- Installing: /usr/local/share/ros_tut/environment/pythonpath.sh
+-- Installing: /usr/local/share/ros_tut/environment/pythonpath.dsv
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/__init__.py
+Compiling '/usr/local/lib/python3/dist-packages/ros_tut/__init__.py'...
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_num_s.c
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_distance_s.c
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_num.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/__init__.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/msg/_distance.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_success_s.c
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_add_three_ints.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/__init__.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_success.py
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/srv/_add_three_ints_s.c
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/usr/local/lib/python3/dist-packages/ros_tut/ros_tut_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /usr/local/lib/libros_tut__python.so
+-- Set runtime path of "/usr/local/lib/libros_tut__python.so" to ""
+-- Installing: /usr/local/share/ros_tut/msg/Num.idl
+-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts.idl
+-- Installing: /usr/local/share/ros_tut/srv/Success.idl
+-- Installing: /usr/local/share/ros_tut/msg/Distance.idl
+-- Installing: /usr/local/share/ros_tut/msg/Num.msg
+-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts.srv
+-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts_Request.msg
+-- Installing: /usr/local/share/ros_tut/srv/AddThreeInts_Response.msg
+-- Installing: /usr/local/share/ros_tut/srv/Success.srv
+-- Installing: /usr/local/share/ros_tut/srv/Success_Request.msg
+-- Installing: /usr/local/share/ros_tut/srv/Success_Response.msg
+-- Installing: /usr/local/share/ros_tut/msg/Distance.msg
+-- Installing: /usr/local/lib/libkill_turtles.so
+-- Set runtime path of "/usr/local/lib/libkill_turtles.so" to ""
+-- Installing: /usr/local/lib/libcircle.so
+-- Set runtime path of "/usr/local/lib/libcircle.so" to ""
+-- Installing: /usr/local/lib/libspawn.so
+-- Set runtime path of "/usr/local/lib/libspawn.so" to ""
+-- Installing: /usr/local/lib/libreset.so
+-- Set runtime path of "/usr/local/lib/libreset.so" to ""
+-- Installing: /usr/local/share/ament_index/resource_index/package_run_dependencies/ros_tut
+-- Installing: /usr/local/share/ament_index/resource_index/parent_prefix_path/ros_tut
+-- Installing: /usr/local/share/ros_tut/environment/ament_prefix_path.sh
+-- Installing: /usr/local/share/ros_tut/environment/ament_prefix_path.dsv
+-- Installing: /usr/local/share/ros_tut/environment/path.sh
+-- Installing: /usr/local/share/ros_tut/environment/path.dsv
+-- Installing: /usr/local/share/ros_tut/local_setup.bash
+-- Installing: /usr/local/share/ros_tut/local_setup.sh
+-- Installing: /usr/local/share/ros_tut/local_setup.zsh
+-- Installing: /usr/local/share/ros_tut/local_setup.dsv
+-- Installing: /usr/local/share/ros_tut/package.dsv
+-- Installing: /usr/local/share/ament_index/resource_index/packages/ros_tut
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_generator_cppExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tut__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /usr/local/share/ament_index/resource_index/rclcpp_components/ros_tut
+-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tutConfig.cmake
+-- Installing: /usr/local/share/ros_tut/cmake/ros_tutConfig-version.cmake
+-- Installing: /usr/local/share/ros_tut/package.xml
