@@ -34,6 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "srv/Success.srv"
   "msg/Distance.msg"
+  "action/action.action"
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
  )
 
@@ -127,6 +128,21 @@ set(node_plugins "${node_plugins}composition::reset;$<TARGET_FILE:reset\n">)
 # rosidl_target_interfaces(publisher ${PROJECT_NAME} "rosidl_typesupport_cpp") # need this for custom messages - idk why tho
 # rclcpp_components_register_nodes(publisher "composition::publisher")
 # set(node_plugins "${node_plugins}composition::publisher;$<TARGET_FILE:turtle_pub\n>")
+
+add_library(action SHARED
+	src/action.cpp)
+target_compile_definitions(action
+	PRIVATE "SOFTWARE_TRAINING_DLL")
+ament_target_dependencies(action
+       "rclcpp"
+       "rclcpp_components" 
+       "turtlesim"
+       "rclcpp_action"
+       "std_msgs"
+       "geometry_msgs")
+rosidl_target_interfaces(action ${PROJECT_NAME} "rosidl_typesupport_cpp") # needed for custom action
+# with this we can exexute the component as a node - ros2 run software_training moving_action_server
+rclcpp_components_register_node(action PLUGIN "composition::action" EXECUTABLE action)
 
 
 install(TARGETS 
