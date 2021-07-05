@@ -1,6 +1,15 @@
 #include <cmath>
 #include <memory>
-#include <ros_tut/action.hpp>
+#include <ros_tut/action/software.hpp>
+#include <ros-tut/action.hpp>
+#include <rclcpp/time.hpp>                 // ros2 time header
+#include <rclcpp_action/rclcpp_action.hpp> // ros2 action header
+#include <chrono>
+#include <cstdlib>
+#include <functional>
+#include <rclcpp/rclcpp.hpp>
+#include <turtlesim/srv/teleport_absolute.hpp>
+#include <thread>
 
 using namespace std::chrono_literals;
 using namespace std::placeholders;
@@ -21,7 +30,7 @@ action::action(const rclcpp::NodeOptions &options) : Node("action", options) {
 
   this->subscriber = this->create_subscription<turtlesim::msg::Pose>("/moving_turtle/pose", QUEUE, subscriber_callback);
 
-  this->action_server = rclcpp_action::create_server<ros_tut::action::action>(
+  this->action_server = rclcpp_action::create_server<ros_tut::action::Software>(
       this, "action", std::bind(&action::handle_goal, this, _1, _2), std::bind(&action::handle_cancel, this, _1),
       std::bind(&action::handle_accepted, this, _1)
 
@@ -29,7 +38,7 @@ action::action(const rclcpp::NodeOptions &options) : Node("action", options) {
 }
 
 rclcpp_action::GoalResponse action::handle_goal(const rclcpp_action::GoalUUID &uuid,
-                                                std::shared_ptr<const ros_tut::action::action::Goal> goal) {
+                                                std::shared_ptr<const ros_tut::action::Software::Goal> goal) {
   (void)uuid;
   RCLCPP_INFO(this->get_logger(), "GOAL RECIIEIIVEIIVEID");
   RCLCPP_INFO(this->get_logger(), "linear X:%f Y:%f Z:%f", goal->linear_pos.x, goal->linear_pos.y, goal->linear_pos.z);
@@ -59,9 +68,9 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
 
   const auto goal = goal_handle->get_goal();
 
-  std::unique_ptr<ros_tut::action::action::Feedback> feedback = std::make_unique<ros_tut::action::action::Feedback>();
+  std::unique_ptr<ros_tut::action::Software::Feedback> feedback = std::make_unique<ros_tut::action::Software::Feedback>();
 
-  std::unique_ptr<ros_tut::action::action::Result> result = std::make_unique<ros_tut::action::action::Result>();
+  std::unique_ptr<ros_tut::action::Software::Result> result = std::make_unique<ros_tut::action::Software::Result>();
 
   float &curr_x     = feedback->x_pos;
   float &curr_y     = feedback->y_pos;
