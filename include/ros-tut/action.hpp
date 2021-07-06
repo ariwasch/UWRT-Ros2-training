@@ -16,9 +16,9 @@
 
 namespace composition {
 
-class turtle_action_server : public rclcpp::Node {
+class action : public rclcpp::Node {
  public:
-  explicit turtle_action_server(const rclcpp::NodeOptions &options);
+  explicit action(const rclcpp::NodeOptions &options);
 
   // nice to have to prevent lengthy repitive code
   using GoalHandleActionServer = rclcpp_action::ServerGoalHandle<ros_tut::action::Software>;

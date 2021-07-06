@@ -34,7 +34,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddThreeInts.srv"
   "srv/Success.srv"
   "msg/Distance.msg"
-  "action/Software.action"
+  "action/action.action"
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
  )
 
@@ -115,36 +115,22 @@ rosidl_target_interfaces(reset ${PROJECT_NAME} "rosidl_typesupport_cpp") # need 
 rclcpp_components_register_nodes(reset "composition::reset")
 set(node_plugins "${node_plugins}composition::reset;$<TARGET_FILE:reset\n">)
 
-add_library(publisher SHARED
-	src/publisher.cpp)
-target_compile_definitions(publisher
-	PRIVATE "COMPOSITION_BUILDING_DLL"
-	)
-ament_target_dependencies(publisher
-	"rclcpp"
-	"rclcpp_components"
-	"turtlesim"
-	"std_msgs")
-rosidl_target_interfaces(publisher ${PROJECT_NAME} "rosidl_typesupport_cpp") # need this for custom messages - idk why tho
-rclcpp_components_register_nodes(publisher "composition::publisher")
-set(node_plugins "${node_plugins}composition::publisher;$<TARGET_FILE:turtle_pub\n>")
+# add_library(publisher SHARED
+# 	src/publisher.cpp)
+# target_compile_definitions(publisher
+# 	PRIVATE "COMPOSITION_BUILDING_DLL"
+# 	)
+# ament_target_dependencies(publisher
+# 	"rclcpp"
+# 	"rclcpp_components"
+# 	"turtlesim"
+# 	"std_msgs")
+# rosidl_target_interfaces(publisher ${PROJECT_NAME} "rosidl_typesupport_cpp") # need this for custom messages - idk why tho
+# rclcpp_components_register_nodes(publisher "composition::publisher")
+# set(node_plugins "${node_plugins}composition::publisher;$<TARGET_FILE:turtle_pub\n>")
 
-# add_library(action SHARED
-# 	src/action.cpp)
-# target_compile_definitions(action
-# 	PRIVATE "COMPOSITION_BUILDING_DLL")
-# ament_target_dependencies(action
-#        "rclcpp"
-#        "rclcpp_components" 
-#        "turtlesim"
-#        "rclcpp_action"
-#        "std_msgs"
-#        "geometry_msgs")
-# rosidl_target_interfaces(action ${PROJECT_NAME} "rosidl_typesupport_cpp") # needed for custom action
-# # with this we can exexute the component as a node - ros2 run software_training moving_action_server
-# rclcpp_components_register_node(action PLUGIN "composition::action" EXECUTABLE action)
 add_library(turtle_action_server SHARED
-	src/action.cpp)
+	src/moving_turtle_action_server.cpp)
 target_compile_definitions(turtle_action_server
 	PRIVATE "SOFTWARE_TRAINING_DLL")
 ament_target_dependencies(turtle_action_server
@@ -156,8 +142,7 @@ ament_target_dependencies(turtle_action_server
        "geometry_msgs")
 rosidl_target_interfaces(turtle_action_server ${PROJECT_NAME} "rosidl_typesupport_cpp") # needed for custom action
 # with this we can exexute the component as a node - ros2 run software_training moving_action_server
-rclcpp_components_register_node(turtle_action_server PLUGIN "composition::turtle_action_server" EXECUTABLE turtle_action_server)
-
+rclcpp_components_register_node(turtle_action_server PLUGIN "composition::moving_turtle_action_server" EXECUTABLE moving_action_server)
 
 
 install(TARGETS 
@@ -168,8 +153,7 @@ install(TARGETS
   circle
   spawn
   reset
-  turtle_action_server
-  publisher
+#   publisher
   # server
   # client
   RUNTIME DESTINATION lib
