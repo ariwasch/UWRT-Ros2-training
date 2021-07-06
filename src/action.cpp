@@ -1,38 +1,38 @@
-#include <cmath>
-#include <memory>
-#include <ros_tut/action/software.hpp>
-#include <ros-tut/action.hpp>
-#include <rclcpp/time.hpp>                 // ros2 time header
-#include <rclcpp_action/rclcpp_action.hpp> // ros2 action header
 #include <chrono>
+#include <cmath>
 #include <cstdlib>
 #include <functional>
+#include <memory>
 #include <rclcpp/rclcpp.hpp>
-#include <turtlesim/srv/teleport_absolute.hpp>
+#include <rclcpp/time.hpp>                  // ros2 time header
+#include <rclcpp_action/rclcpp_action.hpp>  // ros2 action header
+#include <ros-tut/action.hpp>
+#include <ros_tut/action/software.hpp>
 #include <thread>
+#include <turtlesim/srv/teleport_absolute.hpp>
 
 using namespace std::chrono_literals;
 using namespace std::placeholders;
 
 namespace composition {
 
-action::action(const rclcpp::NodeOptions &options) : Node("action", options) {
+turtle_action_server::turtle_action_server(const rclcpp::NodeOptions &options) : Node("turtle_action_server", options) {
   // create publisher
   this->publisher = this->create_publisher<geometry_msgs::msg::Twist>("/moving_turtle/cmd_vel", rclcpp::QoS(QUEUE));
 
   auto subscriber_callback = [this](const turtlesim::msg::Pose::SharedPtr msg) -> void {
-    this->action::x                = msg->x;
-    this->action::y                = msg->y;
-    this->action::theta            = msg->theta;
-    this->action::linear_velocity  = msg->linear_velocity;
-    this->action::angular_velocity = msg->angular_velocity;
+    this->turtle_action_server::x                = msg->x;
+    this->turtle_action_server::y                = msg->y;
+    this->turtle_action_server::theta            = msg->theta;
+    this->turtle_action_server::linear_velocity  = msg->linear_velocity;
+    this->turtle_action_server::angular_velocity = msg->angular_velocity;
   };
 
   this->subscriber = this->create_subscription<turtlesim::msg::Pose>("/moving_turtle/pose", QUEUE, subscriber_callback);
 
   this->action_server = rclcpp_action::create_server<ros_tut::action::Software>(
-      this, "action", std::bind(&action::handle_goal, this, _1, _2), std::bind(&action::handle_cancel, this, _1),
-      std::bind(&action::handle_accepted, this, _1)
+      this, "turtle_action_server", std::bind(&action::handle_goal, this, _1, _2),
+      std::bind(&action::handle_cancel, this, _1), std::bind(&action::handle_accepted, this, _1)
 
   );
 }
@@ -55,11 +55,11 @@ rclcpp_action::CancelResponse action::handle_cancel(const std::shared_ptr<GoalHa
   return rclcpp_action::CancelResponse::ACCEPT;
 }
 
-void action::handle_accepted(const std::shared_ptr<GoalHandleActionServer> goal_handle) {
+void turtle_action_server::handle_accepted(const std::shared_ptr<GoalHandleActionServer> goal_handle) {
   std::thread{std::bind(&action::execute, this, _1), goal_handle}.detach();
 }
 
-void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) {
+void turtle_action_server::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) {
   rclcpp::Time start_time = this->now();  // get the current time
 
   RCLCPP_INFO(this->get_logger(), "Excuting Goal");
@@ -68,7 +68,8 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
 
   const auto goal = goal_handle->get_goal();
 
-  std::unique_ptr<ros_tut::action::Software::Feedback> feedback = std::make_unique<ros_tut::action::Software::Feedback>();
+  std::unique_ptr<ros_tut::action::Software::Feedback> feedback =
+      std::make_unique<ros_tut::action::Software::Feedback>();
 
   std::unique_ptr<ros_tut::action::Software::Result> result = std::make_unique<ros_tut::action::Software::Result>();
 
@@ -110,8 +111,8 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
     this->publisher->publish(std::move(message_cmd_vel));
 
     // now compute feedback
-    curr_x = this->action::x - lin_x;
-    curr_y = this->action::y - lin_y;
+    curr_x = this->turtle_action_server::x - lin_x;
+    curr_y = this->turtle_action_server::y - lin_y;
 
     /********* MATH TO FIND THETA ************
      * theta = acos(z_axis_component/magnitude of vector)
@@ -123,7 +124,7 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
     float magnitude{static_cast<float>(sqrt((x1 * x1) + (x2 * x2) + (x3 * x3)))};
     theta = acos(x3 / magnitude);
 
-    curr_theta = this->action::theta - theta;
+    curr_theta = this->turtle_action_server::theta - theta;
 
     goal_handle->publish_feedback(std::move(feedback));
 
@@ -145,4 +146,4 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
 
 #include <rclcpp_components/register_node_macro.hpp>
 
-RCLCPP_COMPONENTS_REGISTER_NODE(composition::action)
+RCLCPP_COMPONENTS_REGISTER_NODE(composition::turtle_action_server)
