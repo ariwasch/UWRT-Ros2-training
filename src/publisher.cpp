@@ -5,11 +5,21 @@
 #include <memory>
 
 #include <rclcpp/rclcpp.hpp>
+#include <chrono>
+#include <cstdlib>
+#include <memory>
+#include <string>
+
+#include <rclcpp/rclcpp.hpp>
+
+#include <geometry_msgs/msg/twist.hpp>
+// #include <ros_tut/visibility.h>
 
 #include <ros_tut/msg/distance.hpp>
 #include <turtlesim/msg/pose.hpp>
 
 using namespace std::chrono_literals;
+using namespace std::placeholders;
 
 namespace composition {
 
@@ -27,12 +37,19 @@ publisher::publisher(const rclcpp::NodeOptions &options) : Node("publisher", opt
     y_moving_turtle = msg->y;
   };
 
+  auto callback_option = rclcpp::SubscriptionOptions();
+  callback_option.callback_group = callbacks;
 
-  sitting_turtle = create_subscription<turtlesim::msg::Pose>(
-      "/stationary_turtle/pose", 10, std::bind(&publisher::sitting_turtle, this, std::placeholders::_1));
+  // set ros2 topic statics
+  callback_option.topic_stats_options.state =
+      rclcpp::TopicStatisticsState::Enable;
 
-  moving_turtle = create_subscription<turtlesim::msg::Pose>(
-      "/moving_turtle/pose", 10, std::bind(&publisher::moving_turtle, this, std::placeholders::_1));
+
+  this->sitting_turtle = this->create_subscription<turtlesim::msg::Pose>(
+      "/stationary_turtle/pose", QUEUE, sitting_turtle, callback_option);
+
+  this->moving_turtle = this->create_subscription<turtlesim::msg::Pose>(
+      "/moving_turtle/pose", QUEUE, moving_turtle, callback_option );
 }
 
 void publisher::publish() {
