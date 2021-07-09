@@ -1,14 +1,8 @@
-#include <chrono>
 #include <cmath>
-#include <cstdlib>
-#include <functional>
 #include <memory>
 #include <rclcpp/rclcpp.hpp>
-#include <rclcpp/time.hpp>                  // ros2 time header
-#include <rclcpp_action/rclcpp_action.hpp>  // ros2 action header
 #include <ros-tut/action.hpp>
 #include <ros_tut/action/software.hpp>
-#include <thread>
 #include <turtlesim/srv/teleport_absolute.hpp>
 
 using namespace std::chrono_literals;
@@ -113,12 +107,6 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
     // now compute feedback
     curr_x = this->action::x - lin_x;
     curr_y = this->action::y - lin_y;
-
-    /********* MATH TO FIND THETA ************
-     * theta = acos(z_axis_component/magnitude of vector)
-     *
-     *
-     ********************************************/
     float theta{0};
     float x1{lin_x}, x2{lin_y}, x3{lin_z};
     float magnitude{static_cast<float>(sqrt((x1 * x1) + (x2 * x2) + (x3 * x3)))};
@@ -137,7 +125,7 @@ void action::execute(const std::shared_ptr<GoalHandleActionServer> goal_handle) 
     rclcpp::Duration duration = end - start_time;
     long int res_time{duration.nanoseconds()};
     result->duration = res_time;
-    goal_handle->succeed(std::move(result));
+    // goal_handle->succeed(std::move(result));
     RCLCPP_INFO(this->get_logger(), "Finish Executing Goal");
   }
 }

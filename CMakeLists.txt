@@ -146,7 +146,7 @@ set(node_plugins "${node_plugins}composition::publisher;$<TARGET_FILE:turtle_pub
 add_library(turtle_action_server SHARED
 	src/action.cpp)
 target_compile_definitions(turtle_action_server
-	PRIVATE "SOFTWARE_TRAINING_DLL")
+	PRIVATE "COMPOSITION_BUILDING_DLL")
 ament_target_dependencies(turtle_action_server
        "rclcpp"
        "rclcpp_components" 
@@ -156,7 +156,11 @@ ament_target_dependencies(turtle_action_server
        "geometry_msgs")
 rosidl_target_interfaces(turtle_action_server ${PROJECT_NAME} "rosidl_typesupport_cpp") # needed for custom action
 # with this we can exexute the component as a node - ros2 run software_training moving_action_server
-rclcpp_components_register_node(turtle_action_server PLUGIN "composition::action" EXECUTABLE action)
+# rclcpp_components_register_node(turtle_action_server PLUGIN "composition::action" EXECUTABLE action)
+# rclcpp_components_register_nodes(turtle_action_server "composition::action")
+rclcpp_components_register_nodes(turtle_action_server "composition::action")
+# this way we can execute the component with - ros2 component standalone software_training composition::turtle_service_request_node
+set(turtle_action_server "${node_plugins}compositon::action;$<TARGET_FILE:action>\n")
 
 
 
